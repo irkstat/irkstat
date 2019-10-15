@@ -1,0 +1,102 @@
+.footer_index{
+   max-width: 2000px;
+   margin: 0 auto;
+   height: 100vh;
+   display: flex;
+   //Левый футер===========================================
+   .footer_left_index{
+      width: 50%;
+      height: 100%;
+      .box_new_index{
+         height: 33.3%;
+         padding: 0 40px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         .h2_index{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 28px;
+            margin-bottom: 10px;
+         }
+         .txt_new_index{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+         }
+      }
+      .new1_index{
+         border-bottom: 1px solid black;
+         &:hover{
+            background: url(/img/index/new1_index.webp) top no-repeat;
+            background-size: cover;
+            color: white;
+         }
+      }
+      .new2_index{
+         border-bottom: 1px solid black;
+         &:hover{
+            background: url(/img/index/new2_index.webp) top no-repeat;
+            background-size: cover;
+            color: white;
+         }
+      }
+      .new3_index{
+         &:hover{
+            background: url(/img/index/new3_index.webp) center no-repeat;
+            background-size: cover;
+            color: white;
+         }
+      }
+   }
+   //Правый футер==========================================
+   .footer_right_index{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      position: relative;
+      .txt_footer_index{
+         font-size: 120px;
+         font-family: 'Cormorant Infant', serif;
+         margin-bottom: 20px;
+      }
+      .box_goroda_footer_index{
+         width: 280px;
+         // border: 1px solid saddlebrown;
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         p{
+            font-family: 'Bad Script', cursive;
+            font-size: 18px;
+            &:nth-child(1){
+               margin-right: 40px;
+            }
+            &:nth-child(2){
+               margin-right: 40px;
+            }
+         }
+      }
+      .bottom_footer_index{
+         width: 100%;
+         padding: 0 10px;
+         display: flex;
+         justify-content: space-between;
+         position: absolute;
+         bottom: 10px;
+         // border: 1px solid rebeccapurple;
+         font-family: 'Ubuntu', sans-serif;
+         font-size: 12px;
+         letter-spacing: 1px;
+         a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            &:hover{
+               text-decoration: underline;
+            }
+         }
+      }
+   }
+}
