@@ -1,4 +1,14 @@
+@media screen and (max-width: 1200px) {
+  .header_statistics .box_menu_footer .footer_statistics .logo_statistics {
+    font-size: 120px; }
+    .header_statistics .box_menu_footer .footer_statistics .logo_statistics::after {
+      width: 200px; } }
+
 @media screen and (max-width: 992px) {
+  .main_menu .nav_main_general {
+    display: none; }
+  .main_menu .burger_menu_general {
+    display: flex; }
   .header_index .top_menu_index .top_nav_index {
     display: none;
     flex-direction: column;
@@ -28,9 +38,25 @@
       width: 100%;
       height: 100vh; }
       .footer_index .footer_right_index .txt_footer_index {
-        font-size: 120px; } }
+        font-size: 120px; }
+  .header_statistics {
+    height: auto; }
+    .header_statistics .box_menu_footer {
+      flex-direction: column;
+      height: auto;
+      width: 100%; }
+      .header_statistics .box_menu_footer .menu_statistics {
+        width: 100%;
+        height: 100vh; }
+      .header_statistics .box_menu_footer .footer_statistics {
+        width: 100%;
+        height: 100vh; } }
 
 @media screen and (max-width: 768px) {
+  .main_menu {
+    height: 60px; }
+    .main_menu .logo_main_menu_general {
+      font-size: 36px; }
   .header_index .top_menu_index {
     height: 60px; }
     .header_index .top_menu_index .logo_top_index {
@@ -49,7 +75,15 @@
     .footer_index .footer_left_index .box_new_index .h2_index {
       font-size: 24px; }
   .footer_index .footer_right_index .txt_footer_index {
-    font-size: 110px; } }
+    font-size: 110px; }
+  .header_statistics .box_menu_footer .menu_statistics .sale_menu_sity .txt_type_menu {
+    font-size: 40px; }
+  .header_statistics .box_menu_footer .menu_statistics .sale_menu_sity .box_sity_statistics .link_name_city {
+    font-size: 20px; }
+  .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .txt_type_menu {
+    font-size: 40px; }
+  .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .box_sity_statistics .link_name_city {
+    font-size: 20px; } }
 
 @media screen and (max-width: 480px) {
   .header_index .header_hello_index .h1_index {
@@ -76,6 +110,23 @@
     flex-direction: column;
     align-items: center; }
     .footer_index .footer_right_index .bottom_footer_index .social_index {
+      margin-bottom: 5px; }
+  .header_statistics .box_menu_footer .menu_statistics .sale_menu_sity .txt_type_menu {
+    font-size: 36px; }
+  .header_statistics .box_menu_footer .menu_statistics .sale_menu_sity .box_sity_statistics .link_name_city {
+    font-size: 18px; }
+  .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .txt_type_menu {
+    font-size: 36px; }
+  .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .box_sity_statistics .link_name_city {
+    font-size: 18px; }
+  .header_statistics .box_menu_footer .footer_statistics .logo_statistics {
+    font-size: 80px; }
+  .header_statistics .box_menu_footer .footer_statistics .h1_statistics {
+    font-size: 18px; }
+  .header_statistics .box_menu_footer .footer_statistics .bottom_footer_statistics {
+    flex-direction: column;
+    align-items: center; }
+    .header_statistics .box_menu_footer .footer_statistics .bottom_footer_statistics .social_statistics {
       margin-bottom: 5px; } }
 
 @media screen and (max-width: 320px) {

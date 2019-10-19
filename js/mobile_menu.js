@@ -1,3 +1,4 @@
+//Мобильное меню для index=================================
 let bgMenu = document.querySelector("#bg_menu");
 let topNavMobileIndex = document.querySelector(".top_nav_mobile_index");
 let closeMobileMenu = document.querySelector(".close_mobile_menu");

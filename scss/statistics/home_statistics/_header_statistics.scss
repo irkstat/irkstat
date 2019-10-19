@@ -1,0 +1,10 @@
+.header_statistics{
+   max-width: 2000px;
+   height: 100vh;
+   margin: 0 auto;
+   .box_menu_footer{
+      width: 100%;
+      height: calc(100vh - 71px);
+      display: flex;
+   }
+}
