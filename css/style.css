@@ -319,49 +319,127 @@
   width: 50%;
   height: 100%; }
   .menu_statistics .sale_menu_sity {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
     height: 50%;
     background: #f8f8f8;
     box-sizing: border-box;
-    border-bottom: 1px solid gray; }
-    .menu_statistics .sale_menu_sity .txt_type_menu {
-      font-size: 60px;
-      font-family: "Cormorant Infant", serif;
-      text-align: center;
-      margin-bottom: 10px; }
+    border-bottom: 1px solid gray;
+    position: relative; }
     .menu_statistics .sale_menu_sity .box_sity_statistics {
       display: grid;
       grid-template-columns: 1fr;
-      grid-auto-rows: 30px;
+      grid-template-rows: 70px 30px 30px 30px 30px;
+      align-content: center;
+      width: 100%;
+      height: 100%;
       text-align: center;
       font-family: 'Jura', sans-serif;
-      font-size: 22px; }
+      font-size: 22px;
+      position: absolute; }
+      .menu_statistics .sale_menu_sity .box_sity_statistics .h2_type_menu {
+        font-size: 50px;
+        font-family: "Cormorant Infant", serif;
+        text-align: center;
+        font-weight: normal; }
       .menu_statistics .sale_menu_sity .box_sity_statistics p:hover {
         text-decoration: underline;
         cursor: pointer; }
+    .menu_statistics .sale_menu_sity .sale_year_menu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      transform: scale(0);
+      background: #f8f8f8; }
+      .menu_statistics .sale_menu_sity .sale_year_menu .h3_name_city {
+        align-self: center;
+        font-family: "Cormorant Infant", serif;
+        font-size: 40px;
+        font-weight: normal; }
+      .menu_statistics .sale_menu_sity .sale_year_menu p {
+        font-family: 'Jura', sans-serif;
+        font-size: 22px;
+        align-self: center; }
+        .menu_statistics .sale_menu_sity .sale_year_menu p:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+    .menu_statistics .sale_menu_sity .sym_irkutsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .sym_angarsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .sym_bratsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .sym_usolye {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .sale_month_menu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      transform: scale(0);
+      background: #f8f8f8; }
+      .menu_statistics .sale_menu_sity .sale_month_menu .h3_name_city {
+        align-self: center;
+        font-family: "Cormorant Infant", serif;
+        font-size: 40px;
+        font-weight: normal; }
+      .menu_statistics .sale_menu_sity .sale_month_menu .link_name_month, .menu_statistics .sale_menu_sity .sale_month_menu p {
+        font-family: 'Jura', sans-serif;
+        font-size: 22px;
+        align-self: center;
+        text-decoration: none;
+        color: black; }
+        .menu_statistics .sale_menu_sity .sale_month_menu .link_name_month:hover, .menu_statistics .sale_menu_sity .sale_month_menu p:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+    .menu_statistics .sale_menu_sity .smm_irkutsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .smm_angarsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .smm_bratsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .sale_menu_sity .smm_usolye_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
   .menu_statistics .rent_menu_sity {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
     height: 50%;
     background: #f8f8f8;
-    box-sizing: border-box; }
-    .menu_statistics .rent_menu_sity .txt_type_menu {
-      font-size: 60px;
+    box-sizing: border-box;
+    position: relative; }
+    .menu_statistics .rent_menu_sity .h2_type_menu {
+      font-size: 50px;
       font-family: "Cormorant Infant", serif;
       text-align: center;
-      margin-bottom: 10px; }
+      font-weight: normal; }
     .menu_statistics .rent_menu_sity .box_sity_statistics {
       display: grid;
       grid-template-columns: 1fr;
-      grid-auto-rows: 30px;
+      grid-template-rows: 70px 30px 30px 30px 30px;
+      align-content: center;
+      width: 100%;
+      height: 100%;
       text-align: center;
       font-family: 'Jura', sans-serif;
-      font-size: 22px; }
+      font-size: 22px;
+      position: absolute; }
       .menu_statistics .rent_menu_sity .box_sity_statistics p:hover {
         text-decoration: underline;
         cursor: pointer; }

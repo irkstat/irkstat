@@ -1,27 +1,42 @@
 @mixin menu_sity {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
    width: 100%;
    height: 50%;
    background: rgb(248, 248, 248);
    box-sizing: border-box;
 }
-@mixin txt_menu_city {
-   font-size: 60px;
+@mixin h2_menu_city {
+   font-size: 50px;
    font-family: "Cormorant Infant", serif;
    text-align: center;
-   margin-bottom: 10px;
+   font-weight: normal;
 }
 @mixin box_sity_statistics {
    display: grid;
    grid-template-columns: 1fr;
-   grid-auto-rows: 30px;
+   grid-template-rows: 70px 30px 30px 30px 30px;
+   align-content: center;
+   width: 100%;
+   height: 100%;
    text-align: center;
    font-family: 'Jura', sans-serif;
    font-size: 22px;
+   position: absolute;
 }
-
+@mixin box_year_month {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   align-content: center;
+   text-align: center;
+   transform: scale(0);
+   background: rgb(248, 248, 248);
+}
+@mixin h3_name_city {
+   align-self: center;
+   font-family: "Cormorant Infant", serif;
+   font-size: 40px;
+   font-weight: normal;
+}
 .menu_statistics{
    width: 50%;
    height: 100%;
@@ -29,22 +44,103 @@
    .sale_menu_sity{
       @include menu_sity();
       border-bottom: 1px solid gray;
-      .txt_type_menu{
-         @include txt_menu_city();
-      }
+      position: relative;
       .box_sity_statistics{
          @include box_sity_statistics();
+         .h2_type_menu{
+            @include h2_menu_city();}
          p:hover{
             text-decoration: underline;
-            cursor: pointer;
+            cursor: pointer;}}
+      .sale_year_menu{
+         @include box_year_month();
+         .h3_name_city{
+            @include h3_name_city();
+         }
+         p{
+            font-family: 'Jura', sans-serif;
+            font-size: 22px;
+            align-self: center;
+            &:hover{
+               text-decoration: underline;
+               cursor: pointer;
+            }
          }
       }
+      //Года Иркутск
+      .sym_irkutsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Ангарск
+      .sym_angarsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Братск
+      .sym_bratsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Усолье-Сибирское
+      .sym_usolye{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      .sale_month_menu{
+         @include box_year_month();
+         // transform: scale(1);
+         .h3_name_city{
+            @include h3_name_city();
+         }
+         .link_name_month, p{
+            font-family: 'Jura', sans-serif;
+            font-size: 22px;
+            align-self: center;
+            text-decoration: none;
+            color: black;
+            &:hover{
+               text-decoration: underline;
+               cursor: pointer;
+            }
+         }
+      }
+      //Месяца Иркутск 2019
+      .smm_irkutsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Ангарск 2019
+      .smm_angarsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Братск 2019
+      .smm_bratsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Усолье-Сибирское 2019
+      .smm_usolye_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
    }
+
    //АРЕНДА================================================
    .rent_menu_sity{
       @include menu_sity();
-      .txt_type_menu{
-         @include txt_menu_city();
+      position: relative;
+      .h2_type_menu{
+         @include h2_menu_city();
       }
       .box_sity_statistics{
          @include box_sity_statistics();
