@@ -93,7 +93,6 @@
       }
       .sale_month_menu{
          @include box_year_month();
-         // transform: scale(1);
          .h3_name_city{
             @include h3_name_city();
          }
@@ -148,6 +147,86 @@
             text-decoration: underline;
             cursor: pointer;
          }
+      }
+      .rent_year_menu{
+         @include box_year_month();
+         .h3_name_city{
+            @include h3_name_city();
+         }
+         p{
+            font-family: 'Jura', sans-serif;
+            font-size: 22px;
+            align-self: center;
+            &:hover{
+               text-decoration: underline;
+               cursor: pointer;
+            }
+         }
+      }
+      //Года Иркутск
+      .rym_irkutsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Ангарск
+      .rym_angarsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Братск
+      .rym_bratsk{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Года Усолье-Сибирское
+      .rym_usolye{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      .rent_month_menu{
+         @include box_year_month();
+         .h3_name_city{
+            @include h3_name_city();
+         }
+         .link_name_month, p{
+            font-family: 'Jura', sans-serif;
+            font-size: 22px;
+            align-self: center;
+            text-decoration: none;
+            color: black;
+            &:hover{
+               text-decoration: underline;
+               cursor: pointer;
+            }
+         }
+      }
+      //Месяца Иркутск 2019
+      .rmm_irkutsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Ангарск 2019
+      .rmm_angarsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Братск 2019
+      .rmm_bratsk_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
+      }
+      //Месяца Усолье-Сибирское 2019
+      .rmm_usolye_2019{
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 70px 40px 55px;
       }
    }
 }

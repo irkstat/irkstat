@@ -443,3 +443,77 @@
       .menu_statistics .rent_menu_sity .box_sity_statistics p:hover {
         text-decoration: underline;
         cursor: pointer; }
+    .menu_statistics .rent_menu_sity .rent_year_menu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      transform: scale(0);
+      background: #f8f8f8; }
+      .menu_statistics .rent_menu_sity .rent_year_menu .h3_name_city {
+        align-self: center;
+        font-family: "Cormorant Infant", serif;
+        font-size: 40px;
+        font-weight: normal; }
+      .menu_statistics .rent_menu_sity .rent_year_menu p {
+        font-family: 'Jura', sans-serif;
+        font-size: 22px;
+        align-self: center; }
+        .menu_statistics .rent_menu_sity .rent_year_menu p:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+    .menu_statistics .rent_menu_sity .rym_irkutsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rym_angarsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rym_bratsk {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rym_usolye {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rent_month_menu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      transform: scale(0);
+      background: #f8f8f8; }
+      .menu_statistics .rent_menu_sity .rent_month_menu .h3_name_city {
+        align-self: center;
+        font-family: "Cormorant Infant", serif;
+        font-size: 40px;
+        font-weight: normal; }
+      .menu_statistics .rent_menu_sity .rent_month_menu .link_name_month, .menu_statistics .rent_menu_sity .rent_month_menu p {
+        font-family: 'Jura', sans-serif;
+        font-size: 22px;
+        align-self: center;
+        text-decoration: none;
+        color: black; }
+        .menu_statistics .rent_menu_sity .rent_month_menu .link_name_month:hover, .menu_statistics .rent_menu_sity .rent_month_menu p:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+    .menu_statistics .rent_menu_sity .rmm_irkutsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rmm_angarsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rmm_bratsk_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
+    .menu_statistics .rent_menu_sity .rmm_usolye_2019 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 70px 40px 55px; }
