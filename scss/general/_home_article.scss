@@ -72,3 +72,18 @@
       }
    }
 }
+
+//СТАТЬЯ GENERAL===========================================
+.main_box_article{
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 50px 20px 0 20px;
+   // border: 2px solid red;
+   font-family: 'Montserrat', sans-serif;
+   .h1_main_article{
+      font-size: 26px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 40px;
+   }
+}

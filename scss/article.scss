@@ -1,0 +1,69 @@
+//СПИСОК САМЫХ ВЫСОКИХ ЗДАНИЙ ИРКУТСК
+.main_box_article{
+   .date_list_house{
+      text-align: right;
+      font-style: italic;
+      font-size: 14px;
+   }
+   .zone_list_house{
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 30px;
+   }
+   .string_table_header_list_house{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 1px solid gray;
+      .width_floor_table_list_house{
+         width: 150px;
+      }
+      .width_address_table_list_house{
+         width: 250px;
+      }
+      .width_gk_table_list_house{
+         width: 170px;
+      }
+      .width_map_table_list_house{
+         width: 120px;
+      }
+   }
+   .string_data_table_list_house{
+      width: 100%;
+      margin: 0 auto;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+      .width_floor_table_list_house{
+         width: 150px;
+      }
+      .width_address_table_list_house{
+         width: 250px;
+      }
+      .width_gk_table_list_house{
+         width: 170px;
+      }
+      .width_map_table_list_house{
+         width: 120px;
+      }
+      .link_map_table_list_house{
+         display: flex;
+         justify-content: space-between;
+         a{
+            color: blue;
+            text-decoration: none;
+            &:hover{
+               text-decoration: underline;
+            }
+         }
+      }
+   }
+}
