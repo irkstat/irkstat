@@ -50,7 +50,14 @@
         height: 100vh; }
       .header_statistics .box_menu_footer .footer_statistics {
         width: 100%;
-        height: 100vh; } }
+        height: 100vh; }
+  .home_blog .box_new_blog .txt_new_blog {
+    padding: 0 20px; }
+    .home_blog .box_new_blog .txt_new_blog a {
+      font-size: 22px;
+      margin-bottom: 10px; }
+    .home_blog .box_new_blog .txt_new_blog .txt_home_new_blog {
+      line-height: 1.3; } }
 
 @media screen and (max-width: 768px) {
   .main_menu {
@@ -83,9 +90,26 @@
   .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .txt_type_menu {
     font-size: 40px; }
   .header_statistics .box_menu_footer .menu_statistics .rent_menu_sity .box_sity_statistics .link_name_city {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .home_blog .h1_home_blog {
+    font-size: 30px; }
+  .home_blog .box_new_blog {
+    flex-direction: column;
+    height: 500px; }
+    .home_blog .box_new_blog .box_img_new_blog {
+      width: 100%; }
+    .home_blog .box_new_blog .txt_new_blog {
+      width: 100%;
+      padding: 0; }
+      .home_blog .box_new_blog .txt_new_blog a {
+        font-size: 20px; } }
 
 @media screen and (max-width: 480px) {
+  .main_footer .box_social_contact_footer {
+    flex-direction: column;
+    text-align: center; }
+    .main_footer .box_social_contact_footer .contact_footer {
+      margin-bottom: 20px; }
   .header_index .header_hello_index .h1_index {
     font-size: 40px; }
   .header_index .header_hello_index .txt_header_index {
@@ -127,7 +151,16 @@
     flex-direction: column;
     align-items: center; }
     .header_statistics .box_menu_footer .footer_statistics .bottom_footer_statistics .social_statistics {
-      margin-bottom: 5px; } }
+      margin-bottom: 5px; }
+  .home_blog {
+    margin-top: 30px; }
+    .home_blog .h1_home_blog {
+      font-size: 24px; }
+    .home_blog .box_new_blog .txt_new_blog a {
+      font-size: 18px; }
+    .home_blog .box_new_blog .txt_new_blog .txt_home_new_blog {
+      font-size: 14px;
+      text-align: justify; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {
@@ -141,4 +174,6 @@
   .footer_index .footer_right_index .txt_footer_index {
     font-size: 70px; }
   .footer_index .footer_right_index .box_goroda_footer_index p {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .home_blog .h1_home_blog {
+    font-size: 22px; } }
