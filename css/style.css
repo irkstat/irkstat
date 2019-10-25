@@ -644,6 +644,22 @@
     text-align: center;
     font-weight: 500;
     margin-bottom: 40px; }
+  .main_box_article .txt_box_article_general {
+    max-width: 1000px;
+    margin: 0 auto; }
+  .main_box_article .txt_article_general {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify; }
+  .main_box_article .box_img_article_general {
+    width: 100%;
+    margin: 10px 0; }
+    .main_box_article .box_img_article_general img {
+      width: 100%; }
+    .main_box_article .box_img_article_general .header_img_article_general {
+      text-align: center;
+      font-style: italic;
+      font-size: 14px; }
 
 .main_box_article .date_list_house {
   text-align: right;

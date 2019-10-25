@@ -86,4 +86,25 @@
       font-weight: 500;
       margin-bottom: 40px;
    }
+   .txt_box_article_general{
+      max-width: 1000px;
+      margin: 0 auto;
+   }
+   .txt_article_general{
+      font-size: 20px;
+      line-height: 1.6;
+      text-align: justify;
+   }
+   .box_img_article_general{
+      width: 100%;
+      margin: 10px 0;
+      img{
+         width: 100%;
+      }
+      .header_img_article_general{
+         text-align: center;
+         font-style: italic;
+         font-size: 14px;
+      }
+   }
 }

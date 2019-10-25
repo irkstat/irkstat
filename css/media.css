@@ -58,6 +58,9 @@
       margin-bottom: 10px; }
     .home_blog .box_new_blog .txt_new_blog .txt_home_new_blog {
       line-height: 1.3; }
+  .main_box_article .txt_article_general {
+    font-size: 18px;
+    line-height: 1.5; }
   .main_box_article .string_table_header_list_house {
     font-size: 14px; }
     .main_box_article .string_table_header_list_house .width_address_table_list_house {
@@ -121,6 +124,8 @@
         font-size: 20px; }
   .main_box_article .h1_main_article {
     font-size: 24px; }
+  .main_box_article .txt_article_general {
+    font-size: 16px; }
   .main_box_article .string_table_header_list_house {
     font-size: 12px;
     height: 40px; }
@@ -241,4 +246,6 @@
   .footer_index .footer_right_index .box_goroda_footer_index p {
     font-size: 16px; }
   .home_blog .h1_home_blog {
-    font-size: 22px; } }
+    font-size: 22px; }
+  .main_box_article .txt_article_general {
+    font-size: 14px; } }
