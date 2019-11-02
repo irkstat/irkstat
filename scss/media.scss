@@ -150,6 +150,70 @@
          }
       }
    }
+   //======================================================
+   //=========== ПРИМЕНЕНИЕ ЛИНЕЙНОЙ РЕГРЕССИИ  ===========
+   //======================================================
+   .main_box_article{
+      .txt_box_article_general{
+         .formula_linear_regression{
+            margin: 15px 0;
+         }
+         .flr_1{
+            height: 24px;
+         }
+         .flr_2{
+            height: 68px;
+         }
+         .flr_3{
+            height: 112px;
+         }
+         .flr_4{
+            height: 72px;
+         }
+         .flr_5{
+            height: 98px;
+         }
+         .flr_6{
+            height: 22px;
+         }
+         .flr_7{
+            height: 44px;
+         }
+         .flr_8{
+            height: 66px;
+         }
+         .flr_9{
+            height: 40px;
+         }
+         .flr_10{
+            height: 40px;
+         }
+         .flr_11{
+            height: 22px;
+         }
+         .flr_12{
+            height: 22px;
+         }
+         .flr_13{
+            height: 22px;
+         }
+         .flr_14{
+            height: 68px;
+         }
+         .flr_15{
+            height: 22px;
+         }
+         .flr_16{
+            height: 40px;
+         }
+         .scale_linear_regression{
+            height: 110px;
+         }
+         .diagram_linear_regression{
+            width: 700px;
+         }
+      }
+   }
 }
 
 
@@ -292,6 +356,70 @@
          }
          .width_map_table_list_house{
             width: 90px;
+         }
+      }
+   }
+   //======================================================
+   //=========== ПРИМЕНЕНИЕ ЛИНЕЙНОЙ РЕГРЕССИИ  ===========
+   //======================================================
+   .main_box_article{
+      .txt_box_article_general{
+         .table_data_linear_regression{
+            font-size: 14px;
+         }
+         .flr_1{
+            height: 19px;
+         }
+         .flr_2{
+            height: 54px;
+         }
+         .flr_3{
+            height: 98px;
+         }
+         .flr_4{
+            height: 58px;
+         }
+         .flr_5{
+            height: 78px;
+         }
+         .flr_6{
+            height: 18px;
+         }
+         .flr_7{
+            height: 35px;
+         }
+         .flr_8{
+            height: 53px;
+         }
+         .flr_9{
+            height: 32px;
+         }
+         .flr_10{
+            height: 32px;
+         }
+         .flr_11{
+            height: 18px;
+         }
+         .flr_12{
+            height: 18px;
+         }
+         .flr_13{
+            height: 18px;
+         }
+         .flr_14{
+            height: 54px;
+         }
+         .flr_15{
+            height: 18px;
+         }
+         .flr_16{
+            height: 32px;
+         }
+         .scale_linear_regression{
+            height: 100px;
+         }
+         .diagram_linear_regression{
+            width: 90%;
          }
       }
    }
@@ -469,6 +597,91 @@
          }
          .width_map_table_list_house{
             width: 70px;
+         }
+      }
+   }
+   //======================================================
+   //=========== ПРИМЕНЕНИЕ ЛИНЕЙНОЙ РЕГРЕССИИ  ===========
+   //======================================================
+   .main_box_article{
+      .txt_box_article_general{
+         .table_data_linear_regression{
+            font-size: 10px;
+            .string_header_table_linear_regression{
+               height: 25px;
+               .width_data1_table_linear_regression{
+                  width: 27px;
+               }
+               .width_data2_table_linear_regression{
+                  width: 50px;
+               }
+               .width_data3_table_linear_regression{
+                  width: 80px;
+               }
+            }
+            .string_table_linear_regression{
+               height: 25px;
+               .width_data1_table_linear_regression{
+                  width: 27px;
+               }
+               .width_data2_table_linear_regression{
+                  width: 50px;
+               }
+               .width_data3_table_linear_regression{
+                  width: 80px;
+               }
+            }
+         }
+         .flr_1{
+            height: 13px;
+         }
+         .flr_2{
+            height: 38px;
+         }
+         .flr_3{
+            height: 69px;
+         }
+         .flr_4{
+            height: 41px;
+         }
+         .flr_5{
+            height: 55px;
+         }
+         .flr_6{
+            height: 13px;
+         }
+         .flr_7{
+            height: 25px;
+         }
+         .flr_8{
+            height: 37px;
+         }
+         .flr_9{
+            height: 22px;
+         }
+         .flr_10{
+            height: 22px;
+         }
+         .flr_11{
+            height: 13px;
+         }
+         .flr_12{
+            height: 13px;
+         }
+         .flr_13{
+            height: 13px;
+         }
+         .flr_14{
+            height: 38px;
+         }
+         .flr_15{
+            height: 13px;
+         }
+         .flr_16{
+            height: 22px;
+         }
+         .scale_linear_regression{
+            width: 80%;
          }
       }
    }

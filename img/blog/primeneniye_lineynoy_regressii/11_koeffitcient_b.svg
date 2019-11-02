@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409.774 54.442">
+  <defs>
+    <style>
+      .a, .b {
+        font-size: 25px;
+      }
+
+      .a {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+    </style>
+  </defs>
+  <title>11_koeffitcient_b</title>
+  <text class="a" transform="translate(0 46.776)">b = Y - K * X</text>
+  <text class="b" transform="translate(142 46.776)">= 38945 - 195 * 6 = 37775</text>
+  <text class="b" transform="translate(45 20.776)">_</text>
+  <text class="b" transform="translate(123 20.776)">_</text>
+</svg>

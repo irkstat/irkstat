@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219.417 28.624">
+  <defs>
+    <style>
+      .a {
+        font-size: 25px;
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b {
+        font-size: 18px;
+      }
+
+      .c {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>12_uravnenie_regressii</title>
+  <text class="a" transform="translate(0 20.958)">Y<tspan class="b" x="13.904" y="0">i </tspan><tspan x="23.405" y="0">= X</tspan><tspan class="b" x="61.796" y="0">i </tspan><tspan x="71.297" y="0">* 195 + 37775</tspan></text>
+  <path class="c" d="M3.5,3.5a6.643,6.643,0,0,1,4-1,13.474,13.474,0,0,1,3,1c1.252.37,3.173.451,6-1" transform="translate(0.422 -1.972)"/>
+</svg>

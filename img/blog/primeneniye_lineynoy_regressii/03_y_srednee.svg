@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 614.099 162.625">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a, .e {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .e {
+        font-size: 18px;
+      }
+
+      .c {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .d {
+        letter-spacing: -0.037em;
+      }
+    </style>
+  </defs>
+  <title>03_y_srednee</title>
+  <text class="a" transform="translate(0 72.959)">Y<tspan class="b" x="13.904" y="0">i</tspan><tspan x="18.905" y="0">=</tspan></text>
+  <text class="c" transform="translate(144 28.959)">38000 + 37800 + 38400 + 39000 + 38900 +<tspan x="0" y="30">39500 + 39300 + 39400 + 39600 + 40000</tspan></text>
+  <text class="c" transform="translate(113 73.959)">=</text>
+  <text class="c" transform="translate(600 74.959)">=</text>
+  <text class="a" transform="translate(81 40.959)">Y<tspan class="b" x="13.904" y="0">i</tspan></text>
+  <text class="a" transform="translate(68 82.959)">n</text>
+  <text class="c" transform="translate(307 89.959)"><tspan class="d">1</tspan><tspan x="11.572" y="0">1</tspan></text>
+  <text class="e" transform="translate(58 14.959)">n</text>
+  <text class="e" transform="translate(50 61.959)">i=1</text>
+  <text class="c" transform="translate(3 138.959)">=</text>
+  <text class="c" transform="translate(126 138.959)">=</text>
+  <text class="c" transform="translate(152 136.959)">38945</text>
+  <text class="c" transform="translate(60 154.959)"><tspan class="d">1</tspan><tspan x="11.572" y="0">1</tspan></text>
+  <text class="c" transform="translate(36 123.959)">428400</text>
+  <path d="M75.7,37.03,73.89,43.3H54.139l9.083-14.881-10-13.525H73.89L75.7,21.173l-.378.134L72.742,15.3H55.274l9.092,12.045L55.393,42.022H73.12l2.2-5.126Z" transform="translate(-2.078 3.529)"/>
+  <text class="c" transform="translate(4 46.959)">_</text>
+  <text class="c" transform="translate(44 60.959)">_____</text>
+  <text class="c" transform="translate(28 124.959)">_______</text>
+  <text class="c" transform="translate(139 60.959)">____________________________________</text>
+</svg>

@@ -76,7 +76,45 @@
     .main_box_article .string_data_table_list_house .width_gk_table_list_house {
       width: 150px; }
     .main_box_article .string_data_table_list_house .width_map_table_list_house {
-      width: 100px; } }
+      width: 100px; }
+  .main_box_article .txt_box_article_general .formula_linear_regression {
+    margin: 15px 0; }
+  .main_box_article .txt_box_article_general .flr_1 {
+    height: 24px; }
+  .main_box_article .txt_box_article_general .flr_2 {
+    height: 68px; }
+  .main_box_article .txt_box_article_general .flr_3 {
+    height: 112px; }
+  .main_box_article .txt_box_article_general .flr_4 {
+    height: 72px; }
+  .main_box_article .txt_box_article_general .flr_5 {
+    height: 98px; }
+  .main_box_article .txt_box_article_general .flr_6 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_7 {
+    height: 44px; }
+  .main_box_article .txt_box_article_general .flr_8 {
+    height: 66px; }
+  .main_box_article .txt_box_article_general .flr_9 {
+    height: 40px; }
+  .main_box_article .txt_box_article_general .flr_10 {
+    height: 40px; }
+  .main_box_article .txt_box_article_general .flr_11 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_12 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_13 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_14 {
+    height: 68px; }
+  .main_box_article .txt_box_article_general .flr_15 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_16 {
+    height: 40px; }
+  .main_box_article .txt_box_article_general .scale_linear_regression {
+    height: 110px; }
+  .main_box_article .txt_box_article_general .diagram_linear_regression {
+    width: 700px; } }
 
 @media screen and (max-width: 768px) {
   .main_menu {
@@ -143,7 +181,45 @@
     .main_box_article .string_data_table_list_house .width_gk_table_list_house {
       width: 140px; }
     .main_box_article .string_data_table_list_house .width_map_table_list_house {
-      width: 90px; } }
+      width: 90px; }
+  .main_box_article .txt_box_article_general .table_data_linear_regression {
+    font-size: 14px; }
+  .main_box_article .txt_box_article_general .flr_1 {
+    height: 19px; }
+  .main_box_article .txt_box_article_general .flr_2 {
+    height: 54px; }
+  .main_box_article .txt_box_article_general .flr_3 {
+    height: 98px; }
+  .main_box_article .txt_box_article_general .flr_4 {
+    height: 58px; }
+  .main_box_article .txt_box_article_general .flr_5 {
+    height: 78px; }
+  .main_box_article .txt_box_article_general .flr_6 {
+    height: 18px; }
+  .main_box_article .txt_box_article_general .flr_7 {
+    height: 35px; }
+  .main_box_article .txt_box_article_general .flr_8 {
+    height: 53px; }
+  .main_box_article .txt_box_article_general .flr_9 {
+    height: 32px; }
+  .main_box_article .txt_box_article_general .flr_10 {
+    height: 32px; }
+  .main_box_article .txt_box_article_general .flr_11 {
+    height: 18px; }
+  .main_box_article .txt_box_article_general .flr_12 {
+    height: 18px; }
+  .main_box_article .txt_box_article_general .flr_13 {
+    height: 18px; }
+  .main_box_article .txt_box_article_general .flr_14 {
+    height: 54px; }
+  .main_box_article .txt_box_article_general .flr_15 {
+    height: 18px; }
+  .main_box_article .txt_box_article_general .flr_16 {
+    height: 32px; }
+  .main_box_article .txt_box_article_general .scale_linear_regression {
+    height: 100px; }
+  .main_box_article .txt_box_article_general .diagram_linear_regression {
+    width: 90%; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -230,7 +306,59 @@
     .main_box_article .string_data_table_list_house .width_gk_table_list_house {
       width: 100px; }
     .main_box_article .string_data_table_list_house .width_map_table_list_house {
-      width: 70px; } }
+      width: 70px; }
+  .main_box_article .txt_box_article_general .table_data_linear_regression {
+    font-size: 10px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression {
+      height: 25px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data1_table_linear_regression {
+        width: 27px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data2_table_linear_regression {
+        width: 50px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data3_table_linear_regression {
+        width: 80px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression {
+      height: 25px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data1_table_linear_regression {
+        width: 27px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data2_table_linear_regression {
+        width: 50px; }
+      .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data3_table_linear_regression {
+        width: 80px; }
+  .main_box_article .txt_box_article_general .flr_1 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_2 {
+    height: 38px; }
+  .main_box_article .txt_box_article_general .flr_3 {
+    height: 69px; }
+  .main_box_article .txt_box_article_general .flr_4 {
+    height: 41px; }
+  .main_box_article .txt_box_article_general .flr_5 {
+    height: 55px; }
+  .main_box_article .txt_box_article_general .flr_6 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_7 {
+    height: 25px; }
+  .main_box_article .txt_box_article_general .flr_8 {
+    height: 37px; }
+  .main_box_article .txt_box_article_general .flr_9 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_10 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .flr_11 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_12 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_13 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_14 {
+    height: 38px; }
+  .main_box_article .txt_box_article_general .flr_15 {
+    height: 13px; }
+  .main_box_article .txt_box_article_general .flr_16 {
+    height: 22px; }
+  .main_box_article .txt_box_article_general .scale_linear_regression {
+    width: 80%; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {

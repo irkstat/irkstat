@@ -77,3 +77,118 @@
       }
    }
 }
+//ПРИМЕНЕНИЕ ЛИНЕЙНОЙ РЕГРЕССИИ
+.main_box_article{
+   .txt_box_article_general{
+      .formula_linear_regression{
+         display: block;
+         margin: 20px 0;
+      }
+      .flr_1{
+         height: 30px;
+      }
+      .flr_2{
+         height: 85px;
+      }
+      .flr_3{
+         height: 140px;
+      }
+      .flr_4{
+         height: 90px;
+      }
+      .flr_5{
+         height: 122px;
+      }
+      .flr_6{
+         height: 28px;
+      }
+      .flr_7{
+         height: 55px;
+      }
+      .flr_8{
+         height: 83px;
+      }
+      .flr_9{
+         height: 50px;
+      }
+      .flr_10{
+         height: 50px;
+      }
+      .flr_11{
+         height: 28px;
+      }
+      .flr_12{
+         height: 28px;
+      }
+      .flr_13{
+         height: 28px;
+      }
+      .flr_14{
+         height: 85px;
+      }
+      .flr_15{
+         height: 28px;
+      }
+      .flr_16{
+         height: 50px;
+      }
+      .scale_linear_regression{
+         height: 130px;
+         display: block;
+         margin: 20px auto;
+      }
+      .diagram_linear_regression{
+         width: 750px;
+         margin: 20px auto;
+         display: block;
+      }
+      .table_data_linear_regression{
+         max-width: 750px;
+         margin: 0 auto;
+         margin-bottom: 20px;
+         .string_header_table_linear_regression{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            text-align: center;
+            height: 40px;
+            border-bottom: 1px solid gray;
+            .width_data1_table_linear_regression{
+               width: 70px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+            .width_data2_table_linear_regression{
+               width: 100px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+            .width_data3_table_linear_regression{
+               width: 150px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+         }
+         .string_table_linear_regression{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            height: 40px;
+            .width_data1_table_linear_regression{
+               width: 70px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+            .width_data2_table_linear_regression{
+               width: 100px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+            .width_data3_table_linear_regression{
+               width: 150px;
+               // border: 1px solid rgb(0, 217, 255);
+            }
+         }
+         .string_end_table_linear_regression{
+            border-bottom: 1px solid gray;
+         }
+      }
+   }
+}

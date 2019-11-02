@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.525 56.442">
+  <defs>
+    <style>
+      .a, .b {
+        font-size: 25px;
+      }
+
+      .a {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .c {
+        font-size: 18px;
+      }
+    </style>
+  </defs>
+  <title>10_koeffitcient_k</title>
+  <text class="a" transform="translate(0.676 34.776)">K=</text>
+  <text class="b" transform="translate(130.676 36.776)">=</text>
+  <text class="b" transform="translate(42.676 21.776)">______</text>
+  <text class="b" transform="translate(158.676 21.776)">_____</text>
+  <text class="b" transform="translate(229.676 35.776)">= 195</text>
+  <text class="a" transform="translate(68.676 48.776)">D<tspan class="c" x="18.054" y="0">x</tspan></text>
+  <text class="a" transform="translate(46.676 20.776)">COV<tspan class="c" x="50" y="0">xy</tspan></text>
+  <text class="b" transform="translate(177.676 48.776)">10</text>
+  <text class="b" transform="translate(164.676 20.776)">1948</text>
+</svg>

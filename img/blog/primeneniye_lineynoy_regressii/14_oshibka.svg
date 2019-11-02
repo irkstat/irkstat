@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.041 28.624">
+  <defs>
+    <style>
+      .a {
+        font-size: 25px;
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .c {
+        font-size: 18px;
+      }
+
+      .c {
+        letter-spacing: -0.013em;
+      }
+
+      .d {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>14_oshibka</title>
+  <text class="a" transform="translate(0.552 20.958)">E<tspan class="b" x="15.271" y="0">i </tspan><tspan x="24.772" y="0">= Y</tspan><tspan class="b" x="61.796" y="0">iфа</tspan><tspan class="c" x="88.576" y="0">к</tspan><tspan class="b" x="96.759" y="0">т </tspan><tspan x="114.258" y="0">- Y</tspan><tspan class="b" x="142.737" y="0">iт</tspan><tspan class="c" x="160.737" y="0">е</tspan><tspan class="b" x="168.489" y="0">ор</tspan></text>
+  <path class="d" d="M134.5,2.5a6.643,6.643,0,0,1,4-1,13.474,13.474,0,0,1,3,1c1.252.37,3.173.451,6-1" transform="translate(-1.025 -0.972)"/>
+</svg>

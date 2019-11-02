@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Для анализа рынка недвижимости применяются много различных методов, одним из этих методов является расчет математических зависимостей между двумя функциями">
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/media.css">
+   <link rel="icon" href="/img/index/favicon.png">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+   <title>Применение линейной регрессии для анализа рынка недвижимости</title>
+</head>
+
+<body>
+   <!--ГЛАВНОЕ МЕНЮ======================================-->
+   <!--Мобильное меню====================================-->
+   <nav class="top_nav_mobile_general">
+      <a href="#" class="close_mobile_menu_general">x</a>
+      <a href="/index.html">Главная</a>
+      <a href="/statistics/statistics.html">Статистика</a>
+      <a href="#">Анализ</a>
+      <a href="/blog/blog_1.html">Блог</a>
+      <a href="#">Помощь</a>
+   </nav>
+   <!--Десктопное меню===================================-->
+   <div class="main_menu">
+      <a href="/index.html" class="logo_main_menu_general">Irkstat.</a>
+      <nav class="nav_main_general">
+         <a href="/index.html">Главная</a>
+         <a href="/statistics/statistics.html">Статистика</a>
+         <a href="#">Анализ</a>
+         <a href="/blog/blog_1.html">Блог</a>
+         <a href="#">Помощь</a>
+      </nav>
+      <!--Бургер меню====================================-->
+      <div class="burger_menu_general" id="bg_menu_general">
+         <div class="strip_burger_menu_general"></div>
+         <div class="strip_burger_menu_general"></div>
+         <div class="strip_burger_menu_general"></div>
+      </div>
+   </div>
+   <hr class="strip_menu_general">
+
+   <!--СТАТЬЯ GENERAL====================================-->
+   <article class="main_box_article">
+      <h1 class="h1_main_article">Применение линейной регрессии<br>для анализа рынка недвижимости</h1>
+      <div class="txt_box_article_general">
+         <p class="txt_article_general">Как бы этого нам не хотелось, но придется поговорить на первый взгляд о сложных
+            математических терминах, а точнее о понятии математической регрессии. Регрессия, если сказать простыми
+            словами
+            - это зависимость между двумя переменными величинами X и Y. Например X это будет рост, а Y это вес, вот
+            методом
+            регрессии определяется зависит ли изменение веса (Y), от роста (X), в данном примере явно выраженная
+            зависимость, т.е. с годами человек растет и его вес увеличивается, это самый простой и наглядный пример
+            зависимости двух величин. Конечно, регрессии бывают и множественные, когда присутствуют несколько величин,
+            но
+            мы будем рассматривать только влияние двух переменных величин.<br><br>В нашем же анализе мы будем определять
+            зависит ли изменение стоимость недвижимости от времени, и определять закономерность этой зависимости. Также
+            будем делать прогноз цены на месяц вперед и рассчитывать ошибку этого прогноза. Во-вторых, будем определять
+            зависит ли стоимость жилья от средневзвешенной процентной ставки по ипотечным жилищным кредитам по Иркутской
+            обл., т.к. этот параметр очень сильно влияет на стоимость жилья.<br><br>Давайте рассмотрим пример расчета
+            линейной регрессии. Нам нужно определить действительно со временем стоимость жилья дорожает, есть ли
+            закономерность (все данные в примере вымышленные). Так же сделаем прогноз цена на 12-ый месяц.<br><br>Для
+            начала запишем уравнение линейной регрессии, а все остальное будем вычислять по порядку.</p>
+         <img class="formula_linear_regression flr_1"
+            src="/img/blog/primeneniye_lineynoy_regressii/01_uravnenie_regressii.svg"
+            alt="Уравнение линейной регрессии">
+         <div class="table_data_linear_regression">
+
+            <div class="string_header_table_linear_regression">
+               <p class="width_data1_table_linear_regression">Xi</p>
+               <p class="width_data2_table_linear_regression">Yi</p>
+               <p class="width_data2_table_linear_regression">Yi</p>
+               <p class="width_data1_table_linear_regression">Xi<sup>2</sup></p>
+               <p class="width_data3_table_linear_regression">Yi<sup>2</sup></p>
+               <p class="width_data2_table_linear_regression">Xi*Yi</p>
+               <p class="width_data1_table_linear_regression">Ei</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">1</p>
+               <p class="width_data2_table_linear_regression">38000</p>
+               <p class="width_data2_table_linear_regression">37971</p>
+               <p class="width_data1_table_linear_regression">1</p>
+               <p class="width_data3_table_linear_regression">1444000000</p>
+               <p class="width_data2_table_linear_regression">38000</p>
+               <p class="width_data1_table_linear_regression">29</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">2</p>
+               <p class="width_data2_table_linear_regression">37800</p>
+               <p class="width_data2_table_linear_regression">38166</p>
+               <p class="width_data1_table_linear_regression">4</p>
+               <p class="width_data3_table_linear_regression">1428840000</p>
+               <p class="width_data2_table_linear_regression">75600</p>
+               <p class="width_data1_table_linear_regression">-366</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">3</p>
+               <p class="width_data2_table_linear_regression">38400</p>
+               <p class="width_data2_table_linear_regression">38361</p>
+               <p class="width_data1_table_linear_regression">9</p>
+               <p class="width_data3_table_linear_regression">1474560000</p>
+               <p class="width_data2_table_linear_regression">115200</p>
+               <p class="width_data1_table_linear_regression">39</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">4</p>
+               <p class="width_data2_table_linear_regression">39000</p>
+               <p class="width_data2_table_linear_regression">38556</p>
+               <p class="width_data1_table_linear_regression">16</p>
+               <p class="width_data3_table_linear_regression">1521000000</p>
+               <p class="width_data2_table_linear_regression">156000</p>
+               <p class="width_data1_table_linear_regression">444</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">5</p>
+               <p class="width_data2_table_linear_regression">38900</p>
+               <p class="width_data2_table_linear_regression">38751</p>
+               <p class="width_data1_table_linear_regression">25</p>
+               <p class="width_data3_table_linear_regression">1513210000</p>
+               <p class="width_data2_table_linear_regression">194500</p>
+               <p class="width_data1_table_linear_regression">149</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">6</p>
+               <p class="width_data2_table_linear_regression">38500</p>
+               <p class="width_data2_table_linear_regression">38945</p>
+               <p class="width_data1_table_linear_regression">36</p>
+               <p class="width_data3_table_linear_regression">1482250000</p>
+               <p class="width_data2_table_linear_regression">231000</p>
+               <p class="width_data1_table_linear_regression">-445</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">7</p>
+               <p class="width_data2_table_linear_regression">39500</p>
+               <p class="width_data2_table_linear_regression">39140</p>
+               <p class="width_data1_table_linear_regression">49</p>
+               <p class="width_data3_table_linear_regression">1560250000</p>
+               <p class="width_data2_table_linear_regression">276500</p>
+               <p class="width_data1_table_linear_regression">360</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">8</p>
+               <p class="width_data2_table_linear_regression">39300</p>
+               <p class="width_data2_table_linear_regression">39335</p>
+               <p class="width_data1_table_linear_regression">64</p>
+               <p class="width_data3_table_linear_regression">1544490000</p>
+               <p class="width_data2_table_linear_regression">314400</p>
+               <p class="width_data1_table_linear_regression">-35</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">9</p>
+               <p class="width_data2_table_linear_regression">39400</p>
+               <p class="width_data2_table_linear_regression">39530</p>
+               <p class="width_data1_table_linear_regression">81</p>
+               <p class="width_data3_table_linear_regression">1552360000</p>
+               <p class="width_data2_table_linear_regression">354600</p>
+               <p class="width_data1_table_linear_regression">-130</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">10</p>
+               <p class="width_data2_table_linear_regression">39600</p>
+               <p class="width_data2_table_linear_regression">39725</p>
+               <p class="width_data1_table_linear_regression">100</p>
+               <p class="width_data3_table_linear_regression">1568160000</p>
+               <p class="width_data2_table_linear_regression">396000</p>
+               <p class="width_data1_table_linear_regression">-125</p>
+            </div>
+
+            <div class="string_table_linear_regression">
+               <p class="width_data1_table_linear_regression">11</p>
+               <p class="width_data2_table_linear_regression">40000</p>
+               <p class="width_data2_table_linear_regression">39919</p>
+               <p class="width_data1_table_linear_regression">121</p>
+               <p class="width_data3_table_linear_regression">1600000000</p>
+               <p class="width_data2_table_linear_regression">440000</p>
+               <p class="width_data1_table_linear_regression">81</p>
+            </div>
+
+            <div class="string_table_linear_regression string_end_table_linear_regression">
+               <p class="width_data1_table_linear_regression">12</p>
+               <p class="width_data2_table_linear_regression"></p>
+               <p class="width_data2_table_linear_regression">40115</p>
+               <p class="width_data1_table_linear_regression"></p>
+               <p class="width_data3_table_linear_regression"></p>
+               <p class="width_data2_table_linear_regression"></p>
+               <p class="width_data1_table_linear_regression"></p>
+            </div>
+         </div>
+         <p class="txt_article_general">Рассчитаем средние значения X и Y</p>
+         <img class="formula_linear_regression flr_2" src="/img/blog/primeneniye_lineynoy_regressii/02_x_srednee.svg"
+            alt="Расчет среднего значения">
+         <img class="formula_linear_regression flr_3" src="/img/blog/primeneniye_lineynoy_regressii/03_y_srednee.svg"
+            alt="Расчет средней цены кв.м. недвижимости Иркутск">
+
+         <p class="txt_article_general">Теперь у нас есть какие-то статистические данные, мы уже знаем, что средняя
+            стоимость кв.м. за одиннадцать месяцев составила 38945 рублей.Рассчитаем дисперсию и стандартное отклонение
+            по X и Y. Что такое Дисперсия и стандартное отклонение читайте в этой <a href="#">статье.</a></p>
+         <img class="formula_linear_regression flr_4" src="/img/blog/primeneniye_lineynoy_regressii/04_dispersiia_x.svg"
+            alt="Расчет дисперсии для стандартного отклонения">
+         <img class="formula_linear_regression flr_5" src="/img/blog/primeneniye_lineynoy_regressii/05_dispersiia_y.svg"
+            alt="Расчет дисперсии стоимости кв.м. недвижимости в Иркутске">
+         <p class="txt_article_general">Стандартное отклонение — это корень из дисперсии.</p>
+         <img class="formula_linear_regression flr_6"
+            src="/img/blog/primeneniye_lineynoy_regressii/06_standartnoe_otclonenie_x.svg"
+            alt="Расчет стандартного отклонения">
+         <img class="formula_linear_regression flr_6"
+            src="/img/blog/primeneniye_lineynoy_regressii/07_standartnoe_otclonenie_y.svg"
+            alt="Расчет стандартного отклонения стоимости кв.м. квартиры в Иркутске">
+         <p class="txt_article_general">Давайте рассчитаем коэффициент вариации. С помощью данного коэффициента мы можем
+            охарактеризовать степень однородности совокупности, а именно если коэффициент вариации больше, чем 33%,
+            значит совокупность у нас не однородная и мы должны применить какие-то особые методы анализа.</p>
+         <img class="formula_linear_regression flr_7" src="/img/blog/primeneniye_lineynoy_regressii/08_variatciia.svg"
+            alt="Расчет вариации недвижимости в Иркутске">
+         <p class="txt_article_general">Коэффициент вариации у нас меньше 33%, значит нам не нужно применять какие-то
+            особые методы для расчета регрессии.</p>
+         <br>
+         <p class="txt_article_general">Ковариация (корреляционный момент, ковариационный момент) — в теории
+            вероятностей и математической статистике мера линейной зависимости двух случайных величин.</p>
+         <p class="txt_article_general">Рассчитывается по формуле:</p>
+         <img class="formula_linear_regression flr_8" src="/img/blog/primeneniye_lineynoy_regressii/09_kovariatciia.svg"
+            alt="Расчет коваривации стоимости квартир в Иркутске">
+         <p class="txt_article_general">Вот мы и приближаемся к уравнению регрессии, после вышеуказанных расчетов, мы
+            можем вычислить коэффициент K, который входит в это уравнение.</p>
+         <img class="formula_linear_regression flr_9"
+            src="/img/blog/primeneniye_lineynoy_regressii/10_koeffitcient_k.svg"
+            alt="Расчет коэффициента K для стандартного отклонения">
+         <p class="txt_article_general">Теперь мы можем рассчитать коэффициент b:</p>
+         <img class="formula_linear_regression flr_10"
+            src="/img/blog/primeneniye_lineynoy_regressii/11_koeffitcient_b.svg"
+            alt="Вычисление коэффициента b для стандартного отклонения">
+         <p class="txt_article_general">Теперь мы можем написать уравнение зависимости (регрессии)</p>
+         <img class="formula_linear_regression flr_11"
+            src="/img/blog/primeneniye_lineynoy_regressii/12_uravnenie_regressii.svg"
+            alt="Составление уравнения линейной регрессии">
+         <p class="txt_article_general">В столбце 3 рассчитаем теоретическое значение для всех 11 месяцев, и мы можем
+            продолжить считать дальше, т.е. предсказать цену для 12 месяца. Давайте это сделаем:</p>
+         <img class="formula_linear_regression flr_12"
+            src="/img/blog/primeneniye_lineynoy_regressii/13_uravnenie_regressii.svg"
+            alt="Вычисление теоретического значения стоимости жилья в Иркутске">
+         <p class="txt_article_general">Итак, мы спрогнозировали теоретическую стоимость кв.м. на 12-ый месяц, и она
+            составила 41255. Интересно, а с какой ошибкой мы можем это предсказать? Давайте рассчитаем ошибки наших
+            прогнозов, и рассчитаем с какой точностью мы можем предсказывать для данной выборки. Ошибки рассчитаны будут
+            в столбце 7.</p>
+         <img class="formula_linear_regression flr_13" src="/img/blog/primeneniye_lineynoy_regressii/14_oshibka.svg"
+            alt="Расчет ошибки для стандартного отклонения">
+         <p class="txt_article_general">Чтобы рассчитать точность, с которой мы можем предсказывать, нам нужно
+            рассчитать остаточную дисперсию, для этого возведем ошибку в квадрат(ст.7) и запишем в столбец 8.</p>
+         <img class="formula_linear_regression flr_14"
+            src="/img/blog/primeneniye_lineynoy_regressii/15_dispersiia_ostatochnaia.svg"
+            alt="Расчет остаточной дисперсии">
+         <p class="txt_article_general">Извлекаем корень из остаточной дисперсии и получаем ошибку нашего прогноза, но
+            надо понимать, что цена может измениться больше, чем на нашу ошибку, на это влияют различные факторы. И если
+            мы посмотрим на столбец 7, то мы увидим, что такие значения уже были, это -365,445 и 360, но их ни так много
+            будет, в основном все будет в пределах нашей ошибки.</p>
+         <img class="formula_linear_regression flr_15"
+            src="/img/blog/primeneniye_lineynoy_regressii/16_standartnoe_otclonenie_ostatochnoe.svg"
+            alt="Ошибка прогноза стоимости недвижимости в Иркутске">
+         <p class="txt_article_general">И напоследок, давайте рассчитаем один из важнейших статистических показателей —
+            это коэффициент линейной корреляции. Данный коэффициент показывает силу зависимости, если для нашего
+            примера, то на сколько сильно зависит стоимость кв.м от времени.</p>
+         <img class="formula_linear_regression flr_16"
+            src="/img/blog/primeneniye_lineynoy_regressii/17_korreliatciia.svg"
+            alt="Расчет коэффициента линейной корреляции для рынка недвижимости в Иркутске">
+         <p class="txt_article_general">Данный коэффициент изменяется в приделах от -1 до +1, нужно понимать, чем больше
+            коэффициент стремится к единице, тем сильнее зависимость. Изменение от 0 до +1 означает что есть прямая
+            зависимость, а изменение от 0 до -1, это обратная зависимость. Давайте рассмотрим более подробнее шкалу от 0
+            до +1. Итак, изменение 0 до +0.3 означает что зависимости нет, от +0.3 до +0.5 говорит о том, что
+            зависимость слабая, а от 0.7 до 1.0 говорит, что зависимость сильная.</p>
+         <img class="scale_linear_regression" src="/img/blog/primeneniye_lineynoy_regressii/18_shkala.svg"
+            alt="Шкала зависимостей в линейной регрессии">
+         <p class="txt_article_general">В нашем примере коэффициент линейной корреляции равен 0.9, это говорит о том,
+            что цена на кв.м. недвижимости со временем дорожает, и очень сильно зависит от времени. Если бы у нас
+            коэффициент равен был бы -0.9 это говорило бы о том, что со временем стоимость кв.м дешевеет. На этом расчет
+            закончен.</p>
+         <br>
+         <p class="txt_article_general">Давайте посмотрим на график линейной зависимости, обратите внимание, чем сильнее
+            будет зависимость (коэффициент корреляции будет стремиться к +1 или -1) тем точки будут сильнее прижиматься
+            к линии.</p>
+         <img class="diagram_linear_regression" src="/img/blog/primeneniye_lineynoy_regressii/19_leen_zavisimost.svg"
+            alt="График линейной зависимости недвижимости">
+         <p class="txt_article_general">Данный метод можно применять как и для оценки стоимости квартир в Иркутске, так
+            и для аренды любой недвижимости!</p>
+      </div>
+   </article>
+   
+   <!--ГЛАВНЫЙ FOOTER====================================-->
+   <footer class="main_footer">
+      <!--Заголовок footer===============================-->
+      <div class="box_name_footer">
+         <div class="logo_footer">
+            <a href="#"><img src="/img/index/logo_footer.svg" alt="Irkstat"></a>
+            <a href="#" class="txt_logo_footer">Irkstat.</a>
+            <div class="strip_footer"></div>
+            <p class="txt_footer">Statistics Realty</p>
+         </div>
+      </div>
+      <!--Социальные сети и контакты футер===============-->
+      <div class="box_social_contact_footer">
+         <div class="contact_footer">
+            <p>Контакты</p>
+            <p>Россия, Иркутская область,Иркутск</p>
+            <p>E-mail: <a href="mailto:support@irkstat.ru">support@irkstat.ru</a></p>
+         </div>
+         <div class="social_footer">
+            <a href="#"><img src="/img/index/facebook_footer.svg" alt="Facebook"></a>
+            <a href="#"><img src="/img/index/twitter_footer.svg" alt="Twitter"></a>
+            <a href="#"><img src="/img/index/vkontakte_footer.svg" alt="Vkontakte"></a>
+         </div>
+      </div>
+   </footer>
+
+   <script src="/js/mobile_menu_general.js"></script>
+</body>
+
+</html>

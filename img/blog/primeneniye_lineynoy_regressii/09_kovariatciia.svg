@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444.174 93.442">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b {
+        font-size: 18px;
+      }
+
+      .c {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+    </style>
+  </defs>
+  <title>09_kovariatciia</title>
+  <text class="a" transform="translate(0 46.776)">COV<tspan class="b" x="50" y="0">xy </tspan><tspan x="70.479" y="0">= XY - X * Y =</tspan></text>
+  <text class="c" transform="translate(0 85.776)">= 235618 - 233670 = 1948</text>
+  <text class="c" transform="translate(228 46.776)">235618 - 6 * 38945 =</text>
+  <text class="c" transform="translate(149 20.776)">_</text>
+  <text class="c" transform="translate(99 20.776)">__</text>
+  <text class="c" transform="translate(187 20.776)">_</text>
+</svg>

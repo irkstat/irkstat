@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 371.605 96.625">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a, .d {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .d {
+        font-size: 18px;
+      }
+
+      .c {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+    </style>
+  </defs>
+  <title>15_dispersiia_ostatochnaia</title>
+  <text class="a" transform="translate(0.756 73.959)">D<tspan class="b" x="18.054" y="0">ост </tspan><tspan x="52.542" y="0">=</tspan></text>
+  <text class="c" transform="translate(163.756 74.959)">=</text>
+  <text class="c" transform="translate(288.756 74.959)">= 80447</text>
+  <text class="a" transform="translate(117.756 41.959)">E<tspan class="b" x="15.271" y="0">i</tspan></text>
+  <text class="a" transform="translate(95.756 86.959)">n-2</text>
+  <text class="c" transform="translate(223.756 88.959)">9</text>
+  <text class="c" transform="translate(78.756 60.959)">______</text>
+  <text class="c" transform="translate(188.756 60.959)">_______</text>
+  <text class="c" transform="translate(195.756 59.959)">724025</text>
+  <text class="d" transform="translate(98.756 14.959)">n</text>
+  <text class="d" transform="translate(139.756 25.959)">2</text>
+  <text class="d" transform="translate(88.756 61.959)">i=1</text>
+  <path d="M114.7,36.03,112.89,42.3H93.139l9.083-14.881L92.227,13.9H112.89l1.806,6.275-.378.134L111.742,14.3H94.274l9.092,12.045L94.393,41.022H112.12l2.2-5.126Z" transform="translate(-1.322 4.529)"/>
+</svg>

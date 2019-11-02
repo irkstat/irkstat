@@ -720,3 +720,98 @@
   padding-bottom: 15px;
   display: block;
   color: blue; }
+
+.main_box_article .txt_box_article_general .formula_linear_regression {
+  display: block;
+  margin: 20px 0; }
+
+.main_box_article .txt_box_article_general .flr_1 {
+  height: 30px; }
+
+.main_box_article .txt_box_article_general .flr_2 {
+  height: 85px; }
+
+.main_box_article .txt_box_article_general .flr_3 {
+  height: 140px; }
+
+.main_box_article .txt_box_article_general .flr_4 {
+  height: 90px; }
+
+.main_box_article .txt_box_article_general .flr_5 {
+  height: 122px; }
+
+.main_box_article .txt_box_article_general .flr_6 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .flr_7 {
+  height: 55px; }
+
+.main_box_article .txt_box_article_general .flr_8 {
+  height: 83px; }
+
+.main_box_article .txt_box_article_general .flr_9 {
+  height: 50px; }
+
+.main_box_article .txt_box_article_general .flr_10 {
+  height: 50px; }
+
+.main_box_article .txt_box_article_general .flr_11 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .flr_12 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .flr_13 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .flr_14 {
+  height: 85px; }
+
+.main_box_article .txt_box_article_general .flr_15 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .flr_16 {
+  height: 50px; }
+
+.main_box_article .txt_box_article_general .scale_linear_regression {
+  height: 130px;
+  display: block;
+  margin: 20px auto; }
+
+.main_box_article .txt_box_article_general .diagram_linear_regression {
+  width: 750px;
+  margin: 20px auto;
+  display: block; }
+
+.main_box_article .txt_box_article_general .table_data_linear_regression {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 20px; }
+  .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    border-bottom: 1px solid gray; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data1_table_linear_regression {
+      width: 70px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data2_table_linear_regression {
+      width: 100px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_header_table_linear_regression .width_data3_table_linear_regression {
+      width: 150px; }
+  .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 40px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data1_table_linear_regression {
+      width: 70px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data2_table_linear_regression {
+      width: 100px; }
+    .main_box_article .txt_box_article_general .table_data_linear_regression .string_table_linear_regression .width_data3_table_linear_regression {
+      width: 150px; }
+  .main_box_article .txt_box_article_general .table_data_linear_regression .string_end_table_linear_regression {
+    border-bottom: 1px solid gray; }
