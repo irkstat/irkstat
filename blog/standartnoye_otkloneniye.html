@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description"
+      content="Для математического анализа рынка недвижимости применяются много различных методов, одним из этих методов является определение стандартного отклонения цены кв.м. недвижимости в Иркутске">
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/media.css">
+   <link rel="icon" href="/img/index/favicon.png">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+   <title>Применение стандартного отклонения для анализа рынка недвижимости</title>
+</head>
+
+<body>
+   <!--ГЛАВНОЕ МЕНЮ======================================-->
+   <!--Мобильное меню====================================-->
+   <nav class="top_nav_mobile_general">
+      <a href="#" class="close_mobile_menu_general">x</a>
+      <a href="/index.html">Главная</a>
+      <a href="/statistics/statistics.html">Статистика</a>
+      <a href="#">Анализ</a>
+      <a href="/blog/blog_1.html">Блог</a>
+      <a href="#">Помощь</a>
+   </nav>
+   <!--Десктопное меню===================================-->
+   <div class="main_menu">
+      <a href="/index.html" class="logo_main_menu_general">Irkstat.</a>
+      <nav class="nav_main_general">
+         <a href="/index.html">Главная</a>
+         <a href="/statistics/statistics.html">Статистика</a>
+         <a href="#">Анализ</a>
+         <a href="/blog/blog_1.html">Блог</a>
+         <a href="#">Помощь</a>
+      </nav>
+      <!--Бургер меню====================================-->
+      <div class="burger_menu_general" id="bg_menu_general">
+         <div class="strip_burger_menu_general"></div>
+         <div class="strip_burger_menu_general"></div>
+         <div class="strip_burger_menu_general"></div>
+      </div>
+   </div>
+   <hr class="strip_menu_general">
+
+   <!--СТАТЬЯ GENERAL====================================-->
+   <article class="main_box_article">
+      <h1 class="h1_main_article">Применение стандартного отклонения<br>для анализа рынка недвижимости</h1>
+      <div class="txt_box_article_general">
+         <p class="txt_article_general">Уважаемые читатели давайте рассмотрим, что же такое стандартное отклонение и как
+            его применять для анализа цены на квартиры в Иркутске и другой недвижимости. Для начала давайте обратимся к
+            википедии и посмотрим на определение: Стандартное отклонение - в теории вероятностей и статистике наиболее
+            распространённый показатель рассеивания значений случайной величины относительно её математического
+            ожидания. Но обо всем по порядку, постараюсь больше не употреблять заумные термины и постараюсь излагать
+            своими словами.</p>
+         <br>
+         <p class="txt_article_general">Итак, рассмотрим пример вычисления на исторических данных о стоимости кв.м.
+            Исходные данные являются вымышленными.</p>
+
+         <div class="table_data_standard_deviation">
+
+            <div class="string_header_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">Год</p>
+               <p class="width_data1_table_standard_deviation">Цена(X)</p>
+               <p class="width_data2_table_standard_deviation">X<sup>2</sup></p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2005</p>
+               <p class="width_data1_table_standard_deviation">20 000</p>
+               <p class="width_data2_table_standard_deviation">400 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2006</p>
+               <p class="width_data1_table_standard_deviation">21 000</p>
+               <p class="width_data2_table_standard_deviation">441 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2007</p>
+               <p class="width_data1_table_standard_deviation">23 000</p>
+               <p class="width_data2_table_standard_deviation">529 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2008</p>
+               <p class="width_data1_table_standard_deviation">23 500</p>
+               <p class="width_data2_table_standard_deviation">552 250 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2009</p>
+               <p class="width_data1_table_standard_deviation">25000</p>
+               <p class="width_data2_table_standard_deviation">625 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2010</p>
+               <p class="width_data1_table_standard_deviation">25 500</p>
+               <p class="width_data2_table_standard_deviation">650 250 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2011</p>
+               <p class="width_data1_table_standard_deviation">27 000</p>
+               <p class="width_data2_table_standard_deviation">729 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2012</p>
+               <p class="width_data1_table_standard_deviation">26 000</p>
+               <p class="width_data2_table_standard_deviation">676 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2013</p>
+               <p class="width_data1_table_standard_deviation">28 500</p>
+               <p class="width_data2_table_standard_deviation">812 250 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2014</p>
+               <p class="width_data1_table_standard_deviation">30 000</p>
+               <p class="width_data2_table_standard_deviation">900 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation">
+               <p class="width_data1_table_standard_deviation">2015</p>
+               <p class="width_data1_table_standard_deviation">31 000</p>
+               <p class="width_data2_table_standard_deviation">961 000 000</p>
+            </div>
+
+            <div class="string_table_standard_deviation string_end_table_standard_deviation ">
+               <p class="width_data1_table_standard_deviation">2016</p>
+               <p class="width_data1_table_standard_deviation">30 500</p>
+               <p class="width_data2_table_standard_deviation">930 250 000</p>
+            </div>
+
+         </div>
+         <p class="txt_article_general">Для начала нам нужно вычислить среднее значение цены (x):</p>
+         <img class="formula_standard_deviation fso_1"
+            src="/img/blog/standartnoye_otkloneniye/01_srednee_znachenie_x.svg" alt="Среднее значение X">
+         <p class="txt_article_general">Давайте нанесем среднее значение в виде красной пунктирной линии на график.</p>
+         <img class="diagram_standard_deviation"
+            src="/img/blog/standartnoye_otkloneniye/04_gistogramma_standartnoye_otkloneniye.svg"
+            alt="Гистограмма цен для стандартного отклонения">
+         <p class="txt_article_general">Далее нам нужно рассчитать дисперсию:</p>
+         <img class="formula_standard_deviation fso_2" src="/img/blog/standartnoye_otkloneniye/02_dispersiia_x.svg"
+            alt="Расчет дисперсии">
+         <p class="txt_article_general">x<sup>2</sup> рассчитывается как среднее значение возведенных в квадрат цен
+            (столбец 3)(Xср)<sup>2</sup> рассчитывается как возведением в квадрат среднего значения.Теперь можно и
+            рассчитать стандартное отклонение:</p>
+         <img class="formula_standard_deviation fso_3"
+            src="/img/blog/standartnoye_otkloneniye/03_standartnoe_otclonenie_x.svg"
+            alt="Расчет стандартного отклонение">
+         <p class="txt_article_general">Давайте обозначим область, отстоящую на 3487 вверх и вниз от среднего значения,
+            тогда станет понятен смысл стандартного отклонения. Чем сильнее друг от друга отличается цена, тем больше
+            будет стандартное отклонение. В нашем случае он не велико и равняется 3487, а 3487 на фоне 25917 это ни так
+            и много.</p>
+      </div>
+   </article>
+
+   <!--ГЛАВНЫЙ FOOTER====================================-->
+   <footer class="main_footer">
+      <!--Заголовок footer===============================-->
+      <div class="box_name_footer">
+         <div class="logo_footer">
+            <a href="#"><img src="/img/index/logo_footer.svg" alt="Irkstat"></a>
+            <a href="#" class="txt_logo_footer">Irkstat.</a>
+            <div class="strip_footer"></div>
+            <p class="txt_footer">Statistics Realty</p>
+         </div>
+      </div>
+      <!--Социальные сети и контакты футер===============-->
+      <div class="box_social_contact_footer">
+         <div class="contact_footer">
+            <p>Контакты</p>
+            <p>Россия, Иркутская область,Иркутск</p>
+            <p>E-mail: <a href="mailto:support@irkstat.ru">support@irkstat.ru</a></p>
+         </div>
+         <div class="social_footer">
+            <a href="#"><img src="/img/index/facebook_footer.svg" alt="Facebook"></a>
+            <a href="#"><img src="/img/index/twitter_footer.svg" alt="Twitter"></a>
+            <a href="#"><img src="/img/index/vkontakte_footer.svg" alt="Vkontakte"></a>
+         </div>
+      </div>
+   </footer>
+
+   <script src="/js/mobile_menu_general.js"></script>
+</body>
+
+</html>

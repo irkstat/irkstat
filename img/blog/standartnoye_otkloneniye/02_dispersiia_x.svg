@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392.602 140.442">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a, .e {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .e, .f {
+        font-size: 18px;
+      }
+
+      .c, .f, .g {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .d {
+        letter-spacing: -0.037em;
+      }
+
+      .g {
+        font-size: 25.135px;
+      }
+    </style>
+  </defs>
+  <title>02_dispersiia_x</title>
+  <text class="a" transform="translate(0.756 82.776)">D<tspan class="b" x="18.054" y="0">x</tspan><tspan x="26.043" y="0">=</tspan></text>
+  <text class="a" transform="translate(181.756 82.776)">=</text>
+  <text class="c" transform="translate(280.756 82.776)">=</text>
+  <text class="a" transform="translate(90.756 45.776)">(X<tspan class="b" x="23.596" y="0">i </tspan><tspan x="33.097" y="0">-X)</tspan></text>
+  <text class="a" transform="translate(111.756 92.776)">n</text>
+  <text class="a" transform="translate(205.756 81.776)">X - (X)</text>
+  <text class="c" transform="translate(0.756 132.776)">= 683833333 - 6716736<tspan class="d" x="241.174" y="0">1</tspan><tspan x="252.747" y="0">1 = 12159722</tspan></text>
+  <text class="e" transform="translate(67.756 21.776)">n</text>
+  <text class="f" transform="translate(157.756 30.776)">2</text>
+  <text class="f" transform="translate(229.756 62.776)">2</text>
+  <text class="f" transform="translate(274.756 62.776)">2</text>
+  <text class="e" transform="translate(57.756 69.776)">i=1</text>
+  <path d="M84.7,37.03,82.89,43.3H63.139l9.083-14.881L62.227,14.9H82.89L84.7,21.173l-.378.134L81.742,15.3H64.274l9.092,12.045L64.393,42.022H82.12l2.2-5.126Z" transform="translate(-2.322 10.347)"/>
+  <text class="g" transform="translate(52.752 69.735) scale(0.974 1)">__________</text>
+  <text class="c" transform="translate(136.756 20.776)">_</text>
+  <text class="c" transform="translate(210.756 55.776)">_</text>
+  <text class="c" transform="translate(254.756 55.776)">_</text>
+</svg>

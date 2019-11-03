@@ -114,7 +114,15 @@
   .main_box_article .txt_box_article_general .scale_linear_regression {
     height: 110px; }
   .main_box_article .txt_box_article_general .diagram_linear_regression {
-    width: 700px; } }
+    width: 700px; }
+  .main_box_article .txt_box_article_general .formula_standard_deviation {
+    margin: 15px 0; }
+  .main_box_article .txt_box_article_general .fso_1 {
+    height: 116px; }
+  .main_box_article .txt_box_article_general .fso_2 {
+    height: 92px; }
+  .main_box_article .txt_box_article_general .fso_3 {
+    height: 22px; } }
 
 @media screen and (max-width: 768px) {
   .main_menu {
@@ -358,7 +366,28 @@
   .main_box_article .txt_box_article_general .flr_16 {
     height: 22px; }
   .main_box_article .txt_box_article_general .scale_linear_regression {
-    width: 80%; } }
+    width: 80%; }
+  .main_box_article .txt_box_article_general .table_data_standard_deviation {
+    width: 270px;
+    font-size: 12px; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation {
+      height: 30px; }
+      .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation .width_data1_table_standard_deviation {
+        width: 60px; }
+      .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation .width_data2_table_standard_deviation {
+        width: 90px; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation {
+      height: 30px; }
+      .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation .width_data1_table_standard_deviation {
+        width: 60px; }
+      .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation .width_data2_table_standard_deviation {
+        width: 90px; }
+  .main_box_article .txt_box_article_general .fso_1 {
+    height: 93px; }
+  .main_box_article .txt_box_article_general .fso_2 {
+    height: 74px; }
+  .main_box_article .txt_box_article_general .fso_3 {
+    height: 18px; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {

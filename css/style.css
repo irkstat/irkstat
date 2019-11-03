@@ -815,3 +815,47 @@
       width: 150px; }
   .main_box_article .txt_box_article_general .table_data_linear_regression .string_end_table_linear_regression {
     border-bottom: 1px solid gray; }
+
+.main_box_article .txt_box_article_general .table_data_standard_deviation {
+  max-width: 450px;
+  margin: 20px auto;
+  text-align: center; }
+  .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    height: 40px;
+    border-bottom: 1px solid gray; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation .width_data1_table_standard_deviation {
+      width: 130px; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_header_table_standard_deviation .width_data2_table_standard_deviation {
+      width: 130px; }
+  .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation .width_data1_table_standard_deviation {
+      width: 130px; }
+    .main_box_article .txt_box_article_general .table_data_standard_deviation .string_table_standard_deviation .width_data2_table_standard_deviation {
+      width: 130px; }
+  .main_box_article .txt_box_article_general .table_data_standard_deviation .string_end_table_standard_deviation {
+    border-bottom: 1px solid gray; }
+
+.main_box_article .txt_box_article_general .formula_standard_deviation {
+  margin: 20px 0; }
+
+.main_box_article .txt_box_article_general .fso_1 {
+  height: 145px; }
+
+.main_box_article .txt_box_article_general .fso_2 {
+  height: 115px; }
+
+.main_box_article .txt_box_article_general .fso_3 {
+  height: 28px; }
+
+.main_box_article .txt_box_article_general .diagram_standard_deviation {
+  display: block;
+  margin: 20px auto;
+  width: 80%; }

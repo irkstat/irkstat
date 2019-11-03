@@ -214,6 +214,25 @@
          }
       }
    }
+   //======================================================
+   //======== ПРИМЕНЕНИЕ СТАНДАРТНОГО ОТКЛОНЕНИЯ  =========
+   //======================================================
+   .main_box_article{
+      .txt_box_article_general{
+         .formula_standard_deviation{
+            margin: 15px 0;
+         }
+         .fso_1{
+            height: 116px;
+         }
+         .fso_2{
+            height: 92px;
+         }
+         .fso_3{
+            height: 22px;
+         }
+      }
+   }
 }
 
 
@@ -682,6 +701,44 @@
          }
          .scale_linear_regression{
             width: 80%;
+         }
+      }
+   }
+   //======================================================
+   //======== ПРИМЕНЕНИЕ СТАНДАРТНОГО ОТКЛОНЕНИЯ  =========
+   //======================================================
+   .main_box_article{
+      .txt_box_article_general{
+         .table_data_standard_deviation{
+            width: 270px;
+            font-size: 12px;
+            .string_header_table_standard_deviation{
+               height: 30px;
+               .width_data1_table_standard_deviation{
+                  width: 60px;
+               }
+               .width_data2_table_standard_deviation{
+                  width: 90px;
+               }
+            }
+            .string_table_standard_deviation{
+               height: 30px;
+               .width_data1_table_standard_deviation{
+                  width: 60px;
+               }
+               .width_data2_table_standard_deviation{
+                  width: 90px;
+               }
+            }
+         }
+         .fso_1{
+            height: 93px;
+         }
+         .fso_2{
+            height: 74px;
+         }
+         .fso_3{
+            height: 18px;
          }
       }
    }

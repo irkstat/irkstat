@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320.895 34.679">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a, .d {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .d {
+        font-size: 18px;
+      }
+
+      .c {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .e {
+        font-size: 30px;
+        font-family: UniversalMath1BT-Regular, UniversalMath1 BT;
+      }
+
+      .f {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.25px;
+      }
+    </style>
+  </defs>
+  <title>03_standartnoe_otclonenie_x</title>
+  <text class="a" transform="translate(72.296 25.918)">D<tspan class="b" x="18.054" y="0">x </tspan><tspan x="30.543" y="0">=</tspan></text>
+  <text class="c" transform="translate(33.296 25.544)">=</text>
+  <text class="d" transform="translate(19.296 25.918)">x</text>
+  <text class="e" transform="translate(0 25.665)">s</text>
+  <text class="c" transform="translate(144.296 27.013)">12159722 = 3487</text>
+  <polyline class="f" points="53.718 19.489 59.218 19.489 62.218 30.489 71.218 3.489 96.718 3.489"/>
+  <polyline class="f" points="125.718 19.489 131.218 19.489 134.218 30.489 143.218 3.489 248.218 3.489"/>
+</svg>

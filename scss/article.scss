@@ -192,3 +192,59 @@
       }
    }
 }
+//ПРИМЕНЕНИЕ СТАНДАРТНОГО ОТКЛОНЕНИЯ
+.main_box_article{
+   .txt_box_article_general{
+      .table_data_standard_deviation{
+         max-width: 450px;
+         margin: 20px auto;
+         text-align: center;
+         .string_header_table_standard_deviation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            height: 40px;
+            border-bottom: 1px solid gray;
+            .width_data1_table_standard_deviation{
+               width: 130px;
+            }
+            .width_data2_table_standard_deviation{
+               width: 130px;
+            }
+         }
+         .string_table_standard_deviation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+            .width_data1_table_standard_deviation{
+               width: 130px;
+            }
+            .width_data2_table_standard_deviation{
+               width: 130px;
+            }
+         }
+         .string_end_table_standard_deviation{
+            border-bottom: 1px solid gray;
+         }
+      }
+      .formula_standard_deviation{
+         margin: 20px 0;
+      }
+      .fso_1{
+         height: 145px;
+      }
+      .fso_2{
+         height: 115px;
+      }
+      .fso_3{
+         height: 28px;
+      }
+      .diagram_standard_deviation{
+         display: block;
+         margin: 20px auto;
+         width: 80%;
+      }
+   }
+}

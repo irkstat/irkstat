@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2274 1286" style="enable-background:new 0 0 2274 1286;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2.8346;stroke-miterlimit:10;}
+	.st1{fill:#4D4D4D;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:51.0236px;}
+	.st4{fill:none;}
+	.st5{font-size:70px;}
+	.st6{fill:none;stroke:#808080;stroke-miterlimit:10;}
+	.st7{fill:#E6E6E6;stroke:#4D4D4D;stroke-width:0.75;stroke-miterlimit:10;}
+	.st8{font-family:'TimesNewRomanPSMT';}
+	.st9{font-size:50px;}
+	.st10{opacity:0.17;fill:#00FF00;}
+	.st11{fill:none;stroke:#0000FF;stroke-width:2.835;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#0000FF;stroke-width:2.835;stroke-miterlimit:10;stroke-dasharray:50.4394,50.4394;}
+	.st13{fill:#0000FF;}
+</style>
+<g id="КоордСетка">
+	<g>
+		<line class="st0" x1="277.5" y1="247.5" x2="277.5" y2="1114.5"/>
+	</g>
+	<line class="st0" x1="276.5" y1="1114.5" x2="2115.5" y2="1114.5"/>
+	<text transform="matrix(1 0 0 1 108 1027.5)" class="st1 st2 st3">5000</text>
+	<text transform="matrix(0 -1 1 0 391.0537 1250.8369)" class="st1 st2 st3">2005</text>
+	<text transform="matrix(0 -1 1 0 531.9648 1250.748)" class="st1 st2 st3">2006</text>
+	<text transform="matrix(0 -1 1 0 680.9443 1250.7275)" class="st1 st2 st3">2007</text>
+	<text transform="matrix(0 -1 1 0 819.3857 1251.1689)" class="st1 st2 st3">2008</text>
+	<text transform="matrix(0 -1 1 0 967.9907 1250.7734)" class="st1 st2 st3">2009</text>
+	<text transform="matrix(0 -1 1 0 1115.4131 1251.1963)" class="st1 st2 st3">2010</text>
+	<text transform="matrix(0 -1 1 0 1257.7031 1251.4863)" class="st1 st2 st3">2011</text>
+	<text transform="matrix(0 -1 1 0 1385.9053 1250.6885)" class="st1 st2 st3">2012</text>
+	<text transform="matrix(0 -1 1 0 1532.1055 1251.8887)" class="st1 st2 st3">2013</text>
+	<text transform="matrix(0 -1 1 0 1675.915 1250.6982)" class="st1 st2 st3">2014</text>
+	<text transform="matrix(0 -1 1 0 1822.3779 1251.1611)" class="st1 st2 st3">2015</text>
+	<text transform="matrix(0 -1 1 0 1961.6787 1250.4619)" class="st1 st2 st3">2016</text>
+	<text transform="matrix(1 0 0 1 108 927.5)" class="st1 st2 st3">10000</text>
+	<text transform="matrix(1 0 0 1 108 827.5)" class="st1 st2 st3">15000</text>
+	<text transform="matrix(1 0 0 1 108 727.5)" class="st1 st2 st3">20000</text>
+	<text transform="matrix(1 0 0 1 108 626.5)" class="st1 st2 st3">25000</text>
+	<text transform="matrix(1 0 0 1 108 526.5)" class="st1 st2 st3">30000</text>
+	<text transform="matrix(1 0 0 1 108 426.5)" class="st1 st2 st3">35000</text>
+	<text transform="matrix(1 0 0 1 108 327.5)" class="st1 st2 st3">40000</text>
+	<rect x="492.5" y="126.8" class="st4" width="1289.1" height="85.2"/>
+	<text transform="matrix(1 0 0 1 492.4702 176.8755)" class="st1 st2 st5">Средняя стоимость кв.м.  2005-2016гг.</text>
+	<line class="st6" x1="301" y1="1014.5" x2="2025.5" y2="1014.5"/>
+	<line class="st6" x1="301" y1="914.5" x2="2025.5" y2="914.5"/>
+	<line class="st6" x1="301" y1="814.5" x2="2025.5" y2="814.5"/>
+	<line class="st6" x1="301" y1="714.5" x2="2025.5" y2="714.5"/>
+	<line class="st6" x1="301" y1="513.5" x2="2025.5" y2="513.5"/>
+	<line class="st6" x1="301" y1="413.5" x2="2025.5" y2="413.5"/>
+	<line class="st6" x1="301" y1="314.5" x2="2025.5" y2="314.5"/>
+	<line class="st6" x1="301" y1="613.5" x2="2025.5" y2="613.5"/>
+</g>
+<g id="Столбцы">
+	<rect x="331.5" y="711.5" class="st7" width="93" height="400"/>
+	<rect x="473" y="691" class="st7" width="93" height="419"/>
+	<rect x="618" y="652" class="st7" width="93" height="458"/>
+	<rect x="761" y="645" class="st7" width="93" height="465"/>
+	<rect x="904" y="609" class="st7" width="93" height="501"/>
+	<rect x="1047" y="599" class="st7" width="93" height="511"/>
+	<rect x="1190" y="563" class="st7" width="93" height="547"/>
+	<rect x="1333" y="579" class="st7" width="93" height="531"/>
+	<rect x="1476" y="542" class="st7" width="93" height="568"/>
+	<rect x="1619" y="509" class="st7" width="93" height="601"/>
+	<rect x="1762" y="489" class="st7" width="93" height="621"/>
+	<rect x="1905" y="498" class="st7" width="93" height="612"/>
+	<text transform="matrix(0 -1 1 0 391.0537 1039.8369)" class="st1 st8 st9">20000₽</text>
+	<text transform="matrix(0 -1 1 0 1676.0537 1039.8369)" class="st1 st8 st9">30000₽</text>
+	<text transform="matrix(0 -1 1 0 1822.0537 1039.8369)" class="st1 st8 st9">31000₽</text>
+	<text transform="matrix(0 -1 1 0 1962.0537 1039.8369)" class="st1 st8 st9">30500₽</text>
+	<text transform="matrix(0 -1 1 0 532.0537 1039.8369)" class="st1 st8 st9">21000₽</text>
+	<text transform="matrix(0 -1 1 0 681.0537 1039.8369)" class="st1 st8 st9">23000₽</text>
+	<text transform="matrix(0 -1 1 0 968.0537 1039.8369)" class="st1 st8 st9">25000₽</text>
+	<text transform="matrix(0 -1 1 0 1115.0537 1039.8369)" class="st1 st8 st9">25500₽</text>
+	<text transform="matrix(0 -1 1 0 1532.0537 1039.8369)" class="st1 st8 st9">28500₽</text>
+	<text transform="matrix(0 -1 1 0 1258.0537 1039.8369)" class="st1 st8 st9">27000₽</text>
+	<text transform="matrix(0 -1 1 0 1386.0537 1039.8369)" class="st1 st8 st9">26000₽</text>
+	<text transform="matrix(0 -1 1 0 819.0537 1039.8369)" class="st1 st8 st9">23500₽</text>
+</g>
+<g id="Ст.откл">
+	<rect x="298" y="530" class="st10" width="1717" height="103"/>
+	<g>
+		<g>
+			<line class="st11" x1="301" y1="583.5" x2="326" y2="583.5"/>
+			<line class="st12" x1="376.4" y1="583.5" x2="1965.3" y2="583.5"/>
+			<line class="st11" x1="1990.5" y1="583.5" x2="2015.5" y2="583.5"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 2048 596.5)" class="st13 st8 st3">25917</text>
+</g>
+</svg>

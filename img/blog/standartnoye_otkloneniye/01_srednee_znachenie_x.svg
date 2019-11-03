@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 543.099 184.442">
+  <defs>
+    <style>
+      .a, .c {
+        font-size: 25px;
+      }
+
+      .a, .e {
+        font-family: TimesNewRomanPS-ItalicMT, Times New Roman;
+        font-style: italic;
+      }
+
+      .b, .e {
+        font-size: 18px;
+      }
+
+      .c {
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .d {
+        letter-spacing: -0.037em;
+      }
+    </style>
+  </defs>
+  <title>01_srednee_znachenie_x</title>
+  <text class="a" transform="translate(2 94.902)">X<tspan class="b" x="15.271" y="0">i</tspan><tspan x="20.272" y="0">=</tspan></text>
+  <text class="c" transform="translate(156 20.776)">20000 + 21000 + 23000 + 23500 +<tspan x="0" y="30">25000 + 25500 + 27000 + 26000 +</tspan><tspan x="0" y="60">28500 + 30000 + 31000 + 30500</tspan></text>
+  <text class="c" transform="translate(116 94.902)">=</text>
+  <text class="c" transform="translate(529 94.902)">=</text>
+  <text class="c" transform="translate(0 161.776)">=</text>
+  <text class="c" transform="translate(129 161.776)">=</text>
+  <text class="a" transform="translate(86 59.776)">X<tspan class="b" x="15.271" y="0">i</tspan></text>
+  <text class="a" transform="translate(73 102.776)">n</text>
+  <text class="c" transform="translate(304 109.776)">12</text>
+  <text class="c" transform="translate(159 159.776)">25917</text>
+  <text class="c" transform="translate(63 176.776)">12</text>
+  <text class="c" transform="translate(37 148.776)">3<tspan class="d" x="12.5" y="0">1</tspan><tspan x="24.072" y="0">1000</tspan></text>
+  <text class="c" transform="translate(142 81.776)">______________________________</text>
+  <text class="c" transform="translate(28 148.776)">_______</text>
+  <text class="c" transform="translate(47 81.776)">_____</text>
+  <text class="c" transform="translate(7 68.776)">_</text>
+  <text class="e" transform="translate(65 35.776)">n</text>
+  <text class="e" transform="translate(55 81.776)">i=1</text>
+  <path d="M82.7,62.03,80.89,68.3H61.139l9.083-14.881L60.227,39.9H80.89L82.7,46.173l-.378.134L79.742,40.3H62.274l9.092,12.045L62.393,67.022H80.12l2.2-5.126Z" transform="translate(-2.078 -1.653)"/>
+</svg>
