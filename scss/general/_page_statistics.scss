@@ -1,0 +1,123 @@
+.statistics_general{
+   max-width: 1200px;
+   padding: 0 20px;
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+   .h1_statistics_general{
+      text-align: center;
+      font-weight: normal;
+      font-size: 28px;
+      padding: 40px 0;
+   }
+   .table_statistics_general{
+      width: 100%;
+      .tabs_menu_statistics_general{
+         width: 100%;
+         height: 50px;
+         // border: 1px solid fuchsia;
+         display: flex;
+         // justify-content: space-between;
+         align-items: center;
+         font-weight: bold;
+         border-bottom: 1px solid gray;
+         .tab_statistics_general{
+            height: 50px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+         }
+         .is_active{
+            border-color: rgb(255, 255, 255);
+            border-top: 2px solid rgb(255, 153, 0);
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+         }
+      }
+      .tabs_content_statistics_general{
+         display: none;
+         .description_statistics_general{
+            margin-top: 30px;
+            .h2_statistics_general{
+               font-weight: normal;
+               font-size: 20px;
+               font-weight: 500;
+               margin-bottom: 20px;
+            }
+            .txt_statistics_general{
+               margin-bottom: 5px;
+               .price_font_style_statistics_general{
+                  font-weight: 500;
+               }
+               .percent_green_txt_statistics_general{
+                  color: rgb(31, 195, 1);
+               }
+            }
+            .header_bottom_description_statistics_general{
+               font-weight: 500;
+            }
+         }
+         .h3_statistics_general{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            font-weight: normal;
+         }
+         .header_data_table_statistics_general{
+            font-weight: 500;
+            border-bottom: 2px solid black;
+         }
+         .end_data_table_statistics_general{
+            border-bottom: 1px solid black;
+         }
+         .bold_data_table_statistics_general{
+            font-weight: 500;
+         }
+         .data_table_statistics_general{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            .region_table_statistics_general{
+               width: 155px;
+               // border: 1px solid rgb(14, 207, 207);
+            }
+            .value_table_statistics_general{
+               width: 155px;
+               display: flex;
+               justify-content: space-around;
+               // border: 1px solid rgb(14, 207, 207);
+               text-align: center;
+               .percent_green{
+                  color: rgb(31, 195, 1);
+                  font-size: 14px;
+               }
+               .percent_red{
+                  color: rgb(247, 0, 0);
+                  font-size: 14px;
+               }
+            }
+         }
+         .h4_statistics_general{
+            text-align: center;
+            font-weight: normal;
+            font-size: 22px;
+            margin: 30px 0;
+         }
+         .diagram_statistics_general{
+            width: 900px;
+            height: 500px;
+            border: 1px solid black;
+            margin: 0 auto;
+         }
+      }
+      .is_active{
+         display: block;
+      }
+   }
+}

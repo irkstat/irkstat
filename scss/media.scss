@@ -442,6 +442,60 @@
          }
       }
    }
+   //======================================================
+   //=============== СТРАНИЦА СТАТИСТИКА  =================
+   //======================================================
+   .statistics_general{
+      .h1_statistics_general{
+         font-size: 26px;
+      }
+      .table_statistics_general{
+         .tabs_menu_statistics_general{
+            height: 40px;
+            font-size: 12px;
+            .tab_statistics_general{
+               height: 40px;
+            }
+         }
+         .tabs_content_statistics_general{
+            .description_statistics_general{
+               .h2_statistics_general{
+                  font-size: 18px;
+                  margin-bottom: 15px;
+               }
+               .txt_statistics_general{
+                  font-size: 14px;
+               }
+               .header_bottom_description_statistics_general{
+                  font-size: 14px;
+               }
+            }
+            .h3_statistics_general{
+               margin-top: 35px;
+            }
+            .data_table_statistics_general{
+               height: 40px;
+               font-size: 12px;
+               .region_table_statistics_general{
+                  width: 120px;
+               }
+               .value_table_statistics_general{
+                  width: 120px;
+                  .percent_green{
+                     font-size: 12px;
+                  }
+                  .percent_red{
+                     font-size: 12px;
+                  }
+               }
+            }
+            .h4_statistics_general{
+               font-size: 18px;
+               margin: 20px 0;
+            }
+         }
+      }
+   }
 }
 
 
@@ -742,6 +796,62 @@
          }
       }
    }
+   //======================================================
+   //=============== СТРАНИЦА СТАТИСТИКА  =================
+   //======================================================
+   .statistics_general{
+      .h1_statistics_general{
+         font-size: 18px;
+         padding: 20px 0;
+      }
+      .table_statistics_general{
+         .tabs_menu_statistics_general{
+            height: 30px;
+            font-size: 7px;
+            .tab_statistics_general{
+               height: 30px;
+            }
+         }
+         .tabs_content_statistics_general{
+            .description_statistics_general{
+               .h2_statistics_general{
+                  font-size: 16px;
+                  margin-bottom: 10px;
+               }
+               .txt_statistics_general{
+                  font-size: 12px;
+               }
+               .header_bottom_description_statistics_general{
+                  font-size: 12px;
+               }
+            }
+            .h3_statistics_general{
+               margin-top: 25px;
+               font-size: 18px;
+            }
+            .data_table_statistics_general{
+               height: 30px;
+               font-size: 7px;
+               .region_table_statistics_general{
+                  width: 70px;
+               }
+               .value_table_statistics_general{
+                  width: 70px;
+                  .percent_green{
+                     font-size: 7px;
+                  }
+                  .percent_red{
+                     font-size: 7px;
+                  }
+               }
+            }
+            .h4_statistics_general{
+               font-size: 14px;
+               margin: 15px 0;
+            }
+         }
+      }
+   }
 }
 
 
@@ -797,6 +907,35 @@
    .main_box_article{
       .txt_article_general{
          font-size: 14px;
+      }
+   }
+   //======================================================
+   //=============== СТРАНИЦА СТАТИСТИКА  =================
+   //======================================================
+   .statistics_general{
+      .h1_statistics_general{
+         font-size: 16px;
+         padding: 15px 0;
+      }
+      .table_statistics_general{
+         .tabs_content_statistics_general{
+            .description_statistics_general{
+               margin-top: 20px;
+               .h2_statistics_general{
+                  font-size: 14px;
+                  margin-bottom: 10px;
+               }
+            }
+            .h3_statistics_general{
+               margin-top: 20px;
+               margin-bottom: 15px;
+               font-size: 14px;
+            }
+            .h4_statistics_general{
+               font-size: 12px;
+               margin: 10px 0;
+            }
+         }
       }
    }
 }

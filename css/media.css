@@ -227,7 +227,37 @@
   .main_box_article .txt_box_article_general .scale_linear_regression {
     height: 100px; }
   .main_box_article .txt_box_article_general .diagram_linear_regression {
-    width: 90%; } }
+    width: 90%; }
+  .statistics_general .h1_statistics_general {
+    font-size: 26px; }
+  .statistics_general .table_statistics_general .tabs_menu_statistics_general {
+    height: 40px;
+    font-size: 12px; }
+    .statistics_general .table_statistics_general .tabs_menu_statistics_general .tab_statistics_general {
+      height: 40px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .h2_statistics_general {
+    font-size: 18px;
+    margin-bottom: 15px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .txt_statistics_general {
+    font-size: 14px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .header_bottom_description_statistics_general {
+    font-size: 14px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h3_statistics_general {
+    margin-top: 35px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general {
+    height: 40px;
+    font-size: 12px; }
+    .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .region_table_statistics_general {
+      width: 120px; }
+    .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general {
+      width: 120px; }
+      .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general .percent_green {
+        font-size: 12px; }
+      .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general .percent_red {
+        font-size: 12px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h4_statistics_general {
+    font-size: 18px;
+    margin: 20px 0; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -387,7 +417,39 @@
   .main_box_article .txt_box_article_general .fso_2 {
     height: 74px; }
   .main_box_article .txt_box_article_general .fso_3 {
-    height: 18px; } }
+    height: 18px; }
+  .statistics_general .h1_statistics_general {
+    font-size: 18px;
+    padding: 20px 0; }
+  .statistics_general .table_statistics_general .tabs_menu_statistics_general {
+    height: 30px;
+    font-size: 7px; }
+    .statistics_general .table_statistics_general .tabs_menu_statistics_general .tab_statistics_general {
+      height: 30px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .h2_statistics_general {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .txt_statistics_general {
+    font-size: 12px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .header_bottom_description_statistics_general {
+    font-size: 12px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h3_statistics_general {
+    margin-top: 25px;
+    font-size: 18px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general {
+    height: 30px;
+    font-size: 7px; }
+    .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .region_table_statistics_general {
+      width: 70px; }
+    .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general {
+      width: 70px; }
+      .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general .percent_green {
+        font-size: 7px; }
+      .statistics_general .table_statistics_general .tabs_content_statistics_general .data_table_statistics_general .value_table_statistics_general .percent_red {
+        font-size: 7px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h4_statistics_general {
+    font-size: 14px;
+    margin: 15px 0; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {
@@ -405,4 +467,19 @@
   .home_blog .h1_home_blog {
     font-size: 22px; }
   .main_box_article .txt_article_general {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .statistics_general .h1_statistics_general {
+    font-size: 16px;
+    padding: 15px 0; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general {
+    margin-top: 20px; }
+    .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .h2_statistics_general {
+      font-size: 14px;
+      margin-bottom: 10px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h3_statistics_general {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 14px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .h4_statistics_general {
+    font-size: 12px;
+    margin: 10px 0; } }
