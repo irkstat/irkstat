@@ -233,6 +233,18 @@
          }
       }
    }
+   //======================================================
+   //=============== СТРАНИЦА СТАТИСТИКА  =================
+   //======================================================
+   .statistics_general{
+      .table_statistics_general{
+         .tabs_content_statistics_general{
+            .diagram_statistics_general{
+               width: 700px;
+            }
+         }
+      }
+   }
 }
 
 
@@ -492,6 +504,9 @@
             .h4_statistics_general{
                font-size: 18px;
                margin: 20px 0;
+            }
+            .diagram_statistics_general{
+               width: 85%;
             }
          }
       }
@@ -848,6 +863,9 @@
             .h4_statistics_general{
                font-size: 14px;
                margin: 15px 0;
+            }
+            .diagram_statistics_general{
+               width: 95%;
             }
          }
       }

@@ -55,6 +55,9 @@
                .percent_green_txt_statistics_general{
                   color: rgb(31, 195, 1);
                }
+               .percent_red_txt_statistics_general{
+                  color: rgb(247, 0, 0);;
+               }
             }
             .header_bottom_description_statistics_general{
                font-weight: 500;
@@ -111,8 +114,8 @@
          }
          .diagram_statistics_general{
             width: 900px;
-            height: 500px;
-            border: 1px solid black;
+            height: auto;
+            // border: 1px solid black;
             margin: 0 auto;
          }
       }

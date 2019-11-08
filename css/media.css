@@ -122,7 +122,9 @@
   .main_box_article .txt_box_article_general .fso_2 {
     height: 92px; }
   .main_box_article .txt_box_article_general .fso_3 {
-    height: 22px; } }
+    height: 22px; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
+    width: 700px; } }
 
 @media screen and (max-width: 768px) {
   .main_menu {
@@ -257,7 +259,9 @@
         font-size: 12px; }
   .statistics_general .table_statistics_general .tabs_content_statistics_general .h4_statistics_general {
     font-size: 18px;
-    margin: 20px 0; } }
+    margin: 20px 0; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
+    width: 85%; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -449,7 +453,9 @@
         font-size: 7px; }
   .statistics_general .table_statistics_general .tabs_content_statistics_general .h4_statistics_general {
     font-size: 14px;
-    margin: 15px 0; } }
+    margin: 15px 0; }
+  .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
+    width: 95%; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {

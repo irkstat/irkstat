@@ -709,6 +709,8 @@
             font-weight: 500; }
           .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .txt_statistics_general .percent_green_txt_statistics_general {
             color: #1fc301; }
+          .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .txt_statistics_general .percent_red_txt_statistics_general {
+            color: #f70000; }
         .statistics_general .table_statistics_general .tabs_content_statistics_general .description_statistics_general .header_bottom_description_statistics_general {
           font-weight: 500; }
       .statistics_general .table_statistics_general .tabs_content_statistics_general .h3_statistics_general {
@@ -750,8 +752,7 @@
         margin: 30px 0; }
       .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
         width: 900px;
-        height: 500px;
-        border: 1px solid black;
+        height: auto;
         margin: 0 auto; }
     .statistics_general .table_statistics_general .is_active {
       display: block; }
