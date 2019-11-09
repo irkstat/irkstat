@@ -2,7 +2,7 @@ Chart.defaults.global.defaultFontColor = 'black'; //глобально цвет 
 Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
-// Первичный рынок жилья Ангарск
+// Первичный рынок жилья Братск
 var ctx = document.getElementById('apartment');
 var apartment = new Chart(ctx, {
    type: 'bar',
@@ -10,7 +10,7 @@ var apartment = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [47780, 42450, 48860, 48630, 45400, 44880, 46230, 51020, 45600, 46420, 46260, 44080],
+         data: [33530, 34730, 36760, 35760, 36460, 36590, 37400, 38620, 39100, 37950, 38260, 36610],
          backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
@@ -26,7 +26,7 @@ var apartment = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 35000,
+               min: 25000,
                stepSize: 5000,
             },
             gridLines: {
@@ -45,7 +45,7 @@ var apartment = new Chart(ctx, {
 });
 
 
-// Вторичный рынок жилья Ангарск
+// Вторичный рынок жилья Братск
 var ctx = document.getElementById('apartment2');
 var apartment2 = new Chart(ctx, {
    type: 'bar',
@@ -53,137 +53,8 @@ var apartment2 = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [40740, 40740, 41300, 42260, 41850, 41880, 41710, 41820, 41880, 41870, 42210, 42470],
+         data: [36160, 37040, 36980, 37850, 38310, 38700, 38670, 39390, 39590, 40330, 41440, 42480],
          backgroundColor: '#ab7d5c',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      //Управление легендой диаграммы
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 38000,
-               stepSize: 2000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-// Гаражи железобетонный Ангарск
-var ctx = document.getElementById('garage');
-var garage = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [12060, 11990, 11610, 12020, 11830, 13250, 14490, 14500, 14880, 14030, 13490, 13650],
-         backgroundColor: 'gray',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      //Управление легендой диаграммы
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 10000,
-               stepSize: 2000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-// Гаражи кирпич Ангарск
-var ctx = document.getElementById('garage2');
-var garage2 = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [14170, 12300, 13750, 13390, 13910, 14680, 15330, 14920, 14990, 14210, 15230, 15020],
-         backgroundColor: '#ab7d5c',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      //Управление легендой диаграммы
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 10000,
-               stepSize: 2000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-// Земли поселений Ангарск
-var ctx = document.getElementById('earth');
-var earth = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [38220, 46590, 41310, 47910, 40080, 44910, 51140, 57330, 63670, 60760, 64770, 66240],
-         backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
       }]
@@ -200,6 +71,135 @@ var earth = new Chart(ctx, {
             ticks: {
                beginAtZero: false,
                min: 30000,
+               stepSize: 5000,
+            },
+            gridLines: {
+               color: "black",
+               borderDash: [2, 5],
+            },
+         }],
+
+         xAxes: [{
+            gridLines: {
+               display: false,
+            },
+         }]
+      }
+   }
+});
+
+// Гаражи железобетонный Братск
+var ctx = document.getElementById('garage');
+var garage = new Chart(ctx, {
+   type: 'bar',
+   data: {
+      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      datasets: [{
+         label: 'Стоимость кв.м.',
+         data: [8050, 8140, 8330, 7900, 8800, 8070, 8040, 8210, 7880, 8760, 8570, 8610],
+         backgroundColor: 'gray',
+         borderColor: '#293133',
+         borderWidth: 1,
+      }]
+   },
+   options: {
+      //Управление легендой диаграммы
+      legend: {
+         display: true,
+         position: 'bottom'
+      },
+      scales: {
+
+         yAxes: [{
+            ticks: {
+               beginAtZero: false,
+               min: 4000,
+               stepSize: 2000,
+            },
+            gridLines: {
+               color: "black",
+               borderDash: [2, 5],
+            },
+         }],
+
+         xAxes: [{
+            gridLines: {
+               display: false,
+            },
+         }]
+      }
+   }
+});
+
+// Гаражи кирпич Братск
+var ctx = document.getElementById('garage2');
+var garage2 = new Chart(ctx, {
+   type: 'bar',
+   data: {
+      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      datasets: [{
+         label: 'Стоимость кв.м.',
+         data: [8490, 9120, 8050, 9020, 8100, 9130, 8420, 8150, 8090, 8270, 8310, 8680],
+         backgroundColor: '#ab7d5c',
+         borderColor: '#293133',
+         borderWidth: 1,
+      }]
+   },
+   options: {
+      //Управление легендой диаграммы
+      legend: {
+         display: true,
+         position: 'bottom'
+      },
+      scales: {
+
+         yAxes: [{
+            ticks: {
+               beginAtZero: false,
+               min: 4000,
+               stepSize: 2000,
+            },
+            gridLines: {
+               color: "black",
+               borderDash: [2, 5],
+            },
+         }],
+
+         xAxes: [{
+            gridLines: {
+               display: false,
+            },
+         }]
+      }
+   }
+});
+
+// Земли поселений Братск
+var ctx = document.getElementById('earth');
+var earth = new Chart(ctx, {
+   type: 'bar',
+   data: {
+      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      datasets: [{
+         label: 'Стоимость кв.м.',
+         data: [43970, 42690, 34370, 25870, 35200, 35160, 31280, 35430, 34180, 37880, 39410, 34040],
+         backgroundColor: 'gray',
+         borderColor: '#293133',
+         borderWidth: 1,
+      }]
+   },
+   options: {
+      //Управление легендой диаграммы
+      legend: {
+         display: true,
+         position: 'bottom'
+      },
+      scales: {
+
+         yAxes: [{
+            ticks: {
+               beginAtZero: false,
+               min: 20000,
                stepSize: 10000,
             },
             gridLines: {
@@ -217,7 +217,7 @@ var earth = new Chart(ctx, {
    }
 });
 
-// Земли промназначения Ангарск
+// Земли промназначения Братск
 var ctx = document.getElementById('earth2');
 var earth2 = new Chart(ctx, {
    type: 'bar',
@@ -225,7 +225,7 @@ var earth2 = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [66880, 94010, 124380, 95690, 83520, 81900, 99070, 69420, 57780, 62850, 68930, 86200],
+         data: [110380, 112150, 94090, 79970, 70740, 102060, 91820, 99450, 76930, 84390, 82360, 74600],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
          borderWidth: 1,
@@ -260,7 +260,7 @@ var earth2 = new Chart(ctx, {
    }
 });
 
-// Земли сельхозназначения Ангарск
+// Земли сельхозназначения Братск
 var ctx = document.getElementById('earth3');
 var earth3 = new Chart(ctx, {
    type: 'bar',
@@ -268,8 +268,51 @@ var earth3 = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [27550, 24640, 26510, 21890, 25170, 29470, 30600, 28420, 32090, 30600, 33280, 33600],
+         data: [13970, 11050, 11120, 9600, 10440, 12000, 8420, 9640, 9330, 9730, 10420, 10770],
          backgroundColor: '#BAAF96',
+         borderColor: '#293133',
+         borderWidth: 1,
+      }]
+   },
+   options: {
+      //Управление легендой диаграммы
+      legend: {
+         display: true,
+         position: 'bottom'
+      },
+      scales: {
+
+         yAxes: [{
+            ticks: {
+               beginAtZero: false,
+               min: 0000,
+               stepSize: 5000,
+            },
+            gridLines: {
+               color: "black",
+               borderDash: [2, 5],
+            },
+         }],
+
+         xAxes: [{
+            gridLines: {
+               display: false,
+            },
+         }]
+      }
+   }
+});
+
+// Дома блоки Братск
+var ctx = document.getElementById('house');
+var house = new Chart(ctx, {
+   type: 'bar',
+   data: {
+      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      datasets: [{
+         label: 'Стоимость кв.м.',
+         data: [31420, 31420, 25000, 21960, 18100, 20380, 28330, 22980, 23410, 26400, 29730, 28940],
+         backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
       }]
@@ -303,50 +346,7 @@ var earth3 = new Chart(ctx, {
    }
 });
 
-// Дома блоки Ангарск
-var ctx = document.getElementById('house');
-var house = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [29390, 28650, 30440, 30780, 29470, 30660, 31060, 31140, 32840, 32010, 32100, 31520],
-         backgroundColor: 'gray',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      //Управление легендой диаграммы
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 20000,
-               stepSize: 5000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-// Дома брус Ангарск
+// Дома брус Братск
 var ctx = document.getElementById('house2');
 var house2 = new Chart(ctx, {
    type: 'bar',
@@ -354,7 +354,7 @@ var house2 = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [26650, 27360, 25290, 24700, 26420, 26950, 27120, 27980, 27600, 28250, 29180, 27380],
+         data: [22280, 20210, 21550, 22400, 21490, 23450, 23820, 24620, 24110, 24730, 25160, 25940],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
          borderWidth: 1,
@@ -371,7 +371,7 @@ var house2 = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 20000,
+               min: 15000,
                stepSize: 5000,
             },
             gridLines: {
@@ -389,7 +389,7 @@ var house2 = new Chart(ctx, {
    }
 });
 
-// Дома кирпич Ангарск
+// Дома кирпич Братск
 var ctx = document.getElementById('house3');
 var house3 = new Chart(ctx, {
    type: 'bar',
@@ -397,7 +397,7 @@ var house3 = new Chart(ctx, {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [33980, 38230, 37400, 32180, 30610, 38970, 38020, 37370, 36800, 36900, 37660, 35740],
+         data: [28820, 26200, 25530, 25500, 26900, 25550, 24760, 25830, 28030, 26930, 25810, 27070],
          backgroundColor: '#BAAF96',
          borderColor: '#293133',
          borderWidth: 1,
@@ -414,7 +414,7 @@ var house3 = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 25000,
+               min: 15000,
                stepSize: 5000,
             },
             gridLines: {
