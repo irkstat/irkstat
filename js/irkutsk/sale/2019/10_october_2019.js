@@ -3,8 +3,8 @@ Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
 // Первичный рынок жилья Иркутск
-var ctx = document.getElementById('apartment');
-var apartment = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_apartment_primary_scale');
+var irkutskApartmentPrimaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -46,8 +46,8 @@ var apartment = new Chart(ctx, {
 
 
 // Вторичный рынок жилья Иркутск
-var ctx = document.getElementById('apartment2');
-var apartment2 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_apartment_secondary_scale');
+var irkutskApartmentSecondaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -89,8 +89,8 @@ var apartment2 = new Chart(ctx, {
 });
 
 // Гаражи железобетонный Иркутск
-var ctx = document.getElementById('garage');
-var garage = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_garage_ferroconcrete_scale');
+var irkutskGarageFerroconcreteScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -132,8 +132,8 @@ var garage = new Chart(ctx, {
 });
 
 // Гаражи кирпич Иркутск
-var ctx = document.getElementById('garage2');
-var garage2 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_garage_brick_scale');
+var irkutskGarageBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -175,8 +175,8 @@ var garage2 = new Chart(ctx, {
 });
 
 // Земли поселений Иркутск
-var ctx = document.getElementById('earth');
-var earth = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_earth_settlements_scale');
+var irkutskEarthSettlementsScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -218,8 +218,8 @@ var earth = new Chart(ctx, {
 });
 
 // Земли промназначения Иркутск
-var ctx = document.getElementById('earth2');
-var earth2 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_earth_industrial_scale');
+var irkutskEarthIndustrialScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -261,8 +261,8 @@ var earth2 = new Chart(ctx, {
 });
 
 // Земли сельхозназначения Иркутск
-var ctx = document.getElementById('earth3');
-var earth3 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_earth_agricultural_scale');
+var irkutskEarthAgriculturalScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -304,14 +304,14 @@ var earth3 = new Chart(ctx, {
 });
 
 // Дома блоки Иркутск
-var ctx = document.getElementById('house');
-var house = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_house_block_scale');
+var irkutskHouseBlockScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [36900, 37310, 38710, 36330, 34880, 36520, 37680, 36190, 36340, 36980, 37300, 36950],
+         data: [36900, 37310, 38710, 36330, 34880, 36520, 37680, 36190, 36340, 36980, 37300, 35950],
          backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
@@ -347,8 +347,8 @@ var house = new Chart(ctx, {
 });
 
 // Дома брус Иркутск
-var ctx = document.getElementById('house2');
-var house2 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_house_timber_scale');
+var irkutskHouseTimberScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -390,8 +390,8 @@ var house2 = new Chart(ctx, {
 });
 
 // Дома кирпич Иркутск
-var ctx = document.getElementById('house3');
-var house3 = new Chart(ctx, {
+var ctx = document.getElementById('irkutsk_house_brick_scale');
+var irkutskHouseBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],

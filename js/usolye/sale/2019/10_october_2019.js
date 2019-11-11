@@ -4,8 +4,8 @@ Chart.defaults.global.defaultFontSize = 16; // глобально размер �
 
 
 // Вторичный рынок жилья Усолье-Сибирское
-var ctx = document.getElementById('apartment2');
-var apartment2 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_apartment_secondary_scale');
+var usolyeApartmentSecondaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -47,8 +47,8 @@ var apartment2 = new Chart(ctx, {
 });
 
 // Гаражи железобетонный Усолье-Сибирское
-var ctx = document.getElementById('garage');
-var garage = new Chart(ctx, {
+var ctx = document.getElementById('usolye_garage_ferroconcrete_scale');
+var usolyeGarageFerroconcreteScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -90,8 +90,8 @@ var garage = new Chart(ctx, {
 });
 
 // Гаражи кирпич Усолье-Сибирское
-var ctx = document.getElementById('garage2');
-var garage2 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_garage_brick_scale');
+var usolyeGarageBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -133,8 +133,8 @@ var garage2 = new Chart(ctx, {
 });
 
 // Земли поселений Усолье-Сибирское
-var ctx = document.getElementById('earth');
-var earth = new Chart(ctx, {
+var ctx = document.getElementById('usolye_earth_settlements_scale');
+var usolyeEarthSettlementsScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -176,8 +176,8 @@ var earth = new Chart(ctx, {
 });
 
 // Земли промназначения Усолье-Сибирское
-var ctx = document.getElementById('earth2');
-var earth2 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_earth_industrial_scale');
+var usolyeEarthIndustrialScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -219,8 +219,8 @@ var earth2 = new Chart(ctx, {
 });
 
 // Земли сельхозназначения Усолье-Сибирское
-var ctx = document.getElementById('earth3');
-var earth3 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_earth_agricultural_scale');
+var usolyeEarthAgriculturalScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -262,8 +262,8 @@ var earth3 = new Chart(ctx, {
 });
 
 // Дома блоки Усолье-Сибирское
-var ctx = document.getElementById('house');
-var house = new Chart(ctx, {
+var ctx = document.getElementById('usolye_house_block_scale');
+var usolyeHouseBlockScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -305,8 +305,8 @@ var house = new Chart(ctx, {
 });
 
 // Дома брус Усолье-Сибирское
-var ctx = document.getElementById('house2');
-var house2 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_house_timber_scale');
+var usolyeHouseTimberScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
@@ -348,8 +348,8 @@ var house2 = new Chart(ctx, {
 });
 
 // Дома кирпич Усолье-Сибирское
-var ctx = document.getElementById('house3');
-var house3 = new Chart(ctx, {
+var ctx = document.getElementById('usolye_house_brick_scale');
+var usolyeHouseBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],

@@ -3,8 +3,8 @@ Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
 // Первичный рынок жилья Ангарск
-var ctx = document.getElementById('apartment');
-var apartment = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_apartment_primary_scale');
+var angarskApartmentPrimaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -46,8 +46,8 @@ var apartment = new Chart(ctx, {
 
 
 // Вторичный рынок жилья Ангарск
-var ctx = document.getElementById('apartment2');
-var apartment2 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_apartment_secondary_scale');
+var angarskApartmentSecondaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -89,8 +89,8 @@ var apartment2 = new Chart(ctx, {
 });
 
 // Гаражи железобетонный Ангарск
-var ctx = document.getElementById('garage');
-var garage = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_garage_ferroconcrete_scale');
+var angarskGarageFerroconcreteScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -132,8 +132,8 @@ var garage = new Chart(ctx, {
 });
 
 // Гаражи кирпич Ангарск
-var ctx = document.getElementById('garage2');
-var garage2 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_garage_brick_scale');
+var angarskGarageBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -175,8 +175,8 @@ var garage2 = new Chart(ctx, {
 });
 
 // Земли поселений Ангарск
-var ctx = document.getElementById('earth');
-var earth = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_earth_settlements_scale');
+var angarskEarthSettlementsScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -218,8 +218,8 @@ var earth = new Chart(ctx, {
 });
 
 // Земли промназначения Ангарск
-var ctx = document.getElementById('earth2');
-var earth2 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_earth_industrial_scale');
+var angarskEarthIndustrialScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -261,8 +261,8 @@ var earth2 = new Chart(ctx, {
 });
 
 // Земли сельхозназначения Ангарск
-var ctx = document.getElementById('earth3');
-var earth3 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_earth_agricultural_scale');
+var angarskEarthAgriculturalScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -304,8 +304,8 @@ var earth3 = new Chart(ctx, {
 });
 
 // Дома блоки Ангарск
-var ctx = document.getElementById('house');
-var house = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_house_block_scale');
+var angarskHouseBlockScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -347,8 +347,8 @@ var house = new Chart(ctx, {
 });
 
 // Дома брус Ангарск
-var ctx = document.getElementById('house2');
-var house2 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_house_timber_scale');
+var angarskHouseTimberScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -390,8 +390,8 @@ var house2 = new Chart(ctx, {
 });
 
 // Дома кирпич Ангарск
-var ctx = document.getElementById('house3');
-var house3 = new Chart(ctx, {
+var ctx = document.getElementById('angarsk_house_brick_scale');
+var angarskHouseBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],

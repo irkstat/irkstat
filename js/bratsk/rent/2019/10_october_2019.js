@@ -3,7 +3,7 @@ Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
 // Аренда помесячно Братск
-var ctx = document.getElementById('apartment_rent_month_october2019').getContext('2d');
+var ctx = document.getElementById('apartment_rent_month').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -92,7 +92,7 @@ var chart = new Chart(ctx, {
 });
 
 // Аренда посуточно Братск
-var ctx = document.getElementById('apartment_rent_day_october2019').getContext('2d');
+var ctx = document.getElementById('apartment_rent_day').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
     data: {

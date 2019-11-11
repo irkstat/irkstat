@@ -3,8 +3,8 @@ Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
 // Первичный рынок жилья Братск
-var ctx = document.getElementById('apartment');
-var apartment = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_apartment_primary_scale');
+var bratskApartmentPrimaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -46,8 +46,8 @@ var apartment = new Chart(ctx, {
 
 
 // Вторичный рынок жилья Братск
-var ctx = document.getElementById('apartment2');
-var apartment2 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_apartment_secondary_scale');
+var bratskApartmentSecondaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -89,8 +89,8 @@ var apartment2 = new Chart(ctx, {
 });
 
 // Гаражи железобетонный Братск
-var ctx = document.getElementById('garage');
-var garage = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_garage_ferroconcrete_scale');
+var bratskGarageFerroconcreteScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -132,8 +132,8 @@ var garage = new Chart(ctx, {
 });
 
 // Гаражи кирпич Братск
-var ctx = document.getElementById('garage2');
-var garage2 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_garage_brick_scale');
+var bratskGarageBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -175,8 +175,8 @@ var garage2 = new Chart(ctx, {
 });
 
 // Земли поселений Братск
-var ctx = document.getElementById('earth');
-var earth = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_earth_settlements_scale');
+var bratskEarthSettlementsScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -218,8 +218,8 @@ var earth = new Chart(ctx, {
 });
 
 // Земли промназначения Братск
-var ctx = document.getElementById('earth2');
-var earth2 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_earth_industrial_scale');
+var bratskEarthIndustrialScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -261,8 +261,8 @@ var earth2 = new Chart(ctx, {
 });
 
 // Земли сельхозназначения Братск
-var ctx = document.getElementById('earth3');
-var earth3 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_earth_agricultural_scale');
+var bratskEarthAgriculturalScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -304,8 +304,8 @@ var earth3 = new Chart(ctx, {
 });
 
 // Дома блоки Братск
-var ctx = document.getElementById('house');
-var house = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_house_block_scale');
+var bratskHouseBlockScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -347,8 +347,8 @@ var house = new Chart(ctx, {
 });
 
 // Дома брус Братск
-var ctx = document.getElementById('house2');
-var house2 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_house_timber_scale');
+var bratskHouseTimberScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
@@ -390,8 +390,8 @@ var house2 = new Chart(ctx, {
 });
 
 // Дома кирпич Братск
-var ctx = document.getElementById('house3');
-var house3 = new Chart(ctx, {
+var ctx = document.getElementById('bratsk_house_brick_scale');
+var bratskHouseBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
       labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
