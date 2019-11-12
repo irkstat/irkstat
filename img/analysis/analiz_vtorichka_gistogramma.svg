@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 732.167 410.424">
+  <defs>
+    <style>
+      .a, .d, .f, .j {
+        fill: none;
+      }
+
+      .a {
+        stroke: #b3b3b3;
+        stroke-width: 0.75px;
+      }
+
+      .a, .d, .e, .f, .g, .j {
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        font-size: 14px;
+      }
+
+      .b, .c {
+        fill: #666;
+        font-family: Verdana;
+      }
+
+      .c {
+        font-size: 11px;
+        letter-spacing: 0.1em;
+      }
+
+      .d {
+        stroke: gray;
+      }
+
+      .d, .e, .f, .g, .j {
+        stroke-width: 0.5px;
+      }
+
+      .e {
+        fill: #fff;
+      }
+
+      .e, .f, .g {
+        stroke: #666;
+      }
+
+      .g {
+        fill: #f2f2f2;
+      }
+
+      .h {
+        font-size: 20px;
+        fill: #4d4d4d;
+        font-family: AdobeMingStd-Light-B5pc-H, Adobe Ming Std;
+      }
+
+      .i {
+        fill: lime;
+        opacity: 0.17;
+      }
+
+      .j {
+        stroke: #0cf;
+        stroke-dasharray: 20;
+      }
+    </style>
+  </defs>
+  <title>Analiz_Vtorichka_Gistogramma</title>
+  <g>
+    <line class="a" x1="69.667" y1="8.256" x2="732.167" y2="8.256"/>
+    <line class="a" x1="69.667" y1="134.256" x2="732.167" y2="134.256"/>
+    <line class="a" x1="69.667" y1="384.256" x2="732.167" y2="384.256"/>
+    <text class="b" transform="translate(0 388.089)">55 000 ₽</text>
+    <line class="a" x1="69.667" y1="258.256" x2="732.167" y2="258.256"/>
+    <text class="b" transform="translate(0 262.089)">59 000 ₽</text>
+    <line class="a" x1="69.667" y1="321.256" x2="732.167" y2="321.256"/>
+    <text class="b" transform="translate(0 325.089)">57 000 ₽</text>
+    <line class="a" x1="69.667" y1="196.256" x2="732.167" y2="196.256"/>
+    <text class="b" transform="translate(0 200.089)">61 000 ₽</text>
+    <text class="c" transform="translate(120 407.089)">12.18</text>
+    <text class="c" transform="translate(72 407.089)">11.18</text>
+    <text class="c" transform="translate(584 407.089)">10.18</text>
+    <text class="c" transform="translate(646 407.089)">11.19</text>
+    <text class="c" transform="translate(305 407.089)">04.19</text>
+    <text class="c" transform="translate(352 407.089)">05.19</text>
+    <text class="c" transform="translate(258 407.089)">03.19</text>
+    <text class="c" transform="translate(213 407.089)">02.19</text>
+    <text class="c" transform="translate(166 407.089)">01.19</text>
+    <text class="c" transform="translate(537 407.089)">09.18</text>
+    <text class="c" transform="translate(492 407.089)">08.19</text>
+    <text class="c" transform="translate(444 407.089)">07.19</text>
+    <text class="c" transform="translate(398 406.089)">06.19</text>
+    <text class="b" transform="translate(0 139.089)">63 000 ₽</text>
+    <line class="a" x1="69.667" y1="71.256" x2="732.167" y2="71.256"/>
+    <text class="b" transform="translate(0 76.089)">65 000 ₽</text>
+    <text class="b" transform="translate(0 12.089)">67 000 ₽</text>
+  </g>
+  <g>
+    <line class="d" x1="684.667" y1="97.756" x2="669.167" y2="82.256"/>
+    <line class="d" x1="684.667" y1="112.756" x2="654.167" y2="82.256"/>
+    <line class="d" x1="684.667" y1="127.756" x2="644.667" y2="87.756"/>
+    <line class="d" x1="684.667" y1="142.756" x2="644.667" y2="102.756"/>
+    <line class="d" x1="684.667" y1="157.756" x2="644.667" y2="117.756"/>
+    <line class="d" x1="684.667" y1="172.756" x2="644.667" y2="132.756"/>
+    <line class="d" x1="684.667" y1="187.756" x2="644.667" y2="147.756"/>
+    <line class="d" x1="684.667" y1="202.756" x2="644.667" y2="162.756"/>
+    <line class="d" x1="684.667" y1="217.756" x2="644.667" y2="177.756"/>
+    <line class="d" x1="684.667" y1="232.756" x2="644.667" y2="192.756"/>
+    <line class="d" x1="684.667" y1="247.756" x2="644.667" y2="207.756"/>
+    <line class="d" x1="684.667" y1="262.756" x2="644.667" y2="222.756"/>
+    <line class="d" x1="684.667" y1="277.756" x2="644.667" y2="237.756"/>
+    <line class="d" x1="684.667" y1="292.756" x2="644.667" y2="252.756"/>
+    <line class="d" x1="684.667" y1="307.756" x2="644.667" y2="267.756"/>
+    <line class="d" x1="684.667" y1="322.756" x2="644.667" y2="282.756"/>
+    <line class="d" x1="684.667" y1="337.756" x2="644.667" y2="297.756"/>
+    <line class="d" x1="684.667" y1="352.756" x2="644.667" y2="312.756"/>
+    <line class="d" x1="684.667" y1="367.756" x2="644.667" y2="327.756"/>
+    <line class="d" x1="685.297" y1="383.386" x2="644.667" y2="342.756"/>
+    <line class="d" x1="670.297" y1="383.386" x2="644.667" y2="357.756"/>
+    <line class="d" x1="655.297" y1="383.386" x2="644.667" y2="372.756"/>
+    <rect class="e" x="603.5" y="218.5" width="140" height="26" transform="translate(433.667 904.756) rotate(-90)"/>
+    <rect class="f" x="644.667" y="82.256" width="40" height="301.17"/>
+  </g>
+  <g>
+    <rect class="g" x="70.167" y="284.256" width="34" height="99.13"/>
+    <rect class="g" x="117.167" y="270.256" width="34" height="113.13"/>
+    <rect class="g" x="164.167" y="238.256" width="34" height="145.331"/>
+    <rect class="g" x="211.167" y="221.256" width="34" height="162.13"/>
+    <rect class="g" x="258.167" y="191.256" width="34" height="192.13"/>
+    <rect class="g" x="305.167" y="202.256" width="34" height="181.13"/>
+    <rect class="g" x="352.167" y="188.256" width="34" height="195.13"/>
+    <rect class="g" x="398.167" y="178.256" width="34" height="205.13"/>
+    <rect class="g" x="445.167" y="157.256" width="34" height="226.13"/>
+    <rect class="g" x="492.167" y="129.256" width="34" height="254.13"/>
+    <rect class="g" x="539.167" y="116.256" width="34" height="267.13"/>
+    <rect class="g" x="585.167" y="78.256" width="34" height="305.13"/>
+    <text class="h" transform="translate(673.27 291.182) rotate(-90)">64 756 руб.</text>
+  </g>
+  <g>
+    <rect class="i" x="68.667" y="129.756" width="550" height="118"/>
+    <line class="j" x1="619.167" y1="188.256" x2="69.167" y2="188.256"/>
+  </g>
+</svg>

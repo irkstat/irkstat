@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712.6 396.334">
+  <defs>
+    <style>
+      .a, .d {
+        fill: none;
+      }
+
+      .a {
+        stroke: #b3b3b3;
+        stroke-width: 0.75px;
+      }
+
+      .a, .d, .e {
+        stroke-miterlimit: 10;
+      }
+
+      .b, .c {
+        font-size: 14px;
+        font-family: Verdana;
+      }
+
+      .b, .c, .f {
+        fill: #666;
+      }
+
+      .c {
+        letter-spacing: 0.1em;
+      }
+
+      .d, .e {
+        stroke: gray;
+      }
+
+      .d {
+        stroke-width: 7px;
+        opacity: 0.3;
+      }
+
+      .e {
+        fill: #d3ffff;
+        stroke-width: 2px;
+      }
+
+      .f {
+        font-size: 18px;
+        font-family: TimesNewRomanPSMT, Times New Roman;
+      }
+
+      .g {
+        letter-spacing: -0.055em;
+      }
+    </style>
+  </defs>
+  <title>Analiz_Vtorichka_Leen_Zavisimost</title>
+  <g>
+    <line class="a" x1="68.667" y1="371.256" x2="702.167" y2="371.256"/>
+    <line class="a" x1="68.667" y1="291.256" x2="702.167" y2="291.256"/>
+    <line class="a" x1="68.667" y1="331.256" x2="702.167" y2="331.256"/>
+    <line class="a" x1="68.417" y1="371.756" x2="68.417" y2="6.756"/>
+    <line class="a" x1="166.167" y1="371.756" x2="166.167" y2="6.756"/>
+    <line class="a" x1="116.167" y1="371.756" x2="116.167" y2="6.756"/>
+    <line class="a" x1="214.167" y1="371.756" x2="214.167" y2="6.756"/>
+    <line class="a" x1="263.167" y1="371.756" x2="263.167" y2="6.756"/>
+    <line class="a" x1="312.167" y1="371.756" x2="312.167" y2="6.756"/>
+    <line class="a" x1="654.167" y1="371.756" x2="654.167" y2="6.756"/>
+    <line class="a" x1="604.167" y1="371.756" x2="604.167" y2="6.756"/>
+    <line class="a" x1="556.167" y1="371.756" x2="556.167" y2="6.756"/>
+    <line class="a" x1="507.167" y1="371.756" x2="507.167" y2="6.756"/>
+    <line class="a" x1="458.167" y1="371.756" x2="458.167" y2="6.756"/>
+    <line class="a" x1="409.167" y1="371.756" x2="409.167" y2="6.756"/>
+    <line class="a" x1="361.167" y1="371.756" x2="361.167" y2="6.756"/>
+    <line class="a" x1="702.167" y1="371.756" x2="702.167" y2="6.756"/>
+    <line class="a" x1="68.667" y1="251.256" x2="702.167" y2="251.256"/>
+    <line class="a" x1="68.667" y1="128.256" x2="702.167" y2="128.256"/>
+    <line class="a" x1="68.667" y1="170.256" x2="702.167" y2="170.256"/>
+    <line class="a" x1="68.667" y1="210.256" x2="702.167" y2="210.256"/>
+    <line class="a" x1="68.667" y1="88.256" x2="702.167" y2="88.256"/>
+    <line class="a" x1="68.667" y1="7.256" x2="702.167" y2="7.256"/>
+    <text class="b" transform="translate(0 375.089)">57 000 ₽</text>
+    <text class="c" transform="translate(63 392.089)">0</text>
+    <text class="c" transform="translate(111 392.089)">1</text>
+    <text class="c" transform="translate(161 392.089)">2</text>
+    <text class="c" transform="translate(209 392.089)">3</text>
+    <text class="c" transform="translate(258 392.089)">4</text>
+    <text class="c" transform="translate(307 392.089)">5</text>
+    <text class="c" transform="translate(692 392.089)">13</text>
+    <text class="c" transform="translate(643 392.089)">12</text>
+    <text class="c" transform="translate(594 392.089)">11</text>
+    <text class="c" transform="translate(545 392.089)">10</text>
+    <text class="c" transform="translate(502 392.089)">9</text>
+    <text class="c" transform="translate(453 392.089)">8</text>
+    <text class="c" transform="translate(404 392.089)">7</text>
+    <text class="c" transform="translate(356 392.089)">6</text>
+    <text class="b" transform="translate(0 335.089)">58 000 ₽</text>
+    <text class="b" transform="translate(0 296.089)">59 000 ₽</text>
+    <text class="b" transform="translate(0 92.089)">64 000 ₽</text>
+    <text class="b" transform="translate(0 52.089)">65 000 ₽</text>
+    <text class="b" transform="translate(0 12.089)">66 000 ₽</text>
+    <text class="b" transform="translate(0 132.089)">63 000 ₽</text>
+    <text class="b" transform="translate(0 174.089)">62 000 ₽</text>
+    <text class="b" transform="translate(0 214.089)">61 000 ₽</text>
+    <line class="a" x1="68.667" y1="48.256" x2="702.167" y2="48.256"/>
+    <text class="b" transform="translate(0 256.089)">60 000 ₽</text>
+  </g>
+  <line class="d" x1="116.167" y1="318.256" x2="653.167" y2="80.256"/>
+  <g>
+    <circle class="e" cx="263.167" cy="242.256" r="5.5"/>
+    <circle class="e" cx="312.167" cy="204.256" r="5.5"/>
+    <circle class="e" cx="458.167" cy="187.256" r="5.5"/>
+    <circle class="e" cx="409.167" cy="199.256" r="5.5"/>
+    <circle class="e" cx="361.167" cy="216.256" r="5.5"/>
+    <circle class="e" cx="507.167" cy="158.256" r="5.5"/>
+    <circle class="e" cx="653.167" cy="57.256" r="5.5"/>
+    <circle class="e" cx="604.167" cy="106.256" r="5.5"/>
+    <circle class="e" cx="556.167" cy="124.256" r="5.5"/>
+    <circle class="e" cx="117.167" cy="323.256" r="5.5"/>
+    <circle class="e" cx="214.167" cy="264.256" r="5.5"/>
+    <circle class="e" cx="166.167" cy="305.256" r="5.5"/>
+    <text class="f" transform="translate(74.271 24.492)"><tspan class="g">Y</tspan><tspan x="12.006" y="0">i=Xi*534+57809</tspan><tspan x="0" y="21.6">r = 0.98</tspan></text>
+  </g>
+</svg>

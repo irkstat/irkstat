@@ -261,7 +261,15 @@
     font-size: 18px;
     margin: 20px 0; }
   .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
-    width: 85%; } }
+    width: 85%; }
+  .data_table_analysis_general {
+    height: 40px;
+    font-size: 12px;
+    padding-left: 30px; }
+    .data_table_analysis_general .name_table_analysis_general {
+      width: 330px; }
+    .data_table_analysis_general .value_table_analysis_general {
+      width: 100px; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -455,7 +463,15 @@
     font-size: 14px;
     margin: 15px 0; }
   .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
-    width: 95%; } }
+    width: 95%; }
+  .data_table_analysis_general {
+    height: 30px;
+    font-size: 7px;
+    padding-left: 15px; }
+    .data_table_analysis_general .name_table_analysis_general {
+      width: 190px; }
+    .data_table_analysis_general .value_table_analysis_general {
+      width: 60px; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {
