@@ -651,6 +651,8 @@
     font-size: 20px;
     line-height: 1.6;
     text-align: justify; }
+    .main_box_article .txt_article_general .link_article_general {
+      color: blue; }
   .main_box_article .box_img_article_general {
     width: 100%;
     margin: 10px 0; }

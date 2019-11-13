@@ -1,6 +1,6 @@
 Chart.defaults.global.defaultFontColor = 'black'; //глобально цвет шрифта
 Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
-Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
+Chart.defaults.global.defaultFontSize = 15; // глобально размер шрифта
 
 // Первичный рынок жилья Иркутск
 var ctx = document.getElementById('irkutsk_apartment_primary_scale');
@@ -26,8 +26,8 @@ var irkutskApartmentPrimaryScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 45000,
-               stepSize: 5000,
+               min: 40000,
+               stepSize: 10000,
             },
             gridLines: {
                color: "black",
@@ -70,8 +70,8 @@ var irkutskApartmentSecondaryScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 50000,
-               stepSize: 5000,
+               min: 40000,
+               stepSize: 10000,
             },
             gridLines: {
                color: "black",
@@ -199,8 +199,8 @@ var irkutskEarthSettlementsScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 150000,
-               stepSize: 50000,
+               min: 100000,
+               stepSize: 100000,
             },
             gridLines: {
                color: "black",
@@ -242,8 +242,8 @@ var irkutskEarthIndustrialScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 400000,
-               stepSize: 100000,
+               min: 200000,
+               stepSize: 200000,
             },
             gridLines: {
                color: "black",
@@ -285,8 +285,8 @@ var irkutskEarthAgriculturalScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 60000,
-               stepSize: 20000,
+               min: 0000,
+               stepSize: 50000,
             },
             gridLines: {
                color: "black",
@@ -328,8 +328,8 @@ var irkutskHouseBlockScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 30000,
-               stepSize: 2000,
+               min: 25000,
+               stepSize: 5000,
             },
             gridLines: {
                color: "black",
@@ -371,8 +371,8 @@ var irkutskHouseTimberScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 30000,
-               stepSize: 2000,
+               min: 25000,
+               stepSize: 5000,
             },
             gridLines: {
                color: "black",
@@ -415,7 +415,7 @@ var irkutskHouseBrickScale = new Chart(ctx, {
             ticks: {
                beginAtZero: false,
                min: 30000,
-               stepSize: 5000,
+               stepSize: 10000,
             },
             gridLines: {
                color: "black",
