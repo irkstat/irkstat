@@ -269,7 +269,17 @@
     .data_table_analysis_general .name_table_analysis_general {
       width: 330px; }
     .data_table_analysis_general .value_table_analysis_general {
-      width: 100px; } }
+      width: 100px; }
+  .main_help {
+    padding-top: 40px; }
+    .main_help .h1_help {
+      font-size: 34px;
+      margin-bottom: 30px; }
+    .main_help .h2_help {
+      font-size: 20px; }
+    .main_help .txt_help {
+      font-size: 14px;
+      text-align: justify; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -471,7 +481,19 @@
     .data_table_analysis_general .name_table_analysis_general {
       width: 190px; }
     .data_table_analysis_general .value_table_analysis_general {
-      width: 60px; } }
+      width: 60px; }
+  .main_help {
+    padding-top: 30px; }
+    .main_help .h1_help {
+      font-size: 28px;
+      margin-bottom: 20px; }
+    .main_help .h2_help {
+      font-size: 18px;
+      margin-top: 10px; }
+    .main_help .txt_help {
+      font-size: 14px;
+      text-align: justify;
+      width: 100%; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {

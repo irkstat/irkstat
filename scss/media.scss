@@ -525,6 +525,23 @@
          width: 100px;
       }
    }
+   //======================================================
+   //===============  СТРАНИЦА ПОМОЩЬ  ====================
+   //======================================================
+   .main_help{
+      padding-top: 40px;
+      .h1_help{
+         font-size: 34px;
+         margin-bottom: 30px;
+      }
+      .h2_help{
+         font-size: 20px;
+      }
+      .txt_help{
+         font-size: 14px;
+         text-align: justify;
+      }
+   }
 }
 
 
@@ -896,6 +913,25 @@
       }
       .value_table_analysis_general{
          width: 60px;
+      }
+   }
+   //======================================================
+   //===============  СТРАНИЦА ПОМОЩЬ  ====================
+   //======================================================
+   .main_help{
+      padding-top: 30px;
+      .h1_help{
+         font-size: 28px;
+         margin-bottom: 20px;
+      }
+      .h2_help{
+         font-size: 18px;
+         margin-top: 10px;
+      }
+      .txt_help{
+         font-size: 14px;
+         text-align: justify;
+         width: 100%;
       }
    }
 }
