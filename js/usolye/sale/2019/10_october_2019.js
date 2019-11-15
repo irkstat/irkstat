@@ -139,7 +139,7 @@ var usolyeEarthSettlementsScale = new Chart(ctx, {
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
-         label: 'Стоимость кв.м.',
+         label: 'Стоим. сотки',
          data: [ 33870, 39250, 43840, 45680, , , ,],
          backgroundColor: 'gray',
          borderColor: '#293133',
@@ -182,7 +182,7 @@ var usolyeEarthIndustrialScale = new Chart(ctx, {
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
-         label: 'Стоимость кв.м.',
+         label: 'Стоим. сотки',
          data: [ 117690, 130080, 145360, 199190, , , ,],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
@@ -225,7 +225,7 @@ var usolyeEarthAgriculturalScale = new Chart(ctx, {
    data: {
       labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
-         label: 'Стоимость кв.м.',
+         label: 'Стоим. сотки',
          data: [ 15880, 17030, 17410, 17840, , , ,],
          backgroundColor: '#BAAF96',
          borderColor: '#293133',

@@ -2,101 +2,16 @@ Chart.defaults.global.defaultFontColor = 'black'; //глобально цвет 
 Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
-// Первичный рынок жилья Ангарск
-var ctx = document.getElementById('angarsk_apartment_primary_scale');
-var angarskApartmentPrimaryScale = new Chart(ctx, {
+
+// Вторичный рынок жилья Усолье-Сибирское
+var ctx = document.getElementById('usolye_apartment_secondary_scale');
+var usolyeApartmentSecondaryScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [47780, 42450, 48860, 48630, 45400, 44880, 46230, 51020, 45600, 46420, 46260, 44080],
-         backgroundColor: 'gray',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 35000,
-               stepSize: 5000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-
-// Вторичный рынок жилья Ангарск
-var ctx = document.getElementById('angarsk_apartment_secondary_scale');
-var angarskApartmentSecondaryScale = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [40740, 40740, 41300, 42260, 41850, 41880, 41710, 41820, 41880, 41870, 42210, 42470],
-         backgroundColor: '#ab7d5c',
-         borderColor: '#293133',
-         borderWidth: 1,
-      }]
-   },
-   options: {
-      //Управление легендой диаграммы
-      legend: {
-         display: true,
-         position: 'bottom'
-      },
-      scales: {
-
-         yAxes: [{
-            ticks: {
-               beginAtZero: false,
-               min: 38000,
-               stepSize: 2000,
-            },
-            gridLines: {
-               color: "black",
-               borderDash: [2, 5],
-            },
-         }],
-
-         xAxes: [{
-            gridLines: {
-               display: false,
-            },
-         }]
-      }
-   }
-});
-
-// Гаражи железобетонный Ангарск
-var ctx = document.getElementById('angarsk_garage_ferroconcrete_scale');
-var angarskGarageFerroconcreteScale = new Chart(ctx, {
-   type: 'bar',
-   data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
-      datasets: [{
-         label: 'Стоимость кв.м.',
-         data: [12060, 11990, 11610, 12020, 11830, 13250, 14490, 14500, 14880, 14030, 13490, 13650],
+         data: [ 28480, 28750, 29180, , , , ,],
          backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
@@ -113,7 +28,7 @@ var angarskGarageFerroconcreteScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 10000,
+               min: 24000,
                stepSize: 2000,
             },
             gridLines: {
@@ -131,15 +46,58 @@ var angarskGarageFerroconcreteScale = new Chart(ctx, {
    }
 });
 
-// Гаражи кирпич Ангарск
-var ctx = document.getElementById('angarsk_garage_brick_scale');
-var angarskGarageBrickScale = new Chart(ctx, {
+// Гаражи железобетонный Усолье-Сибирское
+var ctx = document.getElementById('usolye_garage_ferroconcrete_scale');
+var usolyeGarageFerroconcreteScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [14170, 12300, 13750, 13390, 13910, 14680, 15330, 14920, 14990, 14210, 15230, 15020],
+         data: [ 8980, 9180, 9290, , , , ,],
+         backgroundColor: 'gray',
+         borderColor: '#293133',
+         borderWidth: 1,
+      }]
+   },
+   options: {
+      //Управление легендой диаграммы
+      legend: {
+         display: true,
+         position: 'bottom'
+      },
+      scales: {
+
+         yAxes: [{
+            ticks: {
+               beginAtZero: false,
+               min: 4000,
+               stepSize: 2000,
+            },
+            gridLines: {
+               color: "black",
+               borderDash: [2, 5],
+            },
+         }],
+
+         xAxes: [{
+            gridLines: {
+               display: false,
+            },
+         }]
+      }
+   }
+});
+
+// Гаражи кирпич Усолье-Сибирское
+var ctx = document.getElementById('usolye_garage_brick_scale');
+var usolyeGarageBrickScale = new Chart(ctx, {
+   type: 'bar',
+   data: {
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
+      datasets: [{
+         label: 'Стоимость кв.м.',
+         data: [ 8040, 7930, 6420, , , , ,],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
          borderWidth: 1,
@@ -156,7 +114,7 @@ var angarskGarageBrickScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 10000,
+               min: 4000,
                stepSize: 2000,
             },
             gridLines: {
@@ -174,15 +132,15 @@ var angarskGarageBrickScale = new Chart(ctx, {
    }
 });
 
-// Земли поселений Ангарск
-var ctx = document.getElementById('angarsk_earth_settlements_scale');
-var angarskEarthSettlementsScale = new Chart(ctx, {
+// Земли поселений Усолье-Сибирское
+var ctx = document.getElementById('usolye_earth_settlements_scale');
+var usolyeEarthSettlementsScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоим. сотки',
-         data: [38220, 46590, 41310, 47910, 40080, 44910, 51140, 57330, 63670, 60760, 64770, 66240],
+         data: [ 33870, 39250, 43840, , , , ,],
          backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
@@ -199,7 +157,7 @@ var angarskEarthSettlementsScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 30000,
+               min: 20000,
                stepSize: 10000,
             },
             gridLines: {
@@ -217,15 +175,15 @@ var angarskEarthSettlementsScale = new Chart(ctx, {
    }
 });
 
-// Земли промназначения Ангарск
-var ctx = document.getElementById('angarsk_earth_industrial_scale');
-var angarskEarthIndustrialScale = new Chart(ctx, {
+// Земли промназначения Усолье-Сибирское
+var ctx = document.getElementById('usolye_earth_industrial_scale');
+var usolyeEarthIndustrialScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоим. сотки',
-         data: [66880, 94010, 124380, 95690, 83520, 81900, 99070, 69420, 57780, 62850, 68930, 86200],
+         data: [ 117690, 130080, 145360, , , , ,],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
          borderWidth: 1,
@@ -242,7 +200,7 @@ var angarskEarthIndustrialScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 00000,
+               min: 50000,
                stepSize: 50000,
             },
             gridLines: {
@@ -260,15 +218,15 @@ var angarskEarthIndustrialScale = new Chart(ctx, {
    }
 });
 
-// Земли сельхозназначения Ангарск
-var ctx = document.getElementById('angarsk_earth_agricultural_scale');
-var angarskEarthAgriculturalScale = new Chart(ctx, {
+// Земли сельхозназначения Усолье-Сибирское
+var ctx = document.getElementById('usolye_earth_agricultural_scale');
+var usolyeEarthAgriculturalScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоим. сотки',
-         data: [27550, 24640, 26510, 21890, 25170, 29470, 30600, 28420, 32090, 30600, 33280, 33600],
+         data: [ 15880, 17030, 17410, , , , ,],
          backgroundColor: '#BAAF96',
          borderColor: '#293133',
          borderWidth: 1,
@@ -285,8 +243,8 @@ var angarskEarthAgriculturalScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 10000,
-               stepSize: 10000,
+               min: 5000,
+               stepSize: 5000,
             },
             gridLines: {
                color: "black",
@@ -303,15 +261,15 @@ var angarskEarthAgriculturalScale = new Chart(ctx, {
    }
 });
 
-// Дома блоки Ангарск
-var ctx = document.getElementById('angarsk_house_block_scale');
-var angarskHouseBlockScale = new Chart(ctx, {
+// Дома блоки Усолье-Сибирское
+var ctx = document.getElementById('usolye_house_block_scale');
+var usolyeHouseBlockScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [29390, 28650, 30440, 30780, 29470, 30660, 31060, 31140, 32840, 32010, 32100, 31520],
+         data: [ 29380, 33550, 35710, , , , ,],
          backgroundColor: 'gray',
          borderColor: '#293133',
          borderWidth: 1,
@@ -328,7 +286,7 @@ var angarskHouseBlockScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 20000,
+               min: 25000,
                stepSize: 5000,
             },
             gridLines: {
@@ -346,15 +304,15 @@ var angarskHouseBlockScale = new Chart(ctx, {
    }
 });
 
-// Дома брус Ангарск
-var ctx = document.getElementById('angarsk_house_timber_scale');
-var angarskHouseTimberScale = new Chart(ctx, {
+// Дома брус Усолье-Сибирское
+var ctx = document.getElementById('usolye_house_timber_scale');
+var usolyeHouseTimberScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [26650, 27360, 25290, 24700, 26420, 26950, 27120, 27980, 27600, 28250, 29180, 27380],
+         data: [ 23320, 25540, 27390, , , , ,],
          backgroundColor: '#ab7d5c',
          borderColor: '#293133',
          borderWidth: 1,
@@ -371,7 +329,7 @@ var angarskHouseTimberScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 20000,
+               min: 15000,
                stepSize: 5000,
             },
             gridLines: {
@@ -389,15 +347,15 @@ var angarskHouseTimberScale = new Chart(ctx, {
    }
 });
 
-// Дома кирпич Ангарск
-var ctx = document.getElementById('angarsk_house_brick_scale');
-var angarskHouseBrickScale = new Chart(ctx, {
+// Дома кирпич Усолье-Сибирское
+var ctx = document.getElementById('usolye_house_brick_scale');
+var usolyeHouseBrickScale = new Chart(ctx, {
    type: 'bar',
    data: {
-      labels: ['11.18', '12.18', '01.19', '02.19', '03.19', '04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19'],
+      labels: ['07.19', '08.19', '09.19', '10.19','11.19','12.19','01.20','02.20'],
       datasets: [{
          label: 'Стоимость кв.м.',
-         data: [33980, 38230, 37400, 32180, 30610, 38970, 38020, 37370, 36800, 36900, 37660, 35740],
+         data: [ 30580, 29840, 30950, , , , ,],
          backgroundColor: '#BAAF96',
          borderColor: '#293133',
          borderWidth: 1,
@@ -414,7 +372,7 @@ var angarskHouseBrickScale = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 25000,
+               min: 20000,
                stepSize: 5000,
             },
             gridLines: {
