@@ -35,6 +35,7 @@
       position: absolute;
       top: 20px;
       right: 20px;
+      padding: 15px;
       text-transform: uppercase; }
   .header_index .top_menu_index {
     max-width: 1200px;
