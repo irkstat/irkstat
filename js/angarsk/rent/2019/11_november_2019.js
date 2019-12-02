@@ -2,19 +2,19 @@ Chart.defaults.global.defaultFontColor = 'black'; //глобально цвет 
 Chart.defaults.global.defaultFontFamily = "Lato"; // тип шрифта
 Chart.defaults.global.defaultFontSize = 16; // глобально размер шрифта
 
-// Аренда помесячно Усолье-Сибирское
+// Аренда помесячно Ангарск
 var ctx = document.getElementById('apartment_rent_month').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: [ '07.19', '08.19', '09.19'],
+        labels: ['12.18', '01.19', '02.19', '03.19','04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19', '11.19'],
         datasets: [
            //Однокомнатные
          {
             label: '1-ком.',
             backgroundColor: 'rgba(163,179,221,0.4)',
             borderColor: 'gray',
-            data: [ 6900, 7460, 7440],
+            data: [10090, 11300, 11400, 11000, 11200, 10970, 11370, 11140, 10680, 11530, 11560, 10810],
             pointBorderColor: '#282828',
             pointBackgroundColor: '#F5F5F5',
             pointRadius: 5,
@@ -29,7 +29,7 @@ var chart = new Chart(ctx, {
             label: '2-ком.',
             backgroundColor: 'rgba(246,182,156,0.3)',
             borderColor: '#FF5349',
-            data: [ 8650, 9020, 8960],
+            data: [12600, 12870, 12700, 12800, 12850, 13340, 13260, 13470, 13180, 13330, 13600, 14180],
             pointBorderColor: '#282828',
             pointBackgroundColor: '#FFDAB9',
             pointRadius: 5,
@@ -45,7 +45,7 @@ var chart = new Chart(ctx, {
             label: '3-ком.',
             backgroundColor: 'rgba(255,255,153,0.2)',
             borderColor: '#FFD800',
-            data: [ 10060, 9500, 10750],
+            data: [21400, 15590, 16130, 17710, 20000, 20330, 15930, 17460, 17710, 18330, 20720, 17300],
             pointBorderColor: '#282828',
             pointBackgroundColor: '#FFFF66',
             pointRadius: 5,
@@ -67,8 +67,8 @@ var chart = new Chart(ctx, {
          yAxes: [{
             ticks: {
                beginAtZero: false,
-               min: 6000, // минимальное значение шкалы
-               stepSize: 2000 //шаг горизонтальной сетки
+               min: 5000, // минимальное значение шкалы
+               stepSize: 5000 //шаг горизонтальной сетки
             },
             gridLines: {
                color: "gray",// цвет горизонтальных линий
@@ -91,19 +91,19 @@ var chart = new Chart(ctx, {
     }
 });
 
-// Аренда посуточно Усолье-Сибирское
+// Аренда посуточно Ангарск
 var ctx = document.getElementById('apartment_rent_day').getContext('2d');
 var chart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: [ '07.19', '08.19', '09.19'],
+        labels: ['12.18', '01.19', '02.19', '03.19','04.19', '05.19', '06.19', '07.19', '08.19', '09.19', '10.19', '11.19'],
         datasets: [
            //Однокомнатные
          {
             label: '1-ком.',
             backgroundColor: 'rgba(163,179,221,0.4)',
             borderColor: 'gray',
-            data: [ 1070, 1020, 1060],
+            data: [1310, 1320, 1300, 1270, 1260, 1250, 1210, 1180, 1210, 1210, 1280, 1270],
             pointBorderColor: '#282828',
             pointBackgroundColor: '#F5F5F5',
             pointRadius: 5,
@@ -118,7 +118,7 @@ var chart = new Chart(ctx, {
             label: '2-ком.',
             backgroundColor: 'rgba(246,182,156,0.3)',
             borderColor: '#FF5349',
-            data: [ 1240, 1260, 1190],
+            data: [1680, 1650, 1560, 1570, 1550, 1580, 1530, 1520, 1550, 1500, 1460, 1640],
             pointBorderColor: '#282828',
             pointBackgroundColor: '#FFDAB9',
             pointRadius: 5,
@@ -128,6 +128,21 @@ var chart = new Chart(ctx, {
             pointStyle: 'circle',
             borderWidth: 1,
             
+        },
+        //Трехкомнатные
+           {
+            label: '3-ком.',
+            backgroundColor: 'rgba(255,255,153,0.2)',
+            borderColor: '#FFD800',
+            data: [2500, 2250, 2250, 1950, 1950, 2100, 2230, 2200, 2100, 2000, 2170, 2500],
+            pointBorderColor: '#282828',
+            pointBackgroundColor: '#FFFF66',
+            pointRadius: 5,
+            pointHoverRadius: 5,
+            pointHitRadius: 30,
+            pointBorderWidth: 1,
+            pointStyle: 'circle',
+            borderWidth: 1,
         },
       ]
     },
@@ -142,7 +157,7 @@ var chart = new Chart(ctx, {
             ticks: {
                beginAtZero: false,
                min: 800, // минимальное значение шкалы
-               stepSize: 400 //шаг горизонтальной сетки
+               stepSize: 800 //шаг горизонтальной сетки
             },
             gridLines: {
                color: "gray",// цвет горизонтальных линий

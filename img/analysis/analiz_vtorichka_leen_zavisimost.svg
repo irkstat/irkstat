@@ -1,113 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712.6001 396.33398">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712.6 396.334">
   <defs>
     <style>
-      .a, .d {
+      .cls-1, .cls-4 {
         fill: none;
       }
 
-      .a {
+      .cls-1 {
         stroke: #b3b3b3;
         stroke-width: 0.75px;
       }
 
-      .a, .d, .e {
+      .cls-1, .cls-4, .cls-5 {
         stroke-miterlimit: 10;
       }
 
-      .b, .c {
+      .cls-2, .cls-3 {
         font-size: 14px;
         font-family: Verdana;
       }
 
-      .b, .c, .f {
+      .cls-2, .cls-3, .cls-6 {
         fill: #666;
       }
 
-      .c {
-        letter-spacing: 0.09999em;
+      .cls-3 {
+        letter-spacing: 0.1em;
       }
 
-      .d, .e {
+      .cls-4, .cls-5 {
         stroke: gray;
       }
 
-      .d {
+      .cls-4 {
         stroke-width: 7px;
         opacity: 0.3;
       }
 
-      .e {
+      .cls-5 {
         fill: #d3ffff;
         stroke-width: 2px;
       }
 
-      .f {
+      .cls-6 {
         font-size: 18px;
         font-family: TimesNewRomanPSMT, Times New Roman;
       }
 
-      .g {
-        letter-spacing: -0.05518em;
+      .cls-7 {
+        letter-spacing: -0.055em;
       }
     </style>
   </defs>
   <title>analiz_vtorichka_leen_zavisimost</title>
-  <g>
-    <line class="a" x1="68.6665" y1="371.25586" x2="702.1665" y2="371.25586"/>
-    <line class="a" x1="68.6665" y1="298.25586" x2="702.1665" y2="298.25586"/>
-    <line class="a" x1="68.4165" y1="371.75586" x2="68.4165" y2="6.75586"/>
-    <line class="a" x1="166.1665" y1="371.75586" x2="166.1665" y2="6.75586"/>
-    <line class="a" x1="116.1665" y1="371.75586" x2="116.1665" y2="6.75586"/>
-    <line class="a" x1="214.1665" y1="371.75586" x2="214.1665" y2="6.75586"/>
-    <line class="a" x1="263.1665" y1="371.75586" x2="263.1665" y2="6.75586"/>
-    <line class="a" x1="312.1665" y1="371.75586" x2="312.1665" y2="6.75586"/>
-    <line class="a" x1="654.1665" y1="371.75586" x2="654.1665" y2="6.75586"/>
-    <line class="a" x1="604.1665" y1="371.75586" x2="604.1665" y2="6.75586"/>
-    <line class="a" x1="556.1665" y1="371.75586" x2="556.1665" y2="6.75586"/>
-    <line class="a" x1="507.1665" y1="371.75586" x2="507.1665" y2="6.75586"/>
-    <line class="a" x1="458.1665" y1="371.75586" x2="458.1665" y2="6.75586"/>
-    <line class="a" x1="409.1665" y1="371.75586" x2="409.1665" y2="6.75586"/>
-    <line class="a" x1="361.1665" y1="371.75586" x2="361.1665" y2="6.75586"/>
-    <line class="a" x1="702.1665" y1="371.75586" x2="702.1665" y2="6.75586"/>
-    <line class="a" x1="68.6665" y1="226.25586" x2="702.1665" y2="226.25586"/>
-    <line class="a" x1="68.6665" y1="153.25586" x2="702.1665" y2="153.25586"/>
-    <line class="a" x1="68.6665" y1="80.25586" x2="702.1665" y2="80.25586"/>
-    <line class="a" x1="68.6665" y1="7.25586" x2="702.1665" y2="7.25586"/>
-    <text class="b" transform="translate(0 375.08887)">56 000 ₽</text>
-    <text class="c" transform="translate(63 392.08887)">0</text>
-    <text class="c" transform="translate(111 392.08887)">1</text>
-    <text class="c" transform="translate(161 392.08887)">2</text>
-    <text class="c" transform="translate(209 392.08887)">3</text>
-    <text class="c" transform="translate(258 392.08887)">4</text>
-    <text class="c" transform="translate(307 392.08887)">5</text>
-    <text class="c" transform="translate(692 392.08887)">13</text>
-    <text class="c" transform="translate(643 392.08887)">12</text>
-    <text class="c" transform="translate(594 392.08887)">11</text>
-    <text class="c" transform="translate(545 392.08887)">10</text>
-    <text class="c" transform="translate(502 392.08887)">9</text>
-    <text class="c" transform="translate(453 392.08887)">8</text>
-    <text class="c" transform="translate(404 392.08887)">7</text>
-    <text class="c" transform="translate(356 392.08887)">6</text>
-    <text class="b" transform="translate(0 302.08887)">58 000 ₽</text>
-    <text class="b" transform="translate(0 84.08887)">64 000 ₽</text>
-    <text class="b" transform="translate(0 12.08887)">66 000 ₽</text>
-    <text class="b" transform="translate(0 157.08887)">62 000 ₽</text>
-    <text class="b" transform="translate(0 230.08887)">60 000 ₽</text>
+  <g id="scale">
+    <line class="cls-1" x1="68.667" y1="371.256" x2="702.167" y2="371.256"/>
+    <line class="cls-1" x1="68.667" y1="280.256" x2="702.167" y2="280.256"/>
+    <line class="cls-1" x1="68.667" y1="326.256" x2="702.167" y2="326.256"/>
+    <line class="cls-1" x1="68.417" y1="371.756" x2="68.417" y2="6.756"/>
+    <line class="cls-1" x1="166.167" y1="371.756" x2="166.167" y2="6.756"/>
+    <line class="cls-1" x1="117.167" y1="371.756" x2="117.167" y2="6.756"/>
+    <line class="cls-1" x1="215.167" y1="371.756" x2="215.167" y2="6.756"/>
+    <line class="cls-1" x1="264.167" y1="371.756" x2="264.167" y2="6.756"/>
+    <line class="cls-1" x1="312.167" y1="371.756" x2="312.167" y2="6.756"/>
+    <line class="cls-1" x1="654.167" y1="371.756" x2="654.167" y2="6.756"/>
+    <line class="cls-1" x1="605.167" y1="371.756" x2="605.167" y2="6.756"/>
+    <line class="cls-1" x1="557.167" y1="371.756" x2="557.167" y2="6.756"/>
+    <line class="cls-1" x1="507.167" y1="371.756" x2="507.167" y2="6.756"/>
+    <line class="cls-1" x1="459.167" y1="371.756" x2="459.167" y2="6.756"/>
+    <line class="cls-1" x1="410.167" y1="371.756" x2="410.167" y2="6.756"/>
+    <line class="cls-1" x1="361.167" y1="371.756" x2="361.167" y2="6.756"/>
+    <line class="cls-1" x1="702.167" y1="371.756" x2="702.167" y2="6.756"/>
+    <line class="cls-1" x1="68.667" y1="235.256" x2="702.167" y2="235.256"/>
+    <line class="cls-1" x1="68.667" y1="144.256" x2="702.167" y2="144.256"/>
+    <line class="cls-1" x1="68.667" y1="189.256" x2="702.167" y2="189.256"/>
+    <line class="cls-1" x1="68.667" y1="52.256" x2="702.167" y2="52.256"/>
+    <line class="cls-1" x1="68.667" y1="98.256" x2="702.167" y2="98.256"/>
+    <line class="cls-1" x1="68.667" y1="7.256" x2="702.167" y2="7.256"/>
+    <text class="cls-2" transform="translate(0 375.089)">58 000 ₽</text>
+    <text class="cls-3" transform="translate(63 392.089)">0</text>
+    <text class="cls-3" transform="translate(111 392.089)">1</text>
+    <text class="cls-3" transform="translate(161 392.089)">2</text>
+    <text class="cls-3" transform="translate(209 392.089)">3</text>
+    <text class="cls-3" transform="translate(258 392.089)">4</text>
+    <text class="cls-3" transform="translate(307 392.089)">5</text>
+    <text class="cls-3" transform="translate(692 392.089)">13</text>
+    <text class="cls-3" transform="translate(643 392.089)">12</text>
+    <text class="cls-3" transform="translate(594 392.089)">11</text>
+    <text class="cls-3" transform="translate(545 392.089)">10</text>
+    <text class="cls-3" transform="translate(502 392.089)">9</text>
+    <text class="cls-3" transform="translate(453 392.089)">8</text>
+    <text class="cls-3" transform="translate(404 392.089)">7</text>
+    <text class="cls-3" transform="translate(356 392.089)">6</text>
+    <text class="cls-2" transform="translate(0 330.089)">59 000 ₽</text>
+    <text class="cls-2" transform="translate(0 57.089)">65 000 ₽</text>
+    <text class="cls-2" transform="translate(0 102.089)">64 000 ₽</text>
+    <text class="cls-2" transform="translate(0 12.089)">66 000 ₽</text>
+    <text class="cls-2" transform="translate(0 148.089)">63 000 ₽</text>
+    <text class="cls-2" transform="translate(0 193.089)">62 000 ₽</text>
+    <text class="cls-2" transform="translate(0 239.089)">61 000 ₽</text>
+    <text class="cls-2" transform="translate(0 284.089)">60 000 ₽</text>
   </g>
-  <line class="d" x1="116.1665" y1="286.25586" x2="654.1665" y2="72.25586"/>
-  <g>
-    <circle class="e" cx="263.1665" cy="218.25586" r="5.5"/>
-    <circle class="e" cx="312.1665" cy="183.25586" r="5.5"/>
-    <circle class="e" cx="458.1665" cy="168.25586" r="5.5"/>
-    <circle class="e" cx="409.1665" cy="180.25586" r="5.5"/>
-    <circle class="e" cx="361.1665" cy="195.25586" r="5.5"/>
-    <circle class="e" cx="507.1665" cy="144.25586" r="5.5"/>
-    <circle class="e" cx="654.1665" cy="52.25586" r="5.5"/>
-    <circle class="e" cx="604.1665" cy="96.25586" r="5.5"/>
-    <circle class="e" cx="556.1665" cy="112.25586" r="5.5"/>
-    <circle class="e" cx="116.1665" cy="290.25586" r="5.5"/>
-    <circle class="e" cx="214.1665" cy="237.25586" r="5.5"/>
-    <circle class="e" cx="166.1665" cy="275.25586" r="5.5"/>
-    <text class="f" transform="translate(74.27051 24.4917)"><tspan class="g">Y</tspan><tspan x="12.00586" y="0">i=Xi*534+57809</tspan><tspan x="0" y="21.6001">r = 0.98</tspan></text>
+  <g id="trend">
+    <line class="cls-4" x1="117.167" y1="333.256" x2="653.167" y2="54.256"/>
+  </g>
+  <g id="circle">
+    <circle class="cls-5" cx="263.167" cy="227.256" r="5.5"/>
+    <circle class="cls-5" cx="312.167" cy="242.256" r="5.5"/>
+    <circle class="cls-5" cx="458.167" cy="177.256" r="5.5"/>
+    <circle class="cls-5" cx="409.167" cy="207.256" r="5.5"/>
+    <circle class="cls-5" cx="361.167" cy="223.256" r="5.5"/>
+    <circle class="cls-5" cx="507.167" cy="139.256" r="5.5"/>
+    <circle class="cls-5" cx="654.167" cy="24.256" r="5.5"/>
+    <circle class="cls-5" cx="605.167" cy="62.256" r="5.5"/>
+    <circle class="cls-5" cx="556.167" cy="117.256" r="5.5"/>
+    <circle class="cls-5" cx="116.167" cy="343.256" r="5.5"/>
+    <circle class="cls-5" cx="214.167" cy="271.256" r="5.5"/>
+    <circle class="cls-5" cx="166.167" cy="296.256" r="5.5"/>
+    <text class="cls-6" transform="translate(74.271 24.492)"><tspan class="cls-7">Y</tspan><tspan x="12.006" y="0">i=Xi*563+58245</tspan><tspan x="0" y="21.6">r = 0.98</tspan></text>
   </g>
 </svg>

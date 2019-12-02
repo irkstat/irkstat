@@ -129,21 +129,6 @@ var chart = new Chart(ctx, {
             borderWidth: 1,
             
         },
-        //Трехкомнатные
-           {
-            label: '3-ком.',
-            backgroundColor: 'rgba(255,255,153,0.2)',
-            borderColor: '#FFD800',
-            data: [ 1500, 1500, 1500, 1500],
-            pointBorderColor: '#282828',
-            pointBackgroundColor: '#FFFF66',
-            pointRadius: 5,
-            pointHoverRadius: 5,
-            pointHitRadius: 30,
-            pointBorderWidth: 1,
-            pointStyle: 'circle',
-            borderWidth: 1,
-        },
       ]
     },
 
