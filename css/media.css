@@ -124,7 +124,27 @@
   .main_box_article .txt_box_article_general .fso_3 {
     height: 22px; }
   .statistics_general .table_statistics_general .tabs_content_statistics_general .diagram_statistics_general {
-    width: 700px; } }
+    width: 700px; }
+  .realty_rating {
+    width: 100%; }
+  .header_card {
+    margin-bottom: 25px; }
+    .header_card .size_logo_agency_card {
+      width: 110px;
+      height: 110px; }
+    .header_card .logo_vladeniye_agency_card {
+      height: 130px;
+      width: 210px; }
+  .requisites_agency_card {
+    font-size: 14px; }
+    .requisites_agency_card .name_company_requisites_agency_card {
+      grid-template-columns: 2fr 3fr; }
+    .requisites_agency_card .ogrn_company_requisites_agency_card {
+      grid-template-columns: 2fr 3fr; }
+    .requisites_agency_card .okato_company_requisites_agency_card {
+      grid-template-columns: 2fr 3fr; }
+    .requisites_agency_card .address_company_requisites_agency_card {
+      grid-template-columns: 2fr 3fr; } }
 
 @media screen and (max-width: 768px) {
   .main_menu {
@@ -279,7 +299,91 @@
       font-size: 20px; }
     .main_help .txt_help {
       font-size: 14px;
-      text-align: justify; } }
+      text-align: justify; }
+  .main_rating .h1_rating {
+    font-size: 26px; }
+  .realty_rating {
+    height: 130px; }
+    .realty_rating .rating_number {
+      font-size: 36px; }
+    .realty_rating .logo_etazhi_agency_rating {
+      height: 60px;
+      width: 60px; }
+    .realty_rating .logo_sakura_agency_rating {
+      height: 60px;
+      width: 60px; }
+    .realty_rating .logo_tysyacheletiye_agency_rating {
+      height: 60px;
+      width: 60px; }
+    .realty_rating .logo_vladeniye_agency_rating {
+      height: 60px;
+      width: 60px; }
+    .realty_rating .logo_sloboda_agency_rating {
+      height: 60px;
+      width: 60px; }
+    .realty_rating .characteristic_agency_rating {
+      width: 300px; }
+      .realty_rating .characteristic_agency_rating .h2_rating {
+        font-size: 20px;
+        margin-bottom: 0; }
+      .realty_rating .characteristic_agency_rating .string_agency_rating {
+        height: 20px;
+        font-size: 14px; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating {
+          height: 12px;
+          width: 70px; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .name_number_agency_rating {
+          width: 150px; }
+    .realty_rating .box_grade_agency_rating {
+      width: 70px;
+      height: 70px; }
+      .realty_rating .box_grade_agency_rating .grade_agency_rating {
+        width: 40px;
+        height: 40px;
+        font-size: 16px; }
+  .txt_table_rating {
+    font-size: 14px; }
+  .header_table_rating {
+    font-size: 12px;
+    height: 35px; }
+  .string_table_rating {
+    height: 65px; }
+    .string_table_rating .grade_table_rating {
+      width: 30px;
+      height: 30px;
+      font-size: 12px; }
+    .string_table_rating .box_characteristic_table_rating {
+      font-size: 12px; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating {
+        height: 10px;
+        width: 60px; }
+    .string_table_rating .value_number_table_rating {
+      font-size: 14px; }
+  .value_number_table_rating {
+    width: 60px; }
+  .value_grade_table_rating {
+    width: 90px; }
+  .value_name_table_rating {
+    width: 150px;
+    font-size: 12px; }
+  .value_characteristic_table_rating {
+    width: 130px; }
+  .header_card .size_logo_agency_card {
+    display: none; }
+  .header_card .box_txt_agency_header_card {
+    width: 500px; }
+    .header_card .box_txt_agency_header_card .h1_agency_card {
+      font-size: 28px; }
+    .header_card .box_txt_agency_header_card .address_agency_card {
+      font-size: 14px; }
+    .header_card .box_txt_agency_header_card .phone_agency_card {
+      font-size: 14px; }
+  .requisites_agency_card .name_company_requisites_agency_card {
+    grid-auto-rows: 45px; }
+  .requisites_agency_card .ogrn_company_requisites_agency_card {
+    grid-auto-rows: 30px; }
+  .requisites_agency_card .okato_company_requisites_agency_card {
+    grid-auto-rows: 30px; } }
 
 @media screen and (max-width: 480px) {
   .main_footer .box_social_contact_footer {
@@ -493,7 +597,91 @@
     .main_help .txt_help {
       font-size: 14px;
       text-align: justify;
-      width: 100%; } }
+      width: 100%; }
+  .main_rating {
+    margin-top: 20px; }
+    .main_rating .h1_rating {
+      font-size: 20px;
+      margin-bottom: 15px; }
+  .realty_rating {
+    height: 95px; }
+    .realty_rating .rating_number {
+      font-size: 30px; }
+    .realty_rating .logo_etazhi_agency_rating {
+      display: none; }
+    .realty_rating .logo_sakura_agency_rating {
+      display: none; }
+    .realty_rating .logo_tysyacheletiye_agency_rating {
+      display: none; }
+    .realty_rating .logo_vladeniye_agency_rating {
+      display: none; }
+    .realty_rating .logo_sloboda_agency_rating {
+      display: none; }
+    .realty_rating .characteristic_agency_rating {
+      width: 180px; }
+      .realty_rating .characteristic_agency_rating .h2_rating {
+        font-size: 16px; }
+      .realty_rating .characteristic_agency_rating .string_agency_rating {
+        font-size: 10px;
+        height: 13px; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating {
+          height: 8px;
+          width: 50px; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .name_number_agency_rating {
+          width: 100px; }
+    .realty_rating .box_grade_agency_rating {
+      width: 45px;
+      height: 45px; }
+      .realty_rating .box_grade_agency_rating .grade_agency_rating {
+        width: 30px;
+        height: 30px;
+        font-size: 12px; }
+  .txt_table_rating {
+    font-size: 12px;
+    margin-bottom: 30px; }
+  .header_table_rating {
+    font-size: 9px;
+    height: 35px; }
+  .string_table_rating {
+    height: 60px; }
+    .string_table_rating .grade_table_rating {
+      width: 25px;
+      height: 25px;
+      font-size: 9px; }
+    .string_table_rating .box_characteristic_table_rating {
+      font-size: 9px; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating {
+        height: 7px;
+        width: 40px; }
+    .string_table_rating .value_number_table_rating {
+      font-size: 14px; }
+  .value_number_table_rating {
+    width: 40px; }
+  .value_grade_table_rating {
+    width: 50px; }
+  .value_name_table_rating {
+    width: 120px;
+    font-size: 9px; }
+  .value_characteristic_table_rating {
+    width: 90px; }
+  .main_card {
+    margin-top: 35px; }
+  .header_card {
+    margin-bottom: 5px; }
+    .header_card .box_txt_agency_header_card .ooo_agency_card {
+      font-size: 14px; }
+    .header_card .box_txt_agency_header_card .address_agency_card {
+      font-size: 12px; }
+    .header_card .box_txt_agency_header_card .phone_agency_card {
+      font-size: 12px; }
+  .requisites_agency_card {
+    font-size: 12px; }
+    .requisites_agency_card .ogrn_company_requisites_agency_card {
+      grid-auto-rows: 25px; }
+    .requisites_agency_card .okato_company_requisites_agency_card {
+      grid-auto-rows: 25px; }
+    .requisites_agency_card .address_company_requisites_agency_card {
+      grid-auto-rows: 40px; } }
 
 @media screen and (max-width: 320px) {
   .header_index .top_menu_index {

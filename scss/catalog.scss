@@ -1,0 +1,90 @@
+@mixin agency_card {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 10px 0;
+   border-bottom: 1px solid black;
+   grid-auto-rows: 35px;
+   align-items: center;
+   grid-column-gap: 10px;
+}
+.main_card{
+   max-width: 1000px;
+   padding: 0 20px;
+   margin: 0 auto;
+   margin-top: 50px;
+   // border: 3px solid green;
+}
+.link_card{
+   text-decoration: none;
+   color: black;
+   &:hover{
+      text-decoration: underline;
+   }
+}
+.header_card{
+   width: 100%;
+   border-bottom: 7px solid black;
+   padding-bottom: 20px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   .size_logo_agency_card{
+      width: 150px;
+      height: 150px;
+      background-size: cover;
+   }
+   .logo_etazhi_agency_card{
+      background: url(/img/rating/realty/etazhi.svg) center no-repeat;
+   }
+   .logo_sakura_agency_card{
+      background: url(/img/rating/realty/sakura.svg) center no-repeat;
+   }
+   .logo_tysyacheletiye_agency_card{
+      background: url(/img/rating/realty/tysyacheletiye.svg) center no-repeat;
+   }
+   .logo_vladeniye_agency_card{
+      background: url(/img/rating/realty/vladeniye_2.svg) center no-repeat;
+      height: 150px;
+      width: 250px;
+   }
+   .logo_sloboda_agency_card{
+      background: url(/img/rating/realty/sloboda.webp) center no-repeat;
+      background-size: cover;
+   }
+   .box_txt_agency_header_card{
+      // border: 1px solid blue;
+      width: 650px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .ooo_agency_card{
+         text-transform: uppercase;
+         font-weight: bold;
+      }
+      .h1_agency_card{
+         margin: 5px 0;
+      }
+   }
+}
+.requisites_agency_card{
+   font-family: Arial, Helvetica, sans-serif;
+   .name_company_requisites_agency_card{
+      @include agency_card();
+   }
+   .ogrn_company_requisites_agency_card{
+      @include agency_card();
+   }
+   .okato_company_requisites_agency_card{
+      @include agency_card();
+   }
+   .address_company_requisites_agency_card{
+      @include agency_card();
+   }
+   .date_director_card{
+      font-size: 12px;
+      color: rgb(97, 97, 97);
+   }
+}

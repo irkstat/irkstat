@@ -245,6 +245,41 @@
          }
       }
    }
+   //======================================================
+   //=============  ТОП АГЕНТСТВ НЕДВИЖИМОСТИ  ============
+   //======================================================
+   .realty_rating{
+      width: 100%;
+   }
+   //======================================================
+   //===============  КАРТОЧКА ПРЕДПРИЯТИЯ  ===============
+   //======================================================
+   .header_card{
+      margin-bottom: 25px;
+      .size_logo_agency_card{
+         width: 110px;
+         height: 110px;
+      }
+      .logo_vladeniye_agency_card{
+         height: 130px;
+         width: 210px;
+      }
+   }
+   .requisites_agency_card{
+      font-size: 14px;
+      .name_company_requisites_agency_card{
+         grid-template-columns: 2fr 3fr;
+      }
+      .ogrn_company_requisites_agency_card{
+         grid-template-columns: 2fr 3fr;
+      }
+      .okato_company_requisites_agency_card{
+         grid-template-columns: 2fr 3fr;
+      }
+      .address_company_requisites_agency_card{
+         grid-template-columns: 2fr 3fr;
+      }
+   }
 }
 
 
@@ -540,6 +575,141 @@
       .txt_help{
          font-size: 14px;
          text-align: justify;
+      }
+   }
+   //======================================================
+   //=============  ТОП АГЕНТСТВ НЕДВИЖИМОСТИ  ============
+   //======================================================
+   .main_rating {
+      .h1_rating{
+         font-size: 26px;
+      }
+  }
+   .realty_rating{
+      height: 130px;
+      .rating_number{
+         font-size: 36px;
+      }
+      .logo_etazhi_agency_rating{
+         height: 60px;
+         width: 60px;
+      }
+      .logo_sakura_agency_rating{
+         height: 60px;
+         width: 60px;
+      }
+      .logo_tysyacheletiye_agency_rating{
+         height: 60px;
+         width: 60px;
+      }
+      .logo_vladeniye_agency_rating{
+         height: 60px;
+         width: 60px;
+      }
+      .logo_sloboda_agency_rating{
+         height: 60px;
+         width: 60px;
+      }
+      .characteristic_agency_rating{
+         width: 300px;
+         .h2_rating{
+            font-size: 20px;
+            margin-bottom: 0;
+         }
+         .string_agency_rating{
+            height: 20px;
+            font-size: 14px;
+            .box_level_agency_rating{
+               height: 12px;
+               width: 70px;
+            }
+            .name_number_agency_rating{
+               width: 150px;
+            }
+         }
+      }
+      .box_grade_agency_rating{
+         width: 70px;
+         height: 70px;
+         .grade_agency_rating{
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+         }
+      }
+   }
+   //======================================================
+   //==========  РЕЙТИНГ АГЕНТСТВ НЕДВИЖИМОСТИ  ===========
+   //======================================================
+   .txt_table_rating{
+      font-size: 14px;
+   }
+   .header_table_rating{
+      font-size: 12px;
+      height: 35px;
+   }
+   .string_table_rating{
+      height: 65px;
+      .grade_table_rating{
+         width: 30px;
+         height: 30px;
+         font-size: 12px;
+      }
+      .box_characteristic_table_rating{
+         font-size: 12px;
+         .data_characteristic_table_rating{
+            .box_level_table_rating{
+               height: 10px;
+               width: 60px;
+            }
+         }
+      }
+      .value_number_table_rating{
+         font-size: 14px;
+      }
+   }
+   .value_number_table_rating{
+      width: 60px;
+   }
+   .value_grade_table_rating{
+      width: 90px;
+   }
+   .value_name_table_rating{
+      width: 150px;
+      font-size: 12px;
+   }
+   .value_characteristic_table_rating{
+      width: 130px;
+   }
+   //======================================================
+   //===============  КАРТОЧКА ПРЕДПРИЯТИЯ  ===============
+   //======================================================
+   .header_card{
+      .size_logo_agency_card{
+         display: none;
+      }
+      .box_txt_agency_header_card{
+         width: 500px;
+         .h1_agency_card{
+            font-size: 28px;
+         }
+         .address_agency_card{
+            font-size: 14px;
+         }
+         .phone_agency_card{
+            font-size: 14px;
+         }
+      }
+   }
+   .requisites_agency_card{
+      .name_company_requisites_agency_card{
+         grid-auto-rows: 45px;
+      }
+      .ogrn_company_requisites_agency_card{
+         grid-auto-rows: 30px;
+      }
+      .okato_company_requisites_agency_card{
+         grid-auto-rows: 30px;
       }
    }
 }
@@ -932,6 +1102,139 @@
          font-size: 14px;
          text-align: justify;
          width: 100%;
+      }
+   }
+   //======================================================
+   //=============  ТОП АГЕНТСТВ НЕДВИЖИМОСТИ  ============
+   //======================================================
+   .main_rating {
+      margin-top: 20px;
+      .h1_rating{
+         font-size: 20px;
+         margin-bottom: 15px;
+      }
+  }
+   .realty_rating{
+      height: 95px;
+      .rating_number{
+         font-size: 30px;
+      }
+      .logo_etazhi_agency_rating{
+         display: none;
+      }
+      .logo_sakura_agency_rating{
+         display: none;
+      }
+      .logo_tysyacheletiye_agency_rating{
+         display: none;
+      }
+      .logo_vladeniye_agency_rating{
+         display: none;
+      }
+      .logo_sloboda_agency_rating{
+         display: none;
+      }
+      .characteristic_agency_rating{
+         width: 180px;
+         .h2_rating{
+            font-size: 16px;
+         }
+         .string_agency_rating{
+            font-size: 10px;
+            height: 13px;
+            .box_level_agency_rating{
+               height: 8px;
+               width: 50px;
+            }
+            .name_number_agency_rating{
+               width: 100px;
+            }
+         }
+      }
+      .box_grade_agency_rating{
+         width: 45px;
+         height: 45px;
+         .grade_agency_rating{
+            width: 30px;
+            height: 30px;
+            font-size: 12px;
+         }
+      }
+   }
+   //======================================================
+   //==========  РЕЙТИНГ АГЕНТСТВ НЕДВИЖИМОСТИ  ===========
+   //======================================================
+   .txt_table_rating{
+      font-size: 12px;
+      margin-bottom: 30px;
+   }
+   .header_table_rating{
+      font-size: 9px;
+      height: 35px;
+   }
+   .string_table_rating{
+      height: 60px;
+      .grade_table_rating{
+         width: 25px;
+         height: 25px;
+         font-size: 9px;
+      }
+      .box_characteristic_table_rating{
+         font-size: 9px;
+         .data_characteristic_table_rating{
+            .box_level_table_rating{
+               height: 7px;
+               width: 40px;
+            }
+         }
+      }
+      .value_number_table_rating{
+         font-size: 14px;
+      }
+   }
+   .value_number_table_rating{
+      width: 40px;
+   }
+   .value_grade_table_rating{
+      width: 50px;
+   }
+   .value_name_table_rating{
+      width: 120px;
+      font-size: 9px;
+   }
+   .value_characteristic_table_rating{
+      width: 90px;
+   }
+   //======================================================
+   //===============  КАРТОЧКА ПРЕДПРИЯТИЯ  ===============
+   //======================================================
+   .main_card{
+      margin-top: 35px;
+   }
+   .header_card{
+      margin-bottom: 5px;
+      .box_txt_agency_header_card{
+         .ooo_agency_card{
+            font-size: 14px;
+         }
+         .address_agency_card{
+            font-size: 12px;
+         }
+         .phone_agency_card{
+            font-size: 12px;
+         }
+      }
+   }
+   .requisites_agency_card{
+      font-size: 12px;
+      .ogrn_company_requisites_agency_card{
+         grid-auto-rows: 25px;
+      }
+      .okato_company_requisites_agency_card{
+         grid-auto-rows: 25px;
+      }
+      .address_company_requisites_agency_card{
+         grid-auto-rows: 40px;
       }
    }
 }

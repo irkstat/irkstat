@@ -1,0 +1,1054 @@
+.main_rating{
+   max-width: 1100px;
+   margin: 0 auto;
+   margin-top: 50px;
+   padding: 0 20px;
+   font-family: 'Montserrat', sans-serif;
+   .h1_rating{
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 30px;
+   }
+   .disclaimerrealty_rating{
+      font-size: 12px;
+      color: rgb(63, 63, 63);
+      margin-top: 20px;
+   }
+}
+//ТОП 5 АГЕНТСТВ НЕДВИЖИМОСТИ
+.border_bottom_realty_rating{
+   border-bottom: 1px solid black;
+}
+.realty_rating{
+   width: 90%;
+   margin: 0 auto;
+   height: 180px;
+   padding: 10px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-top: 1px solid black;
+   .rating_number{
+      font-size: 50px;
+      font-family: Verdana, Geneva, sans-serif;
+   }
+   .logo_etazhi_agency_rating{
+      height: 120px;
+      width: 120px;
+      background: url(/img/rating/realty/etazhi.svg) center no-repeat;
+      background-size: cover;
+   }
+   .logo_sakura_agency_rating{
+      height: 120px;
+      width: 120px;
+      background: url(/img/rating/realty/sakura.svg) center no-repeat;
+      background-size: cover;
+   }
+   .logo_tysyacheletiye_agency_rating{
+      height: 120px;
+      width: 120px;
+      background: url(/img/rating/realty/tysyacheletiye.svg) center no-repeat;
+      background-size: cover;
+   }
+   .logo_vladeniye_agency_rating{
+      height: 120px;
+      width: 120px;
+      background: url(/img/rating/realty/vladeniye.svg) center no-repeat;
+      background-size: cover;
+   }
+   .logo_sloboda_agency_rating{
+      height: 120px;
+      width: 120px;
+      background: url(/img/rating/realty/sloboda.webp) center no-repeat;
+      background-size: cover;
+   }
+   .characteristic_agency_rating{
+      height: 100%;
+      width: 370px;
+      // background: #daffda;
+      .h2_rating{
+         margin-bottom: 15px;
+         a{
+            color: black;
+            text-decoration: none;
+            font-weight: 500;
+            &:hover{
+               text-decoration: underline;
+            }
+         }
+      }
+      .string_agency_rating{
+         width: 100%;
+         height: 25px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         // border: 1px solid green;
+         .box_level_agency_rating{
+            width: 100px;
+            height: 15px;
+            border: 1px solid black;
+            //ООО "Этажи"==================================
+            .functional_etazhi_level_agency_rating{
+               height: 100%;
+               width: 64%;
+               background: #6d6d6d;
+            }
+            .age_etazhi_level_agency_rating{
+               height: 100%;
+               width: 100%;
+               background: #6d6d6d;
+            }
+            .credibility_etazhi_level_agency_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_etazhi_level_agency_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            //ООО "ПКФ Сакура"=============================
+            .functional_sakura_level_agency_rating{
+               height: 100%;
+               width: 52%;
+               background: #6d6d6d;
+            }
+            .age_sakura_level_agency_rating{
+               height: 100%;
+               width: 100%;
+               background: #6d6d6d;
+            }
+            .credibility_sakura_level_agency_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_sakura_level_agency_rating{
+               height: 100%;
+               width: 71%;
+               background: #6d6d6d;
+            }
+            //ООО "Тысячелетие"============================
+            .functional_tysyacheletiye_level_agency_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .age_tysyacheletiye_level_agency_rating{
+               height: 100%;
+               width: 85%;
+               background: #6d6d6d;
+            }
+            .credibility_tysyacheletiye_level_agency_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_tysyacheletiye_level_agency_rating{
+               height: 100%;
+               width: 67%;
+               background: #6d6d6d;
+            }
+            //ООО "Владение"===============================
+            .functional_vladeniye_level_agency_rating{
+               height: 100%;
+               width: 36%;
+               background: #6d6d6d;
+            }
+            .age_vladeniye_level_agency_rating{
+               height: 100%;
+               width: 85%;
+               background: #6d6d6d;
+            }
+            .credibility_vladeniye_level_agency_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_vladeniye_level_agency_rating{
+               height: 100%;
+               width: 95%;
+               background: #6d6d6d;
+            }
+            //ООО АН "Слобода"=============================
+            .functional_sloboda_level_agency_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .age_sloboda_level_agency_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            .credibility_sloboda_level_agency_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_sloboda_level_agency_rating{
+               height: 100%;
+               width: 61%;
+               background: #6d6d6d;
+            }
+         }
+         .number_agency_rating{
+            width: 35px;
+            text-align: center;
+            // border: 1px solid red;
+         }
+         .name_number_agency_rating{
+            width: 180px;
+            // border: 1px solid red;
+         }
+      }
+   }
+   .box_grade_agency_rating{
+      width: 120px;
+      height: 120px;
+      background: #d9fbca;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .grade_agency_rating{
+         width: 60px;
+         height: 60px;
+         background: #a1f77a;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 20px;
+         font-weight: 500;
+      }
+   }
+}
+
+//РЕЙТИНГ АГЕНТСТВ НЕДВИЖИМОСТИ
+.header_table_rating{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-weight: 500;
+   border-bottom: 1px solid black;
+   height: 45px;
+}
+.txt_table_rating{
+   text-align: justify;
+   margin-bottom: 50px;
+}
+.string_table_rating{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   .grade_table_rating{
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .top_1_agency_rating{
+      background: #63BE7B;
+   }
+   .top_2_agency_rating{
+      background: #6AC07C;
+   }
+   .top_3_agency_rating{
+      background: #6DC17C;
+   }
+   .top_4_agency_rating{
+      background: #9ECF7F;
+   }
+   .top_5_agency_rating{
+      background: #A8D27F;
+   }
+   .top_6_agency_rating{
+      background: #ADD480;
+   }
+   .top_7_agency_rating{
+      background: #B3D580;
+   }
+   .top_8_agency_rating{
+      background: #BED981;
+   }
+   .top_9_agency_rating{
+      background: #D4DF82;
+   }
+   .top_10_agency_rating{
+      background: #D6E082;
+   }
+   .top_11_agency_rating{
+      background: #DFE283;
+   }
+   .top_12_agency_rating{
+      background: #EAE583;
+   }
+   .top_13_agency_rating{
+      background: #ECE683;
+   }
+   .top_14_agency_rating{
+      background: #F8E984;
+   }
+   .top_15_agency_rating{
+      background: #FFEB84;
+   }
+   .top_16_agency_rating{
+      background: #FEE282;
+   }
+   .top_17_agency_rating{
+      background: #FDD57F;
+   }
+   .top_18_agency_rating{
+      background: #FDD37F;
+   }
+   .top_19_agency_rating{
+      background: #FDCA7D;
+   }
+   .top_20_agency_rating{
+      background: #FDCA7D;
+   }
+   .top_21_agency_rating{
+      background: #FCC47C;
+   }
+   .top_22_agency_rating{
+      background: #FCBF7B;
+   }
+   .top_23_agency_rating{
+      background: #FCBB7A;
+   }
+   .top_24_agency_rating{
+      background: #FBAE78;
+   }
+   .top_25_agency_rating{
+      background: #FA9974;
+   }
+   .top_26_agency_rating{
+      background: #F98A71;
+   }
+   .top_27_agency_rating{
+      background: #F9816F;
+   }
+   .top_28_agency_rating{
+      background: #F86E6C;
+   }
+   .top_29_agency_rating{
+      background: #F8696B;
+   }
+   .top_30_agency_rating{
+      background: #F8696B;
+   }
+   .value_number_table_rating{
+      font-size: 24px;
+      font-family: Verdana, Geneva, sans-serif;
+   }
+   .box_characteristic_table_rating{
+      .data_characteristic_table_rating{
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         // border: 1px solid red;
+         .name_number_table_rating{
+            // border: 1px solid lightcoral;
+            width: 35px;
+         }
+         .box_level_table_rating{
+            width: 100px;
+            height: 15px;
+            border: 1px solid black;
+
+            //ООО "Этажи"==================================
+            .functional_etazhi_level_table_rating{
+               height: 100%;
+               width: 64%;
+               background: #6d6d6d;
+            }
+            .age_etazhi_level_table_rating{
+               height: 100%;
+               width: 100%;
+               background: #6d6d6d;
+            }
+            .credibility_etazhi_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_etazhi_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+
+            //ООО "ПКФ Сакура"=============================
+            .functional_sakura_level_table_rating{
+               height: 100%;
+               width: 52%;
+               background: #6d6d6d;
+            }
+            .age_sakura_level_table_rating{
+               height: 100%;
+               width: 100%;
+               background: #6d6d6d;
+            }
+            .credibility_sakura_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_sakura_level_table_rating{
+               height: 100%;
+               width: 71%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Тысячелетие"============================
+            .functional_tysyacheletiye_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .age_tysyacheletiye_level_table_rating{
+               height: 100%;
+               width: 85%;
+               background: #6d6d6d;
+            }
+            .credibility_tysyacheletiye_level_table_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_tysyacheletiye_level_table_rating{
+               height: 100%;
+               width: 67%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Владение"===============================
+            .functional_vladeniye_level_table_rating{
+               height: 100%;
+               width: 36%;
+               background: #6d6d6d;
+            }
+            .age_vladeniye_level_table_rating{
+               height: 100%;
+               width: 85%;
+               background: #6d6d6d;
+            }
+            .credibility_vladeniye_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_vladeniye_level_table_rating{
+               height: 100%;
+               width: 95%;
+               background: #6d6d6d;
+            }
+
+            //ООО АН "Слобода"=============================
+            .functional_sloboda_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .age_sloboda_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            .credibility_sloboda_level_table_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_sloboda_level_table_rating{
+               height: 100%;
+               width: 61%;
+               background: #6d6d6d;
+            }
+
+            //ООО СК "Изумрудный Город"====================
+            .functional_izumrudnyy_level_table_rating{
+               height: 100%;
+               width: 63%;
+               background: #6d6d6d;
+            }
+            .age_izumrudnyy_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .credibility_izumrudnyy_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_izumrudnyy_level_table_rating{
+               height: 100%;
+               width: 91%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Рекорд"=================================
+            .functional_rekord_level_table_rating{
+               height: 100%;
+               width: 36%;
+               background: #6d6d6d;
+            }
+            .age_rekord_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+            .credibility_rekord_level_table_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_rekord_level_table_rating{
+               height: 100%;
+               width: 85%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Перспектива 24-Иркутск"=================
+            .functional_perspektiva_level_table_rating{
+               height: 100%;
+               width: 60%;
+               background: #6d6d6d;
+            }
+            .age_perspektiva_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_perspektiva_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_perspektiva_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Атмосфера"==============================
+            .functional_atmosfera_level_table_rating{
+               height: 100%;
+               width: 39%;
+               background: #6d6d6d;
+            }
+            .age_atmosfera_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            .credibility_atmosfera_level_table_rating{
+               height: 100%;
+               width: 28%;
+               background: #6d6d6d;
+            }
+            .reliability_atmosfera_level_table_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Бизнес Недвижимость"====================
+            .functional_biznes_level_table_rating{
+               height: 100%;
+               width: 36%;
+               background: #6d6d6d;
+            }
+            .age_biznes_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .credibility_biznes_level_table_rating{
+               height: 100%;
+               width: 84%;
+               background: #6d6d6d;
+            }
+            .reliability_biznes_level_table_rating{
+               height: 100%;
+               width: 52%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Соверен-Риэлт"==========================
+            .functional_soveren_level_table_rating{
+               height: 100%;
+               width: 41%;
+               background: #6d6d6d;
+            }
+            .age_soveren_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_soveren_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_soveren_level_table_rating{
+               height: 100%;
+               width: 71%;
+               background: #6d6d6d;
+            }
+
+            //ООО "ЦОК"====================================
+            .functional_cok_level_table_rating{
+               height: 100%;
+               width: 24%;
+               background: #6d6d6d;
+            }
+            .age_cok_level_table_rating{
+               height: 100%;
+               width: 50%;
+               background: #6d6d6d;
+            }
+            .credibility_cok_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_cok_level_table_rating{
+               height: 100%;
+               width: 83%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Мир Жилья"==============================
+            .functional_mir_level_table_rating{
+               height: 100%;
+               width: 20%;
+               background: #6d6d6d;
+            }
+            .age_mir_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+            .credibility_mir_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_mir_level_table_rating{
+               height: 100%;
+               width: 81%;
+               background: #6d6d6d;
+            }
+
+            //ООО АН "Хеопс"===============================
+            .functional_heops_level_table_rating{
+               height: 100%;
+               width: 20%;
+               background: #6d6d6d;
+            }
+            .age_heops_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            .credibility_heops_level_table_rating{
+               height: 100%;
+               width: 32%;
+               background: #6d6d6d;
+            }
+            .reliability_heops_level_table_rating{
+               height: 100%;
+               width: 72%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Талисман"===============================
+            .functional_talisman_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_talisman_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+            .credibility_talisman_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_talisman_level_table_rating{
+               height: 100%;
+               width: 90%;
+               background: #6d6d6d;
+            }
+
+            //ООО "БИК 38"=================================
+            .functional_bik_level_table_rating{
+               height: 100%;
+               width: 52%;
+               background: #6d6d6d;
+            }
+            .age_bik_level_table_rating{
+               height: 100%;
+               width: 35%;
+               background: #6d6d6d;
+            }
+            .credibility_bik_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .reliability_bik_level_table_rating{
+               height: 100%;
+               width: 71%;
+               background: #6d6d6d;
+            }
+
+            //ООО ВСК "Лекта"==============================
+            .functional_lekta_level_table_rating{
+               height: 100%;
+               width: 20%;
+               background: #6d6d6d;
+            }
+            .age_lekta_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+            .credibility_lekta_level_table_rating{
+               height: 100%;
+               width: 14%;
+               background: #6d6d6d;
+            }
+            .reliability_lekta_level_table_rating{
+               height: 100%;
+               width: 96%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Статус +"===============================
+            .functional_status_level_table_rating{
+               height: 100%;
+               width: 15%;
+               background: #6d6d6d;
+            }
+            .age_status_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .credibility_status_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_status_level_table_rating{
+               height: 100%;
+               width: 76%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Байкал-Н"===============================
+            .functional_baykal_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_baykal_level_table_rating{
+               height: 100%;
+               width: 60%;
+               background: #6d6d6d;
+            }
+            .credibility_baykal_level_table_rating{
+               height: 100%;
+               width: 42%;
+               background: #6d6d6d;
+            }
+            .reliability_baykal_level_table_rating{
+               height: 100%;
+               width: 92%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Территория М2"==========================
+            .functional_territoriya_level_table_rating{
+               height: 100%;
+               width: 26%;
+               background: #6d6d6d;
+            }
+            .age_territoriya_level_table_rating{
+               height: 100%;
+               width: 50%;
+               background: #6d6d6d;
+            }
+            .credibility_territoriya_level_table_rating{
+               height: 100%;
+               width: 14%;
+               background: #6d6d6d;
+            }
+            .reliability_territoriya_level_table_rating{
+               height: 100%;
+               width: 73%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Бриллиантовый Дом"======================
+            .functional_brilliantovyy_level_table_rating{
+               height: 100%;
+               width: 24%;
+               background: #6d6d6d;
+            }
+            .age_brilliantovyy_level_table_rating{
+               height: 100%;
+               width: 60%;
+               background: #6d6d6d;
+            }
+            .credibility_brilliantovyy_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .reliability_brilliantovyy_level_table_rating{
+               height: 100%;
+               width: 72%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Региональный Центр Недвижимости"========
+            .functional_regionalnyy_level_table_rating{
+               height: 100%;
+               width: 4%;
+               background: #6d6d6d;
+            }
+            .age_regionalnyy_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_regionalnyy_level_table_rating{
+               height: 100%;
+               width: 70%;
+               background: #6d6d6d;
+            }
+            .reliability_regionalnyy_level_table_rating{
+               height: 100%;
+               width: 95%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Региональный Центр Недвижимости"========
+            .functional_arr_level_table_rating{
+               height: 100%;
+               width: 20%;
+               background: #6d6d6d;
+            }
+            .age_arr_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_arr_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_arr_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Жилсервис"==============================
+            .functional_zhilservis_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_zhilservis_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+            .credibility_zhilservis_level_table_rating{
+               height: 100%;
+               width: 28%;
+               background: #6d6d6d;
+            }
+            .reliability_zhilservis_level_table_rating{
+               height: 100%;
+               width: 71%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Новый Дом"==============================
+            .functional_novyy_level_table_rating{
+               height: 100%;
+               width: 7%;
+               background: #6d6d6d;
+            }
+            .age_novyy_level_table_rating{
+               height: 100%;
+               width: 35%;
+               background: #6d6d6d;
+            }
+            .credibility_novyy_level_table_rating{
+               height: 100%;
+               width: 55%;
+               background: #6d6d6d;
+            }
+            .reliability_novyy_level_table_rating{
+               height: 100%;
+               width: 52%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Новый Дом"==============================
+            .functional_dialog_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_dialog_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .credibility_dialog_level_table_rating{
+               height: 100%;
+               width: 42%;
+               background: #6d6d6d;
+            }
+            .reliability_dialog_level_table_rating{
+               height: 100%;
+               width: 74%;
+               background: #6d6d6d;
+            }
+
+            //ООО АН "Новое Время"=========================
+            .functional_novoye_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_novoye_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_novoye_level_table_rating{
+               height: 100%;
+               width: 56%;
+               background: #6d6d6d;
+            }
+            .reliability_novoye_level_table_rating{
+               height: 100%;
+               width: 65%;
+               background: #6d6d6d;
+            }
+
+            //ООО "Аркадия"================================
+            .functional_arkadiya_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_arkadiya_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_arkadiya_level_table_rating{
+               height: 100%;
+               width: 42%;
+               background: #6d6d6d;
+            }
+            .reliability_arkadiya_level_table_rating{
+               height: 100%;
+               width: 69%;
+               background: #6d6d6d;
+            }
+
+            //ООО АН "Сфера Продаж"========================
+            .functional_sfera_level_table_rating{
+               height: 100%;
+               width: 0%;
+               background: #6d6d6d;
+            }
+            .age_sfera_level_table_rating{
+               height: 100%;
+               width: 40%;
+               background: #6d6d6d;
+            }
+            .credibility_sfera_level_table_rating{
+               height: 100%;
+               width: 14%;
+               background: #6d6d6d;
+            }
+            .reliability_sfera_level_table_rating{
+               height: 100%;
+               width: 78%;
+               background: #6d6d6d;
+            }
+
+            //АН "Городок"=================================
+            .functional_gorodok_level_table_rating{
+               height: 100%;
+               width: 15%;
+               background: #6d6d6d;
+            }
+            .age_gorodok_level_table_rating{
+               height: 100%;
+               width: 30%;
+               background: #6d6d6d;
+            }
+            .credibility_gorodok_level_table_rating{
+               height: 100%;
+               width: 14%;
+               background: #6d6d6d;
+            }
+            .reliability_gorodok_level_table_rating{
+               height: 100%;
+               width: 50%;
+               background: #6d6d6d;
+            }
+         }
+         .number_table_rating{
+            // border: 1px solid goldenrod;
+            width: 40px;
+         }
+      }
+   }
+}
+.value_number_table_rating{
+   // border: 1px solid rgb(32, 216, 201);
+   width: 90px;
+   text-align: center;
+}
+.value_grade_table_rating{
+   // border: 1px solid rgb(216, 47, 193);
+   display: flex;
+   justify-content: center;
+   width: 120px;
+   text-align: center;
+}
+.value_name_table_rating{
+   // border: 1px solid rgb(32, 216, 201);
+   width: 180px;
+   text-align: center;
+}
+.value_characteristic_table_rating{
+   // border: 1px solid rgb(32, 216, 201);
+   width: 190px;
+   text-align: center;
+}
+.hr_table_rating{
+   border: 0.5px solid rgb(170, 170, 170);
+   margin: 20px 0;
+}

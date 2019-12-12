@@ -999,3 +999,870 @@
     line-height: 1.5; }
     .main_help .txt_help a {
       color: blue; }
+
+.main_rating {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif; }
+  .main_rating .h1_rating {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .main_rating .disclaimerrealty_rating {
+    font-size: 12px;
+    color: #3f3f3f;
+    margin-top: 20px; }
+
+.border_bottom_realty_rating {
+  border-bottom: 1px solid black; }
+
+.realty_rating {
+  width: 90%;
+  margin: 0 auto;
+  height: 180px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid black; }
+  .realty_rating .rating_number {
+    font-size: 50px;
+    font-family: Verdana, Geneva, sans-serif; }
+  .realty_rating .logo_etazhi_agency_rating {
+    height: 120px;
+    width: 120px;
+    background: url(/img/rating/realty/etazhi.svg) center no-repeat;
+    background-size: cover; }
+  .realty_rating .logo_sakura_agency_rating {
+    height: 120px;
+    width: 120px;
+    background: url(/img/rating/realty/sakura.svg) center no-repeat;
+    background-size: cover; }
+  .realty_rating .logo_tysyacheletiye_agency_rating {
+    height: 120px;
+    width: 120px;
+    background: url(/img/rating/realty/tysyacheletiye.svg) center no-repeat;
+    background-size: cover; }
+  .realty_rating .logo_vladeniye_agency_rating {
+    height: 120px;
+    width: 120px;
+    background: url(/img/rating/realty/vladeniye.svg) center no-repeat;
+    background-size: cover; }
+  .realty_rating .logo_sloboda_agency_rating {
+    height: 120px;
+    width: 120px;
+    background: url(/img/rating/realty/sloboda.webp) center no-repeat;
+    background-size: cover; }
+  .realty_rating .characteristic_agency_rating {
+    height: 100%;
+    width: 370px; }
+    .realty_rating .characteristic_agency_rating .h2_rating {
+      margin-bottom: 15px; }
+      .realty_rating .characteristic_agency_rating .h2_rating a {
+        color: black;
+        text-decoration: none;
+        font-weight: 500; }
+        .realty_rating .characteristic_agency_rating .h2_rating a:hover {
+          text-decoration: underline; }
+    .realty_rating .characteristic_agency_rating .string_agency_rating {
+      width: 100%;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating {
+        width: 100px;
+        height: 15px;
+        border: 1px solid black; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .functional_etazhi_level_agency_rating {
+          height: 100%;
+          width: 64%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .age_etazhi_level_agency_rating {
+          height: 100%;
+          width: 100%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .credibility_etazhi_level_agency_rating {
+          height: 100%;
+          width: 56%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .reliability_etazhi_level_agency_rating {
+          height: 100%;
+          width: 65%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .functional_sakura_level_agency_rating {
+          height: 100%;
+          width: 52%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .age_sakura_level_agency_rating {
+          height: 100%;
+          width: 100%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .credibility_sakura_level_agency_rating {
+          height: 100%;
+          width: 70%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .reliability_sakura_level_agency_rating {
+          height: 100%;
+          width: 71%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .functional_tysyacheletiye_level_agency_rating {
+          height: 100%;
+          width: 56%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .age_tysyacheletiye_level_agency_rating {
+          height: 100%;
+          width: 85%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .credibility_tysyacheletiye_level_agency_rating {
+          height: 100%;
+          width: 84%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .reliability_tysyacheletiye_level_agency_rating {
+          height: 100%;
+          width: 67%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .functional_vladeniye_level_agency_rating {
+          height: 100%;
+          width: 36%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .age_vladeniye_level_agency_rating {
+          height: 100%;
+          width: 85%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .credibility_vladeniye_level_agency_rating {
+          height: 100%;
+          width: 56%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .reliability_vladeniye_level_agency_rating {
+          height: 100%;
+          width: 95%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .functional_sloboda_level_agency_rating {
+          height: 100%;
+          width: 40%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .age_sloboda_level_agency_rating {
+          height: 100%;
+          width: 65%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .credibility_sloboda_level_agency_rating {
+          height: 100%;
+          width: 84%;
+          background: #6d6d6d; }
+        .realty_rating .characteristic_agency_rating .string_agency_rating .box_level_agency_rating .reliability_sloboda_level_agency_rating {
+          height: 100%;
+          width: 61%;
+          background: #6d6d6d; }
+      .realty_rating .characteristic_agency_rating .string_agency_rating .number_agency_rating {
+        width: 35px;
+        text-align: center; }
+      .realty_rating .characteristic_agency_rating .string_agency_rating .name_number_agency_rating {
+        width: 180px; }
+  .realty_rating .box_grade_agency_rating {
+    width: 120px;
+    height: 120px;
+    background: #d9fbca;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .realty_rating .box_grade_agency_rating .grade_agency_rating {
+      width: 60px;
+      height: 60px;
+      background: #a1f77a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 500; }
+
+.header_table_rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  height: 45px; }
+
+.txt_table_rating {
+  text-align: justify;
+  margin-bottom: 50px; }
+
+.string_table_rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; }
+  .string_table_rating .grade_table_rating {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .string_table_rating .top_1_agency_rating {
+    background: #63BE7B; }
+  .string_table_rating .top_2_agency_rating {
+    background: #6AC07C; }
+  .string_table_rating .top_3_agency_rating {
+    background: #6DC17C; }
+  .string_table_rating .top_4_agency_rating {
+    background: #9ECF7F; }
+  .string_table_rating .top_5_agency_rating {
+    background: #A8D27F; }
+  .string_table_rating .top_6_agency_rating {
+    background: #ADD480; }
+  .string_table_rating .top_7_agency_rating {
+    background: #B3D580; }
+  .string_table_rating .top_8_agency_rating {
+    background: #BED981; }
+  .string_table_rating .top_9_agency_rating {
+    background: #D4DF82; }
+  .string_table_rating .top_10_agency_rating {
+    background: #D6E082; }
+  .string_table_rating .top_11_agency_rating {
+    background: #DFE283; }
+  .string_table_rating .top_12_agency_rating {
+    background: #EAE583; }
+  .string_table_rating .top_13_agency_rating {
+    background: #ECE683; }
+  .string_table_rating .top_14_agency_rating {
+    background: #F8E984; }
+  .string_table_rating .top_15_agency_rating {
+    background: #FFEB84; }
+  .string_table_rating .top_16_agency_rating {
+    background: #FEE282; }
+  .string_table_rating .top_17_agency_rating {
+    background: #FDD57F; }
+  .string_table_rating .top_18_agency_rating {
+    background: #FDD37F; }
+  .string_table_rating .top_19_agency_rating {
+    background: #FDCA7D; }
+  .string_table_rating .top_20_agency_rating {
+    background: #FDCA7D; }
+  .string_table_rating .top_21_agency_rating {
+    background: #FCC47C; }
+  .string_table_rating .top_22_agency_rating {
+    background: #FCBF7B; }
+  .string_table_rating .top_23_agency_rating {
+    background: #FCBB7A; }
+  .string_table_rating .top_24_agency_rating {
+    background: #FBAE78; }
+  .string_table_rating .top_25_agency_rating {
+    background: #FA9974; }
+  .string_table_rating .top_26_agency_rating {
+    background: #F98A71; }
+  .string_table_rating .top_27_agency_rating {
+    background: #F9816F; }
+  .string_table_rating .top_28_agency_rating {
+    background: #F86E6C; }
+  .string_table_rating .top_29_agency_rating {
+    background: #F8696B; }
+  .string_table_rating .top_30_agency_rating {
+    background: #F8696B; }
+  .string_table_rating .value_number_table_rating {
+    font-size: 24px;
+    font-family: Verdana, Geneva, sans-serif; }
+  .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .name_number_table_rating {
+      width: 35px; }
+    .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating {
+      width: 100px;
+      height: 15px;
+      border: 1px solid black; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_etazhi_level_table_rating {
+        height: 100%;
+        width: 64%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_etazhi_level_table_rating {
+        height: 100%;
+        width: 100%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_etazhi_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_etazhi_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_sakura_level_table_rating {
+        height: 100%;
+        width: 52%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_sakura_level_table_rating {
+        height: 100%;
+        width: 100%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_sakura_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_sakura_level_table_rating {
+        height: 100%;
+        width: 71%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_tysyacheletiye_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_tysyacheletiye_level_table_rating {
+        height: 100%;
+        width: 85%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_tysyacheletiye_level_table_rating {
+        height: 100%;
+        width: 84%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_tysyacheletiye_level_table_rating {
+        height: 100%;
+        width: 67%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_vladeniye_level_table_rating {
+        height: 100%;
+        width: 36%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_vladeniye_level_table_rating {
+        height: 100%;
+        width: 85%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_vladeniye_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_vladeniye_level_table_rating {
+        height: 100%;
+        width: 95%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_sloboda_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_sloboda_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_sloboda_level_table_rating {
+        height: 100%;
+        width: 84%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_sloboda_level_table_rating {
+        height: 100%;
+        width: 61%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_izumrudnyy_level_table_rating {
+        height: 100%;
+        width: 63%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_izumrudnyy_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_izumrudnyy_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_izumrudnyy_level_table_rating {
+        height: 100%;
+        width: 91%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_rekord_level_table_rating {
+        height: 100%;
+        width: 36%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_rekord_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_rekord_level_table_rating {
+        height: 100%;
+        width: 84%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_rekord_level_table_rating {
+        height: 100%;
+        width: 85%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_perspektiva_level_table_rating {
+        height: 100%;
+        width: 60%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_perspektiva_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_perspektiva_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_perspektiva_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_atmosfera_level_table_rating {
+        height: 100%;
+        width: 39%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_atmosfera_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_atmosfera_level_table_rating {
+        height: 100%;
+        width: 28%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_atmosfera_level_table_rating {
+        height: 100%;
+        width: 84%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_biznes_level_table_rating {
+        height: 100%;
+        width: 36%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_biznes_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_biznes_level_table_rating {
+        height: 100%;
+        width: 84%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_biznes_level_table_rating {
+        height: 100%;
+        width: 52%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_soveren_level_table_rating {
+        height: 100%;
+        width: 41%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_soveren_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_soveren_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_soveren_level_table_rating {
+        height: 100%;
+        width: 71%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_cok_level_table_rating {
+        height: 100%;
+        width: 24%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_cok_level_table_rating {
+        height: 100%;
+        width: 50%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_cok_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_cok_level_table_rating {
+        height: 100%;
+        width: 83%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_mir_level_table_rating {
+        height: 100%;
+        width: 20%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_mir_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_mir_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_mir_level_table_rating {
+        height: 100%;
+        width: 81%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_heops_level_table_rating {
+        height: 100%;
+        width: 20%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_heops_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_heops_level_table_rating {
+        height: 100%;
+        width: 32%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_heops_level_table_rating {
+        height: 100%;
+        width: 72%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_talisman_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_talisman_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_talisman_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_talisman_level_table_rating {
+        height: 100%;
+        width: 90%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_bik_level_table_rating {
+        height: 100%;
+        width: 52%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_bik_level_table_rating {
+        height: 100%;
+        width: 35%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_bik_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_bik_level_table_rating {
+        height: 100%;
+        width: 71%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_lekta_level_table_rating {
+        height: 100%;
+        width: 20%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_lekta_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_lekta_level_table_rating {
+        height: 100%;
+        width: 14%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_lekta_level_table_rating {
+        height: 100%;
+        width: 96%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_status_level_table_rating {
+        height: 100%;
+        width: 15%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_status_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_status_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_status_level_table_rating {
+        height: 100%;
+        width: 76%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_baykal_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_baykal_level_table_rating {
+        height: 100%;
+        width: 60%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_baykal_level_table_rating {
+        height: 100%;
+        width: 42%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_baykal_level_table_rating {
+        height: 100%;
+        width: 92%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_territoriya_level_table_rating {
+        height: 100%;
+        width: 26%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_territoriya_level_table_rating {
+        height: 100%;
+        width: 50%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_territoriya_level_table_rating {
+        height: 100%;
+        width: 14%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_territoriya_level_table_rating {
+        height: 100%;
+        width: 73%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_brilliantovyy_level_table_rating {
+        height: 100%;
+        width: 24%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_brilliantovyy_level_table_rating {
+        height: 100%;
+        width: 60%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_brilliantovyy_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_brilliantovyy_level_table_rating {
+        height: 100%;
+        width: 72%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_regionalnyy_level_table_rating {
+        height: 100%;
+        width: 4%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_regionalnyy_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_regionalnyy_level_table_rating {
+        height: 100%;
+        width: 70%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_regionalnyy_level_table_rating {
+        height: 100%;
+        width: 95%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_arr_level_table_rating {
+        height: 100%;
+        width: 20%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_arr_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_arr_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_arr_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_zhilservis_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_zhilservis_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_zhilservis_level_table_rating {
+        height: 100%;
+        width: 28%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_zhilservis_level_table_rating {
+        height: 100%;
+        width: 71%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_novyy_level_table_rating {
+        height: 100%;
+        width: 7%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_novyy_level_table_rating {
+        height: 100%;
+        width: 35%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_novyy_level_table_rating {
+        height: 100%;
+        width: 55%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_novyy_level_table_rating {
+        height: 100%;
+        width: 52%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_dialog_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_dialog_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_dialog_level_table_rating {
+        height: 100%;
+        width: 42%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_dialog_level_table_rating {
+        height: 100%;
+        width: 74%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_novoye_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_novoye_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_novoye_level_table_rating {
+        height: 100%;
+        width: 56%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_novoye_level_table_rating {
+        height: 100%;
+        width: 65%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_arkadiya_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_arkadiya_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_arkadiya_level_table_rating {
+        height: 100%;
+        width: 42%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_arkadiya_level_table_rating {
+        height: 100%;
+        width: 69%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_sfera_level_table_rating {
+        height: 100%;
+        width: 0%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_sfera_level_table_rating {
+        height: 100%;
+        width: 40%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_sfera_level_table_rating {
+        height: 100%;
+        width: 14%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_sfera_level_table_rating {
+        height: 100%;
+        width: 78%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .functional_gorodok_level_table_rating {
+        height: 100%;
+        width: 15%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .age_gorodok_level_table_rating {
+        height: 100%;
+        width: 30%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .credibility_gorodok_level_table_rating {
+        height: 100%;
+        width: 14%;
+        background: #6d6d6d; }
+      .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .box_level_table_rating .reliability_gorodok_level_table_rating {
+        height: 100%;
+        width: 50%;
+        background: #6d6d6d; }
+    .string_table_rating .box_characteristic_table_rating .data_characteristic_table_rating .number_table_rating {
+      width: 40px; }
+
+.value_number_table_rating {
+  width: 90px;
+  text-align: center; }
+
+.value_grade_table_rating {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  text-align: center; }
+
+.value_name_table_rating {
+  width: 180px;
+  text-align: center; }
+
+.value_characteristic_table_rating {
+  width: 190px;
+  text-align: center; }
+
+.hr_table_rating {
+  border: 0.5px solid #aaaaaa;
+  margin: 20px 0; }
+
+.main_card {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 50px; }
+
+.link_card {
+  text-decoration: none;
+  color: black; }
+  .link_card:hover {
+    text-decoration: underline; }
+
+.header_card {
+  width: 100%;
+  border-bottom: 7px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif; }
+  .header_card .size_logo_agency_card {
+    width: 150px;
+    height: 150px;
+    background-size: cover; }
+  .header_card .logo_etazhi_agency_card {
+    background: url(/img/rating/realty/etazhi.svg) center no-repeat; }
+  .header_card .logo_sakura_agency_card {
+    background: url(/img/rating/realty/sakura.svg) center no-repeat; }
+  .header_card .logo_tysyacheletiye_agency_card {
+    background: url(/img/rating/realty/tysyacheletiye.svg) center no-repeat; }
+  .header_card .logo_vladeniye_agency_card {
+    background: url(/img/rating/realty/vladeniye_2.svg) center no-repeat;
+    height: 150px;
+    width: 250px; }
+  .header_card .logo_sloboda_agency_card {
+    background: url(/img/rating/realty/sloboda.webp) center no-repeat;
+    background-size: cover; }
+  .header_card .box_txt_agency_header_card {
+    width: 650px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .header_card .box_txt_agency_header_card .ooo_agency_card {
+      text-transform: uppercase;
+      font-weight: bold; }
+    .header_card .box_txt_agency_header_card .h1_agency_card {
+      margin: 5px 0; }
+
+.requisites_agency_card {
+  font-family: Arial, Helvetica, sans-serif; }
+  .requisites_agency_card .name_company_requisites_agency_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    grid-auto-rows: 35px;
+    align-items: center;
+    grid-column-gap: 10px; }
+  .requisites_agency_card .ogrn_company_requisites_agency_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    grid-auto-rows: 35px;
+    align-items: center;
+    grid-column-gap: 10px; }
+  .requisites_agency_card .okato_company_requisites_agency_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    grid-auto-rows: 35px;
+    align-items: center;
+    grid-column-gap: 10px; }
+  .requisites_agency_card .address_company_requisites_agency_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+    grid-auto-rows: 35px;
+    align-items: center;
+    grid-column-gap: 10px; }
+  .requisites_agency_card .date_director_card {
+    font-size: 12px;
+    color: #616161; }
